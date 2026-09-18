@@ -23,3 +23,7 @@ The coding agent must record source repository, commit, original path and succes
 The owner states the implementation is in-house and has authorised MIT relicensing. Preserve accurate original copyright years and ownership. Audit any third-party dependencies, tools or fixtures separately. The MIT root licence is not authority to remove another party's notices.
 
 The originals are intended to become maintenance projects while new development moves here. No predecessor settings, README, branch, release, licence or archive flag was changed during this documentation preparation. Maintenance announcements and downstream DICOMKit/Voxelia migration are separate work.
+
+## Milestone 1 implementation — 18 September 2026
+
+The owner assigned one coding agent per successor, coordinated against contract 0.2.1. This milestone creates new in-house API, descriptor, owning-memory, test and CI code. No predecessor algorithm, third-party codec or fixture was migrated. Synthetic tests create their samples in memory. The pinned predecessor snapshots above remain the sources to audit before Milestone 2. See `Documentation/MILESTONE_1.md` for validation outcomes and limitations.
