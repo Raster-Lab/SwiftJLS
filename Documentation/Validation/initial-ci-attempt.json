@@ -1,0 +1,28 @@
+{
+  "date": "2026-09-18",
+  "repository": "Raster-Lab/SwiftJLS",
+  "contractVersion": "0.2.1",
+  "sourceRevision": "e44453263fb3fb5c6f45e966ded47a02b2409a1b",
+  "runID": 35309051303,
+  "runURL": "https://github.com/Raster-Lab/SwiftJLS/actions/runs/35309051303",
+  "workflowConclusion": "failure",
+  "jobCount": 5,
+  "runnerAssigned": false,
+  "executedStepCount": 0,
+  "swiftCompilation": "not executed",
+  "unitTests": "not executed",
+  "sanitizers": "not executed",
+  "consumerTests": "not executed",
+  "failureReason": "unverified; failure annotations unavailable through the connection",
+  "exampleJobID": 105487096376,
+  "localCompiler": {
+    "command": [
+      "swift",
+      "--version"
+    ],
+    "exitCode": 127,
+    "available": false
+  },
+  "localToolchainDownload": "official Swift 6.2 archive request timed out at the network proxy",
+  "scope": "initial published source only; later refinements and integration fixture require their own successful runs"
+}
