@@ -1,0 +1,27 @@
+{
+  "repository": "SwiftJLS",
+  "url": "https://github.com/Raster-Lab/SwiftJLS.git",
+  "revision": "f63e52c5e2a82fc0aff3e7d9eef85f3122161e0d",
+  "argv": [
+    "xcrun",
+    "swift",
+    "run",
+    "--disable-sandbox",
+    "--build-system",
+    "swiftbuild",
+    "--jobs",
+    "2",
+    "--cache-path",
+    "/Users/suresh/Documents/Codex/2026-09-18/create-coding-agents-to-start-work/work/swift64/url-consumers/SwiftJLS/cache",
+    "--config-path",
+    "/Users/suresh/Documents/Codex/2026-09-18/create-coding-agents-to-start-work/work/swift64/url-consumers/SwiftJLS/config",
+    "--security-path",
+    "/Users/suresh/Documents/Codex/2026-09-18/create-coding-agents-to-start-work/work/swift64/url-consumers/SwiftJLS/security",
+    "MigrationExample"
+  ],
+  "cwd": "/Users/suresh/Documents/Codex/2026-09-18/create-coding-agents-to-start-work/work/swift64/url-consumers/SwiftJLS",
+  "developer_dir": "/Applications/Xcode.app/Contents/Developer",
+  "exit_code": 1,
+  "example_sha256": "8e0f575a2df5e95127e93041b6071e7eeb8f07f6c0150917091983f060deeae4",
+  "manifest_sha256": "ced55f24e9892c3f893b9bdc8d2357c0e3283714d9a51a758a87cec99f8fba71"
+}

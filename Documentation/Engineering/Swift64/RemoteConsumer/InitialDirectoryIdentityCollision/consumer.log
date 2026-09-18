@@ -1,0 +1,1 @@
+error: 'swiftjls': product 'SwiftJLS' required by package 'swiftjls' target 'MigrationExample' not found in package 'SwiftJLS'.
