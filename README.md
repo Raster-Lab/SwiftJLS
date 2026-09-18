@@ -12,6 +12,8 @@ Swift 6.2 minimum, Swift 6 language mode and complete concurrency checking. Appl
 
 ## Start reading
 
+**Moving an application from JLSwift? Read [MIGRATION.md](MIGRATION.md)** for dependency/import changes, the current API mapping, a runnable storage trial and the gates before production cutover. Codec replacement remains blocked until later milestones supply the required JPEG-LS capabilities.
+
 The current implementation is **Milestone 1: API and memory-contract feasibility**, using synthetic buffers. Codec migration and the first real shared-storage transcode remain separately assigned Milestones 2 and 3. Start with [the evidence record](Documentation/MILESTONE1.md) and [AGENTS.md](AGENTS.md).
 
 - [Coding-agent entry point](AGENTS.md) and [codec-specific implementation plan](IMPLEMENTATION.md).

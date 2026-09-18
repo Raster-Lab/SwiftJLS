@@ -1,6 +1,8 @@
 # SwiftJLS — staged implementation instructions
 
-Read AGENTS.md and every common contract document first. This plan is for a later owner-assigned coding task; the repository foundation itself contains no implementation. Follow the common contract when predecessor conventions differ. Maintain performance, reliability and security together.
+Read AGENTS.md and every common contract document first. Milestone 1 feasibility is implemented; later codec milestones require an owner-assigned coding task. Follow the common contract when predecessor conventions differ. Maintain performance, reliability and security together.
+
+For applications replacing the predecessor dependency, use [MIGRATION.md](MIGRATION.md). It records current Milestone 1 APIs and deferred features; this document governs implementation inside SwiftJLS. Refresh the application guide as later milestones become available and tested.
 
 ## Source and destination
 

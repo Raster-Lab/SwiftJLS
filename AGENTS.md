@@ -6,6 +6,8 @@ Applies to Claude, Codex and other coding agents working in this repository.
 
 Read `README.md`, `HISTORY.md`, this file and `IMPLEMENTATION.md`, then all seven common contract documents in `Documentation/`. Read the repository-specific `TRANSCODING.md` when present before work affecting transcoding. `CLAUDE.md` points here and is not a separate policy. Follow the precedence in `Documentation/SUITE_POLICY.md`.
 
+For application dependency/API migration from JLSwift, read [MIGRATION.md](MIGRATION.md). Distinguish application integration from implementing this library's codec algorithms: a consumer migration does not authorise later codec milestones. Preserve the guide's implemented/planned distinction and update its mappings and acceptance gates when public behaviour changes.
+
 This repository began with documentation only. Reading its instructions does not by itself authorise codec migration. When the owner assigns an implementation task, execute only that milestone. The original foundation contained no package or source. Milestone 1 now has a feasibility implementation; see Documentation/MILESTONE1.md for executed evidence. Do not report planned codec instructions as implemented functionality.
 
 ## Required working method

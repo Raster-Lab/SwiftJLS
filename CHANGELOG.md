@@ -4,6 +4,7 @@
 
 ## Unreleased — Milestone 1 feasibility, 2026-09-18
 
+- Added [the JLSwift application migration guide](MIGRATION.md), with pinned predecessor API/product mappings, a runnable ownership/precision trial, staged rollout gates and links from human/agent entry points. No codec runtime or capability change.
 - Added an independent Swift 6.2 package, common public API holders, validated descriptors, finite resource limits and owning sample storage.
 - Implemented shared provider leases, checked one-shot destination lifecycle, immutable sealed reads and sample-exact synthetic 12/16-bit helpers.
 - Added descriptor, ownership/race, cancellation, fidelity/default and independent-consumer tests; exact local results and unavailable gates are in `Documentation/MILESTONE1.md`.
