@@ -1,0 +1,170 @@
+{
+  "kind": "Compile-only; no linking or runtime test",
+  "environment": {
+    "DEVELOPER_DIR": "/Applications/Xcode.app/Contents/Developer"
+  },
+  "results": [
+    {
+      "module": "SwiftJLS",
+      "sdk": "appletvos",
+      "sdk_version": "27.0",
+      "target": "arm64-apple-tvos26.0",
+      "command": "xcrun swiftc -parse-as-library -emit-module -swift-version 6 -strict-concurrency=complete -target arm64-apple-tvos26.0 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS.sdk -module-cache-path <workspace>/work/platform-builds/module-cache -module-name SwiftJLS -emit-module-path <workspace>/work/platform-builds/SwiftJLS/appletvos/SwiftJLS.swiftmodule <workspace>/outputs/SwiftJLS/Sources/SwiftJLS/CodecAPI.swift <workspace>/outputs/SwiftJLS/Sources/SwiftJLS/Errors.swift <workspace>/outputs/SwiftJLS/Sources/SwiftJLS/Image.swift <workspace>/outputs/SwiftJLS/Sources/SwiftJLS/ImageDescriptor.swift <workspace>/outputs/SwiftJLS/Sources/SwiftJLS/ImageStorage.swift <workspace>/outputs/SwiftJLS/Sources/SwiftJLS/Options.swift",
+      "exit_code": 0,
+      "elapsed_seconds": 1.057,
+      "log": "<workspace>/work/platform-builds/SwiftJLS/appletvos/compile.log",
+      "source_sha256": {
+        "outputs/SwiftJLS/Sources/SwiftJLS/CodecAPI.swift": "50bc697ef1c976fb164d659b6a7b4d3a6858e5591ce60a83b8d62cb17989c174",
+        "outputs/SwiftJLS/Sources/SwiftJLS/Errors.swift": "cfae3357b4aba0e62df1ed6096b8af951d39d0155184b8881c737d48ec936643",
+        "outputs/SwiftJLS/Sources/SwiftJLS/Image.swift": "a10dda5b5d33b63aec4afb4eb060a3a2d8017dbb9bc0c3b1059a4498f77222e5",
+        "outputs/SwiftJLS/Sources/SwiftJLS/ImageDescriptor.swift": "a6d91691d00c0bee8f19986f7bd95739589794898e3c163e80923885d21c5a96",
+        "outputs/SwiftJLS/Sources/SwiftJLS/ImageStorage.swift": "8bc26a7d1237260dbb607fe2612f55d05a9376365371573332190e78308095cd",
+        "outputs/SwiftJLS/Sources/SwiftJLS/Options.swift": "082a589b2172282b6a66ea3bd6e72f6d865671a782cb1b3839549db3e575f622"
+      }
+    },
+    {
+      "module": "SwiftJLS",
+      "sdk": "appletvsimulator",
+      "sdk_version": "27.0",
+      "target": "arm64-apple-tvos26.0-simulator",
+      "command": "xcrun swiftc -parse-as-library -emit-module -swift-version 6 -strict-concurrency=complete -target arm64-apple-tvos26.0-simulator -sdk /Applications/Xcode.app/Contents/Developer/Platforms/AppleTVSimulator.platform/Developer/SDKs/AppleTVSimulator.sdk -module-cache-path <workspace>/work/platform-builds/module-cache -module-name SwiftJLS -emit-module-path <workspace>/work/platform-builds/SwiftJLS/appletvsimulator/SwiftJLS.swiftmodule <workspace>/outputs/SwiftJLS/Sources/SwiftJLS/CodecAPI.swift <workspace>/outputs/SwiftJLS/Sources/SwiftJLS/Errors.swift <workspace>/outputs/SwiftJLS/Sources/SwiftJLS/Image.swift <workspace>/outputs/SwiftJLS/Sources/SwiftJLS/ImageDescriptor.swift <workspace>/outputs/SwiftJLS/Sources/SwiftJLS/ImageStorage.swift <workspace>/outputs/SwiftJLS/Sources/SwiftJLS/Options.swift",
+      "exit_code": 0,
+      "elapsed_seconds": 1.052,
+      "log": "<workspace>/work/platform-builds/SwiftJLS/appletvsimulator/compile.log",
+      "source_sha256": {
+        "outputs/SwiftJLS/Sources/SwiftJLS/CodecAPI.swift": "50bc697ef1c976fb164d659b6a7b4d3a6858e5591ce60a83b8d62cb17989c174",
+        "outputs/SwiftJLS/Sources/SwiftJLS/Errors.swift": "cfae3357b4aba0e62df1ed6096b8af951d39d0155184b8881c737d48ec936643",
+        "outputs/SwiftJLS/Sources/SwiftJLS/Image.swift": "a10dda5b5d33b63aec4afb4eb060a3a2d8017dbb9bc0c3b1059a4498f77222e5",
+        "outputs/SwiftJLS/Sources/SwiftJLS/ImageDescriptor.swift": "a6d91691d00c0bee8f19986f7bd95739589794898e3c163e80923885d21c5a96",
+        "outputs/SwiftJLS/Sources/SwiftJLS/ImageStorage.swift": "8bc26a7d1237260dbb607fe2612f55d05a9376365371573332190e78308095cd",
+        "outputs/SwiftJLS/Sources/SwiftJLS/Options.swift": "082a589b2172282b6a66ea3bd6e72f6d865671a782cb1b3839549db3e575f622"
+      }
+    },
+    {
+      "module": "SwiftJLS",
+      "sdk": "iphoneos",
+      "sdk_version": "27.0",
+      "target": "arm64-apple-ios26.0",
+      "command": "xcrun swiftc -parse-as-library -emit-module -swift-version 6 -strict-concurrency=complete -target arm64-apple-ios26.0 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -module-cache-path <workspace>/work/platform-builds/module-cache -module-name SwiftJLS -emit-module-path <workspace>/work/platform-builds/SwiftJLS/iphoneos/SwiftJLS.swiftmodule <workspace>/outputs/SwiftJLS/Sources/SwiftJLS/CodecAPI.swift <workspace>/outputs/SwiftJLS/Sources/SwiftJLS/Errors.swift <workspace>/outputs/SwiftJLS/Sources/SwiftJLS/Image.swift <workspace>/outputs/SwiftJLS/Sources/SwiftJLS/ImageDescriptor.swift <workspace>/outputs/SwiftJLS/Sources/SwiftJLS/ImageStorage.swift <workspace>/outputs/SwiftJLS/Sources/SwiftJLS/Options.swift",
+      "exit_code": 0,
+      "elapsed_seconds": 1.145,
+      "log": "<workspace>/work/platform-builds/SwiftJLS/iphoneos/compile.log",
+      "source_sha256": {
+        "outputs/SwiftJLS/Sources/SwiftJLS/CodecAPI.swift": "50bc697ef1c976fb164d659b6a7b4d3a6858e5591ce60a83b8d62cb17989c174",
+        "outputs/SwiftJLS/Sources/SwiftJLS/Errors.swift": "cfae3357b4aba0e62df1ed6096b8af951d39d0155184b8881c737d48ec936643",
+        "outputs/SwiftJLS/Sources/SwiftJLS/Image.swift": "a10dda5b5d33b63aec4afb4eb060a3a2d8017dbb9bc0c3b1059a4498f77222e5",
+        "outputs/SwiftJLS/Sources/SwiftJLS/ImageDescriptor.swift": "a6d91691d00c0bee8f19986f7bd95739589794898e3c163e80923885d21c5a96",
+        "outputs/SwiftJLS/Sources/SwiftJLS/ImageStorage.swift": "8bc26a7d1237260dbb607fe2612f55d05a9376365371573332190e78308095cd",
+        "outputs/SwiftJLS/Sources/SwiftJLS/Options.swift": "082a589b2172282b6a66ea3bd6e72f6d865671a782cb1b3839549db3e575f622"
+      }
+    },
+    {
+      "module": "SwiftJLS",
+      "sdk": "iphonesimulator",
+      "sdk_version": "27.0",
+      "target": "arm64-apple-ios26.0-simulator",
+      "command": "xcrun swiftc -parse-as-library -emit-module -swift-version 6 -strict-concurrency=complete -target arm64-apple-ios26.0-simulator -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk -module-cache-path <workspace>/work/platform-builds/module-cache -module-name SwiftJLS -emit-module-path <workspace>/work/platform-builds/SwiftJLS/iphonesimulator/SwiftJLS.swiftmodule <workspace>/outputs/SwiftJLS/Sources/SwiftJLS/CodecAPI.swift <workspace>/outputs/SwiftJLS/Sources/SwiftJLS/Errors.swift <workspace>/outputs/SwiftJLS/Sources/SwiftJLS/Image.swift <workspace>/outputs/SwiftJLS/Sources/SwiftJLS/ImageDescriptor.swift <workspace>/outputs/SwiftJLS/Sources/SwiftJLS/ImageStorage.swift <workspace>/outputs/SwiftJLS/Sources/SwiftJLS/Options.swift",
+      "exit_code": 0,
+      "elapsed_seconds": 1.226,
+      "log": "<workspace>/work/platform-builds/SwiftJLS/iphonesimulator/compile.log",
+      "source_sha256": {
+        "outputs/SwiftJLS/Sources/SwiftJLS/CodecAPI.swift": "50bc697ef1c976fb164d659b6a7b4d3a6858e5591ce60a83b8d62cb17989c174",
+        "outputs/SwiftJLS/Sources/SwiftJLS/Errors.swift": "cfae3357b4aba0e62df1ed6096b8af951d39d0155184b8881c737d48ec936643",
+        "outputs/SwiftJLS/Sources/SwiftJLS/Image.swift": "a10dda5b5d33b63aec4afb4eb060a3a2d8017dbb9bc0c3b1059a4498f77222e5",
+        "outputs/SwiftJLS/Sources/SwiftJLS/ImageDescriptor.swift": "a6d91691d00c0bee8f19986f7bd95739589794898e3c163e80923885d21c5a96",
+        "outputs/SwiftJLS/Sources/SwiftJLS/ImageStorage.swift": "8bc26a7d1237260dbb607fe2612f55d05a9376365371573332190e78308095cd",
+        "outputs/SwiftJLS/Sources/SwiftJLS/Options.swift": "082a589b2172282b6a66ea3bd6e72f6d865671a782cb1b3839549db3e575f622"
+      }
+    },
+    {
+      "module": "SwiftJLS",
+      "sdk": "macosx",
+      "sdk_version": "27.0",
+      "target": "x86_64-apple-macosx26.0",
+      "command": "xcrun swiftc -parse-as-library -emit-module -swift-version 6 -strict-concurrency=complete -target x86_64-apple-macosx26.0 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -module-cache-path <workspace>/work/platform-builds/module-cache -module-name SwiftJLS -emit-module-path <workspace>/work/platform-builds/SwiftJLS/macosx/SwiftJLS.swiftmodule <workspace>/outputs/SwiftJLS/Sources/SwiftJLS/CodecAPI.swift <workspace>/outputs/SwiftJLS/Sources/SwiftJLS/Errors.swift <workspace>/outputs/SwiftJLS/Sources/SwiftJLS/Image.swift <workspace>/outputs/SwiftJLS/Sources/SwiftJLS/ImageDescriptor.swift <workspace>/outputs/SwiftJLS/Sources/SwiftJLS/ImageStorage.swift <workspace>/outputs/SwiftJLS/Sources/SwiftJLS/Options.swift",
+      "exit_code": 0,
+      "elapsed_seconds": 1.28,
+      "log": "<workspace>/work/platform-builds/SwiftJLS/macosx/compile.log",
+      "source_sha256": {
+        "outputs/SwiftJLS/Sources/SwiftJLS/CodecAPI.swift": "50bc697ef1c976fb164d659b6a7b4d3a6858e5591ce60a83b8d62cb17989c174",
+        "outputs/SwiftJLS/Sources/SwiftJLS/Errors.swift": "cfae3357b4aba0e62df1ed6096b8af951d39d0155184b8881c737d48ec936643",
+        "outputs/SwiftJLS/Sources/SwiftJLS/Image.swift": "a10dda5b5d33b63aec4afb4eb060a3a2d8017dbb9bc0c3b1059a4498f77222e5",
+        "outputs/SwiftJLS/Sources/SwiftJLS/ImageDescriptor.swift": "a6d91691d00c0bee8f19986f7bd95739589794898e3c163e80923885d21c5a96",
+        "outputs/SwiftJLS/Sources/SwiftJLS/ImageStorage.swift": "8bc26a7d1237260dbb607fe2612f55d05a9376365371573332190e78308095cd",
+        "outputs/SwiftJLS/Sources/SwiftJLS/Options.swift": "082a589b2172282b6a66ea3bd6e72f6d865671a782cb1b3839549db3e575f622"
+      }
+    },
+    {
+      "module": "SwiftJLS",
+      "sdk": "watchos",
+      "sdk_version": "27.0",
+      "target": "arm64_32-apple-watchos26.0",
+      "command": "xcrun swiftc -parse-as-library -emit-module -swift-version 6 -strict-concurrency=complete -target arm64_32-apple-watchos26.0 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/WatchOS.platform/Developer/SDKs/WatchOS.sdk -module-cache-path <workspace>/work/platform-builds/module-cache -module-name SwiftJLS -emit-module-path <workspace>/work/platform-builds/SwiftJLS/watchos/SwiftJLS.swiftmodule <workspace>/outputs/SwiftJLS/Sources/SwiftJLS/CodecAPI.swift <workspace>/outputs/SwiftJLS/Sources/SwiftJLS/Errors.swift <workspace>/outputs/SwiftJLS/Sources/SwiftJLS/Image.swift <workspace>/outputs/SwiftJLS/Sources/SwiftJLS/ImageDescriptor.swift <workspace>/outputs/SwiftJLS/Sources/SwiftJLS/ImageStorage.swift <workspace>/outputs/SwiftJLS/Sources/SwiftJLS/Options.swift",
+      "exit_code": 0,
+      "elapsed_seconds": 0.991,
+      "log": "<workspace>/work/platform-builds/SwiftJLS/watchos/compile.log",
+      "source_sha256": {
+        "outputs/SwiftJLS/Sources/SwiftJLS/CodecAPI.swift": "50bc697ef1c976fb164d659b6a7b4d3a6858e5591ce60a83b8d62cb17989c174",
+        "outputs/SwiftJLS/Sources/SwiftJLS/Errors.swift": "cfae3357b4aba0e62df1ed6096b8af951d39d0155184b8881c737d48ec936643",
+        "outputs/SwiftJLS/Sources/SwiftJLS/Image.swift": "a10dda5b5d33b63aec4afb4eb060a3a2d8017dbb9bc0c3b1059a4498f77222e5",
+        "outputs/SwiftJLS/Sources/SwiftJLS/ImageDescriptor.swift": "a6d91691d00c0bee8f19986f7bd95739589794898e3c163e80923885d21c5a96",
+        "outputs/SwiftJLS/Sources/SwiftJLS/ImageStorage.swift": "8bc26a7d1237260dbb607fe2612f55d05a9376365371573332190e78308095cd",
+        "outputs/SwiftJLS/Sources/SwiftJLS/Options.swift": "082a589b2172282b6a66ea3bd6e72f6d865671a782cb1b3839549db3e575f622"
+      }
+    },
+    {
+      "module": "SwiftJLS",
+      "sdk": "watchsimulator",
+      "sdk_version": "27.0",
+      "target": "arm64-apple-watchos26.0-simulator",
+      "command": "xcrun swiftc -parse-as-library -emit-module -swift-version 6 -strict-concurrency=complete -target arm64-apple-watchos26.0-simulator -sdk /Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator.sdk -module-cache-path <workspace>/work/platform-builds/module-cache -module-name SwiftJLS -emit-module-path <workspace>/work/platform-builds/SwiftJLS/watchsimulator/SwiftJLS.swiftmodule <workspace>/outputs/SwiftJLS/Sources/SwiftJLS/CodecAPI.swift <workspace>/outputs/SwiftJLS/Sources/SwiftJLS/Errors.swift <workspace>/outputs/SwiftJLS/Sources/SwiftJLS/Image.swift <workspace>/outputs/SwiftJLS/Sources/SwiftJLS/ImageDescriptor.swift <workspace>/outputs/SwiftJLS/Sources/SwiftJLS/ImageStorage.swift <workspace>/outputs/SwiftJLS/Sources/SwiftJLS/Options.swift",
+      "exit_code": 0,
+      "elapsed_seconds": 1.16,
+      "log": "<workspace>/work/platform-builds/SwiftJLS/watchsimulator/compile.log",
+      "source_sha256": {
+        "outputs/SwiftJLS/Sources/SwiftJLS/CodecAPI.swift": "50bc697ef1c976fb164d659b6a7b4d3a6858e5591ce60a83b8d62cb17989c174",
+        "outputs/SwiftJLS/Sources/SwiftJLS/Errors.swift": "cfae3357b4aba0e62df1ed6096b8af951d39d0155184b8881c737d48ec936643",
+        "outputs/SwiftJLS/Sources/SwiftJLS/Image.swift": "a10dda5b5d33b63aec4afb4eb060a3a2d8017dbb9bc0c3b1059a4498f77222e5",
+        "outputs/SwiftJLS/Sources/SwiftJLS/ImageDescriptor.swift": "a6d91691d00c0bee8f19986f7bd95739589794898e3c163e80923885d21c5a96",
+        "outputs/SwiftJLS/Sources/SwiftJLS/ImageStorage.swift": "8bc26a7d1237260dbb607fe2612f55d05a9376365371573332190e78308095cd",
+        "outputs/SwiftJLS/Sources/SwiftJLS/Options.swift": "082a589b2172282b6a66ea3bd6e72f6d865671a782cb1b3839549db3e575f622"
+      }
+    },
+    {
+      "module": "SwiftJLS",
+      "sdk": "xros",
+      "sdk_version": "27.0",
+      "target": "arm64-apple-xros26.0",
+      "command": "xcrun swiftc -parse-as-library -emit-module -swift-version 6 -strict-concurrency=complete -target arm64-apple-xros26.0 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/XROS.platform/Developer/SDKs/XROS.sdk -module-cache-path <workspace>/work/platform-builds/module-cache -module-name SwiftJLS -emit-module-path <workspace>/work/platform-builds/SwiftJLS/xros/SwiftJLS.swiftmodule <workspace>/outputs/SwiftJLS/Sources/SwiftJLS/CodecAPI.swift <workspace>/outputs/SwiftJLS/Sources/SwiftJLS/Errors.swift <workspace>/outputs/SwiftJLS/Sources/SwiftJLS/Image.swift <workspace>/outputs/SwiftJLS/Sources/SwiftJLS/ImageDescriptor.swift <workspace>/outputs/SwiftJLS/Sources/SwiftJLS/ImageStorage.swift <workspace>/outputs/SwiftJLS/Sources/SwiftJLS/Options.swift",
+      "exit_code": 0,
+      "elapsed_seconds": 1.052,
+      "log": "<workspace>/work/platform-builds/SwiftJLS/xros/compile.log",
+      "source_sha256": {
+        "outputs/SwiftJLS/Sources/SwiftJLS/CodecAPI.swift": "50bc697ef1c976fb164d659b6a7b4d3a6858e5591ce60a83b8d62cb17989c174",
+        "outputs/SwiftJLS/Sources/SwiftJLS/Errors.swift": "cfae3357b4aba0e62df1ed6096b8af951d39d0155184b8881c737d48ec936643",
+        "outputs/SwiftJLS/Sources/SwiftJLS/Image.swift": "a10dda5b5d33b63aec4afb4eb060a3a2d8017dbb9bc0c3b1059a4498f77222e5",
+        "outputs/SwiftJLS/Sources/SwiftJLS/ImageDescriptor.swift": "a6d91691d00c0bee8f19986f7bd95739589794898e3c163e80923885d21c5a96",
+        "outputs/SwiftJLS/Sources/SwiftJLS/ImageStorage.swift": "8bc26a7d1237260dbb607fe2612f55d05a9376365371573332190e78308095cd",
+        "outputs/SwiftJLS/Sources/SwiftJLS/Options.swift": "082a589b2172282b6a66ea3bd6e72f6d865671a782cb1b3839549db3e575f622"
+      }
+    },
+    {
+      "module": "SwiftJLS",
+      "sdk": "xrsimulator",
+      "sdk_version": "27.0",
+      "target": "arm64-apple-xros26.0-simulator",
+      "command": "xcrun swiftc -parse-as-library -emit-module -swift-version 6 -strict-concurrency=complete -target arm64-apple-xros26.0-simulator -sdk /Applications/Xcode.app/Contents/Developer/Platforms/XRSimulator.platform/Developer/SDKs/XRSimulator.sdk -module-cache-path <workspace>/work/platform-builds/module-cache -module-name SwiftJLS -emit-module-path <workspace>/work/platform-builds/SwiftJLS/xrsimulator/SwiftJLS.swiftmodule <workspace>/outputs/SwiftJLS/Sources/SwiftJLS/CodecAPI.swift <workspace>/outputs/SwiftJLS/Sources/SwiftJLS/Errors.swift <workspace>/outputs/SwiftJLS/Sources/SwiftJLS/Image.swift <workspace>/outputs/SwiftJLS/Sources/SwiftJLS/ImageDescriptor.swift <workspace>/outputs/SwiftJLS/Sources/SwiftJLS/ImageStorage.swift <workspace>/outputs/SwiftJLS/Sources/SwiftJLS/Options.swift",
+      "exit_code": 0,
+      "elapsed_seconds": 1.079,
+      "log": "<workspace>/work/platform-builds/SwiftJLS/xrsimulator/compile.log",
+      "source_sha256": {
+        "outputs/SwiftJLS/Sources/SwiftJLS/CodecAPI.swift": "50bc697ef1c976fb164d659b6a7b4d3a6858e5591ce60a83b8d62cb17989c174",
+        "outputs/SwiftJLS/Sources/SwiftJLS/Errors.swift": "cfae3357b4aba0e62df1ed6096b8af951d39d0155184b8881c737d48ec936643",
+        "outputs/SwiftJLS/Sources/SwiftJLS/Image.swift": "a10dda5b5d33b63aec4afb4eb060a3a2d8017dbb9bc0c3b1059a4498f77222e5",
+        "outputs/SwiftJLS/Sources/SwiftJLS/ImageDescriptor.swift": "a6d91691d00c0bee8f19986f7bd95739589794898e3c163e80923885d21c5a96",
+        "outputs/SwiftJLS/Sources/SwiftJLS/ImageStorage.swift": "8bc26a7d1237260dbb607fe2612f55d05a9376365371573332190e78308095cd",
+        "outputs/SwiftJLS/Sources/SwiftJLS/Options.swift": "082a589b2172282b6a66ea3bd6e72f6d865671a782cb1b3839549db3e575f622"
+      }
+    }
+  ]
+}

@@ -1,6 +1,8 @@
 # Contributing
 
-Start with `AGENTS.md` and `IMPLEMENTATION.md`. This repository starts as a documentation foundation; implementation is staged. Keep pull requests focused and preserve independent package consumption.
+Start with `AGENTS.md` and `IMPLEMENTATION.md`. This repository began as a documentation foundation; Milestone 1 feasibility is implemented and later codec work remains staged. Keep pull requests focused and preserve independent package consumption.
+
+Application maintainers and coding agents moving from JLSwift should follow [MIGRATION.md](MIGRATION.md). Update that guide and verify its consumer example whenever public APIs, package products, deployment requirements or advertised capabilities change. Keep application migration advice separate from later library implementation milestones.
 
 Every behavioural change needs relevant unit/regression tests. Parser or ownership changes need the matching security/lifetime checks; hot-path changes need controlled benchmark evidence. Public common API changes require the same contract revision in all four repositories and updated example/conformance tests. Codec-specific exceptions need an explicit reason.
 
