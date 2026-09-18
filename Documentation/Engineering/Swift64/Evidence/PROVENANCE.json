@@ -1,0 +1,783 @@
+{
+  "archived_at_utc": "2026-09-18T22:29:23.936543+00:00",
+  "repository": "SwiftJLS",
+  "archive_role": "final validated candidate",
+  "historical_workspace": "/Users/suresh/Documents/Codex/2026-09-18/create-coding-agents-to-start-work",
+  "files": [
+    {
+      "destination": "Baseline/clean-debug.log",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/baseline/SwiftJLS/clean-debug.log",
+      "sha256": "3b4156f8f04f17f6b249fa6fa661a5d433ea4753b36012558817e2995746327b"
+    },
+    {
+      "destination": "Baseline/debug.log",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/baseline/SwiftJLS/debug.log",
+      "sha256": "afbfcb287f9564dad733392eacf3de4787d60c7c43290d759e067a99ae1fc6d5"
+    },
+    {
+      "destination": "Baseline/debug.xml",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/baseline/SwiftJLS/debug.xml",
+      "sha256": "9460b22a600025d6969b4ab25411a64f74d28f5e424a9cf9a4515c863f4dd032"
+    },
+    {
+      "destination": "Baseline/discover.log",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/baseline/SwiftJLS/discover.log",
+      "sha256": "6880814f3ff0c05f9c5bb0c3b804f7bb114e44e3398be975a5efab1cc23cb000"
+    },
+    {
+      "destination": "Baseline/incremental-debug.log",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/baseline/SwiftJLS/incremental-debug.log",
+      "sha256": "1d09583afc29fdf29e40b49a6dfdef5a915c2e6037c06a586d1f420810cdb8b9"
+    },
+    {
+      "destination": "Baseline/release.log",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/baseline/SwiftJLS/release.log",
+      "sha256": "4dbd7fdda16908bcc25af8e284f2ced23fd09ea3d51dbb0eab7d93f2bc2b54e9"
+    },
+    {
+      "destination": "Baseline/release.xml",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/baseline/SwiftJLS/release.xml",
+      "sha256": "5e09dd448ca2a3ce559dc56dffd43d217f92cfd6a444dfd8171cde4f0289e620"
+    },
+    {
+      "destination": "Baseline/results.json",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/baseline/SwiftJLS/results.json",
+      "sha256": "54394b48476af6f9b118fbf4cf3035f72fcd41f5835365fe4e7452b16b5ae407"
+    },
+    {
+      "destination": "Baseline/swift64_baseline.py",
+      "kind": "byte-for-byte-copy",
+      "source": "work/scripts/swift64_baseline.py",
+      "sha256": "59e38dff9a687285b1d2f0743fba65e38d1ca5d0786699f71e2c02d8ad10c85e"
+    },
+    {
+      "destination": "Candidate/asan-discovery.log",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/candidate/SwiftJLS/asan-discovery.log",
+      "sha256": "2fe1267fc0386b37813fcf7ee6f9069d433eedfae6cb840ed2a6f7ba14e345aa"
+    },
+    {
+      "destination": "Candidate/asan-tests.log",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/candidate/SwiftJLS/asan-tests.log",
+      "sha256": "6124ad72312b0d32cefe91bb61de486663658a94c669723c7f353fed7492a16b"
+    },
+    {
+      "destination": "Candidate/asan-tests.xml",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/candidate/SwiftJLS/asan-tests.xml",
+      "sha256": "164656d65675f2afede8ede22efea91698c66866478afed0aede1398a228f218"
+    },
+    {
+      "destination": "Candidate/debug-clean-build.log",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/candidate/SwiftJLS/debug-clean-build.log",
+      "sha256": "81297e682e6ae6febddd78cd6776c638ae5d6b65b57a59e2a9e2b69f18bc2e75"
+    },
+    {
+      "destination": "Candidate/debug-discovery.log",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/candidate/SwiftJLS/debug-discovery.log",
+      "sha256": "d7487c7c2f050b1bbb2e883d202ba8843984024d60368833c40be3d26166b3eb"
+    },
+    {
+      "destination": "Candidate/debug-incremental-build.log",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/candidate/SwiftJLS/debug-incremental-build.log",
+      "sha256": "4e73afede515106bca3b9f3d3c5e17d7c47a789dc0ad9b04fb652e38a8911a06"
+    },
+    {
+      "destination": "Candidate/debug-tests.log",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/candidate/SwiftJLS/debug-tests.log",
+      "sha256": "f5f24e1eec59a155d4af9c38cb81fbed0644b372f67c69d48777a0fee4b9f30b"
+    },
+    {
+      "destination": "Candidate/debug-tests.xml",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/candidate/SwiftJLS/debug-tests.xml",
+      "sha256": "4cb5c69ea68cfb75d5467bef55574a50c918a5ee4db1a2b8a560d889fe3000ab"
+    },
+    {
+      "destination": "Candidate/fresh-local-consumer.log",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/candidate/SwiftJLS/fresh-local-consumer.log",
+      "sha256": "37f8bdc9b194201dc0a6ce14657ac031559b9a771f99c2b7fdd5bf3cfeaf7107"
+    },
+    {
+      "destination": "Candidate/release-clean-build.log",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/candidate/SwiftJLS/release-clean-build.log",
+      "sha256": "708ebc8ff51d71eed1a13a0766bd25fcf26843c2d78c23a4d6d000189eda9e34"
+    },
+    {
+      "destination": "Candidate/release-discovery.log",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/candidate/SwiftJLS/release-discovery.log",
+      "sha256": "970fcb9abb560282e6472acb7e453941e69dfe0a54cd94b49ad9a4fa805ab993"
+    },
+    {
+      "destination": "Candidate/release-incremental-build.log",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/candidate/SwiftJLS/release-incremental-build.log",
+      "sha256": "e683e33aa8a770a1f29e0eaeeb8dac40fb339011be3d51b86015a2eab9ae180a"
+    },
+    {
+      "destination": "Candidate/release-tests.log",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/candidate/SwiftJLS/release-tests.log",
+      "sha256": "7d6a4fa0d25738889c498060568b634bf5508f6acd6eef8191e3ca9c50ceb972"
+    },
+    {
+      "destination": "Candidate/release-tests.xml",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/candidate/SwiftJLS/release-tests.xml",
+      "sha256": "147cec780347c45fe462d9813479d160678da8f4a6b9b496c4d3658b424fe5b8"
+    },
+    {
+      "destination": "Candidate/repetition-discovery.log",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/candidate/SwiftJLS/repetition-discovery.log",
+      "sha256": "c68e20d5c8b04f468dc327c54477e6747e96c2b5e16e1879e3a5a0e05b3b899c"
+    },
+    {
+      "destination": "Candidate/repetition-tests.log",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/candidate/SwiftJLS/repetition-tests.log",
+      "sha256": "8e33bb59cb99ff7913b4d8689b24684f4d8c0651567a16911d3c4834c73a86e2"
+    },
+    {
+      "destination": "Candidate/repetition-tests.xml",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/candidate/SwiftJLS/repetition-tests.xml",
+      "sha256": "af58be2267acb852f7a2b503ed6709ddd31f8384bf6166e75748cb932373c21c"
+    },
+    {
+      "destination": "Candidate/report.json",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/candidate/SwiftJLS/report.json",
+      "sha256": "e2d491e5aab5270af77f16edd511ae522d7910fcd97136416120c1006e7ac4e8"
+    },
+    {
+      "destination": "Candidate/sbom-cyclonedx.log",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/candidate/SwiftJLS/sbom-cyclonedx.log",
+      "sha256": "e967355a2ec39263148256c906261d44bf58645ddb423fdd0517c72a184f5a5e"
+    },
+    {
+      "destination": "Candidate/sbom-spdx.log",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/candidate/SwiftJLS/sbom-spdx.log",
+      "sha256": "77cebe68d590949ef3f92b61cf7adb6811fbe71e0a31d9f4c4d0b0238c8b354c"
+    },
+    {
+      "destination": "Candidate/source-commit.log",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/candidate/SwiftJLS/source-commit.log",
+      "sha256": "e863c4924a6041afd2a72bfdc7b5e50d2251f2aff0db628820b34dca471be10d"
+    },
+    {
+      "destination": "Candidate/swift-build-help.log",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/candidate/SwiftJLS/swift-build-help.log",
+      "sha256": "1c619415d15ad0be11d69430d958f154a461149938ec6b87037c17f113f7bf3e"
+    },
+    {
+      "destination": "Candidate/swift-package-help.log",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/candidate/SwiftJLS/swift-package-help.log",
+      "sha256": "4ac3d86cfb6970638845d6ed1721f19ac8475ccadfc19966c45c71a8341bc8c4"
+    },
+    {
+      "destination": "Candidate/swift-sbom-help.log",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/candidate/SwiftJLS/swift-sbom-help.log",
+      "sha256": "ef69aacf72783b2c174cdb199e4cab6082026a559e31c9188351871a2b26d69a"
+    },
+    {
+      "destination": "Candidate/swift-test-help.log",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/candidate/SwiftJLS/swift-test-help.log",
+      "sha256": "070f260663244222b162841bd3ea3244f88ba6d8af15dfbcc3e2cd4d7a2fd28c"
+    },
+    {
+      "destination": "Candidate/swift-version.log",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/candidate/SwiftJLS/swift-version.log",
+      "sha256": "30bb0d72a580e8e936ab32e24cab2876f82fa6b06d66fef876fe21a47e828acc"
+    },
+    {
+      "destination": "Candidate/target-info.log",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/candidate/SwiftJLS/target-info.log",
+      "sha256": "723862251a92f4e39ea84812234755f0110ca5151f9c21516853daab508e26bd"
+    },
+    {
+      "destination": "Candidate/tsan-discovery.log",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/candidate/SwiftJLS/tsan-discovery.log",
+      "sha256": "d6d4b736ddd243f70736ba73e133518b7fabff6812d6679515994c2c344bc4cc"
+    },
+    {
+      "destination": "Candidate/tsan-tests.log",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/candidate/SwiftJLS/tsan-tests.log",
+      "sha256": "941ce74fe0d7b70dd53dc390f21ed6d839236d5e93c9fc0011dba8822d1acfe6"
+    },
+    {
+      "destination": "Candidate/tsan-tests.xml",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/candidate/SwiftJLS/tsan-tests.xml",
+      "sha256": "bd545aa41fa8b86704dd0cb1507961c172508d3fbcad8ea93088e316c61c3542"
+    },
+    {
+      "destination": "Candidate/working-tree.log",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/candidate/SwiftJLS/working-tree.log",
+      "sha256": "f126f649122a3878b0577d6c913ef0f1da74163783791747f6f3592fa2e4bbf6"
+    },
+    {
+      "destination": "Candidate/xcode-version.log",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/candidate/SwiftJLS/xcode-version.log",
+      "sha256": "694b44731d0b415c5b11d844151e466d7f5e200a95627efda377f232f1a6ab77"
+    },
+    {
+      "destination": "Candidate/sboms/cyclonedx/cyclonedx1-1.7-SwiftJLS-d85332fd7a7ce67ae27f9806f3e4b3c09dd3bd9f-modified-all-2026-09-18T22_13_17Z.json",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/candidate/SwiftJLS/sboms/cyclonedx/cyclonedx1-1.7-SwiftJLS-d85332fd7a7ce67ae27f9806f3e4b3c09dd3bd9f-modified-all-2026-09-18T22_13_17Z.json",
+      "sha256": "aba577de5db5a02c047a2ac4b031bbe0c8806e8c652110eb96b3322ee05e4edb"
+    },
+    {
+      "destination": "Candidate/sboms/spdx/spdx3-3.0.1-SwiftJLS-d85332fd7a7ce67ae27f9806f3e4b3c09dd3bd9f-modified-all-2026-09-18T22_13_16Z.json",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/candidate/SwiftJLS/sboms/spdx/spdx3-3.0.1-SwiftJLS-d85332fd7a7ce67ae27f9806f3e4b3c09dd3bd9f-modified-all-2026-09-18T22_13_16Z.json",
+      "sha256": "62dc3a430130bb8f3498813961fb421f99fb87630bdc4b4749551e2a93f30ab6"
+    },
+    {
+      "destination": "Candidate/consumer/Package.swift",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/candidate/SwiftJLS/consumer/Package.swift",
+      "sha256": "c07762af514d7437b6265b37ee0cd6fea7a03b8cea2450a975eaf0dbcb4d0c56"
+    },
+    {
+      "destination": "Candidate/consumer/Sources/Consumer/main.swift",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/candidate/SwiftJLS/consumer/Sources/Consumer/main.swift",
+      "sha256": "6820c312723ed7046a269c9179950e52130f25f81a1864fab0db70aad025e60c"
+    },
+    {
+      "destination": "Candidate/Package.swift",
+      "kind": "byte-for-byte-copy",
+      "source": "outputs/SwiftJLS/Package.swift",
+      "sha256": "3fb86dbb0509aa9beb09409e5f708ff587dd9e23cd6f2d96bb378a1179da0939"
+    },
+    {
+      "destination": "Candidate/Scripts/validate.sh",
+      "kind": "byte-for-byte-copy",
+      "source": "outputs/SwiftJLS/Scripts/validate.sh",
+      "sha256": "5fde61d2ab79718a455979ffd6909cdbc9592445c09a02f1fce45a7c316a0365"
+    },
+    {
+      "destination": "Candidate/Scripts/validate-swift64.py",
+      "kind": "byte-for-byte-copy",
+      "source": "outputs/SwiftJLS/Scripts/validate-swift64.py",
+      "sha256": "2dbdd2bcf32af3c3282d40054d1eec07c425bbdeea5796115fcaa685c9625309"
+    },
+    {
+      "destination": "Candidate/Scripts/README.md",
+      "kind": "byte-for-byte-copy",
+      "source": "outputs/SwiftJLS/Scripts/README.md",
+      "sha256": "b18381350333a32d176077624887beda613b784d139de750f9230364eaf1f44d"
+    },
+    {
+      "destination": "Platforms/results.json",
+      "kind": "derived-json",
+      "sha256": "f8ae98ef44b0c4d1f4230da6094a46ab0e6e135b3af53df3682521cf5c7ff8c6",
+      "inputs": [
+        {
+          "source": "work/swift64/platform-final/results.json",
+          "sha256": "1ac9b8d8816badbc883e2a3ec304a1d6d00ef1f192136877717522c03ed9fb39"
+        }
+      ],
+      "transformation": "Preserve top-level metadata; select results whose module equals SwiftJLS."
+    },
+    {
+      "destination": "Platforms/arm64-apple-tvos26.0/compile.log",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/platform-final/SwiftJLS/arm64-apple-tvos26.0/compile.log",
+      "sha256": "a3b4d93951685889d1e8c1046a6ca420143da4aecb2c7540c6058ba5482584a0"
+    },
+    {
+      "destination": "Platforms/arm64-apple-tvos26.0-simulator/compile.log",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/platform-final/SwiftJLS/arm64-apple-tvos26.0-simulator/compile.log",
+      "sha256": "14766e2388c4910e186da69b66d5ce4f30bd65df708ac582336b42fa82f32d87"
+    },
+    {
+      "destination": "Platforms/arm64-apple-ios26.0/compile.log",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/platform-final/SwiftJLS/arm64-apple-ios26.0/compile.log",
+      "sha256": "51cc205b7f1dc82af83db18544babb644b957bd7ca1e78d1a398febe2aa95dca"
+    },
+    {
+      "destination": "Platforms/arm64-apple-ios26.0-simulator/compile.log",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/platform-final/SwiftJLS/arm64-apple-ios26.0-simulator/compile.log",
+      "sha256": "7d08fbeb3ecd35c374e10c9d9e0a7f9ed122d9b72912c45468a5e5af7504646e"
+    },
+    {
+      "destination": "Platforms/arm64-apple-macosx26.0/compile.log",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/platform-final/SwiftJLS/arm64-apple-macosx26.0/compile.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "destination": "Platforms/x86_64-apple-macosx26.0/compile.log",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/platform-final/SwiftJLS/x86_64-apple-macosx26.0/compile.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "destination": "Platforms/arm64_32-apple-watchos26.0/compile.log",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/platform-final/SwiftJLS/arm64_32-apple-watchos26.0/compile.log",
+      "sha256": "fdbd2f2ae4ec247675df048f14817459fc309963b0a9d7a1be68d128dcfe913b"
+    },
+    {
+      "destination": "Platforms/arm64-apple-watchos26.0-simulator/compile.log",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/platform-final/SwiftJLS/arm64-apple-watchos26.0-simulator/compile.log",
+      "sha256": "b899d5e88c21e4bd95841881662730a33cb294a010acc6689b8b2c9b1242401c"
+    },
+    {
+      "destination": "Platforms/arm64-apple-xros26.0/compile.log",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/platform-final/SwiftJLS/arm64-apple-xros26.0/compile.log",
+      "sha256": "48af5387dbe3bee05416f00d038a7a9ba1e3a011f463f9494222d2fbf830e541"
+    },
+    {
+      "destination": "Platforms/arm64-apple-xros26.0-simulator/compile.log",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/platform-final/SwiftJLS/arm64-apple-xros26.0-simulator/compile.log",
+      "sha256": "8f42f0b3eff33c36237a7a70fc44e1e99e8da9b85736ec0f8c61a8c13abab022"
+    },
+    {
+      "destination": "Platforms/compile_matrix.py",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/platform-final/compile_matrix.py",
+      "sha256": "b6e636c020b7315622e66193628fe788015c22ec51030c457a73f14a036fb282"
+    },
+    {
+      "destination": "Xcode/xcodebuild.log",
+      "kind": "hardware-identifier-redacted-copy",
+      "source": "work/swift64/xcode-SwiftJLS.log",
+      "source_sha256": "974489b4d3a03d905216934dbb74ecbce7d42a6626afc7d225c43f4a09acb63c",
+      "sha256": "f895ff2035b343187a5225c7f5d88f105fd2ea1e34849ea1656c77e6c2538c85",
+      "transformation": "Replace exact physical macOS deviceId values from original Xcode summaries with REDACTED-HARDWARE-ID. Raw local inputs are unchanged."
+    },
+    {
+      "destination": "Xcode/summary.json",
+      "kind": "hardware-identifier-redacted-copy",
+      "source": "work/swift64/xcode/SwiftJLS/summary.json",
+      "source_sha256": "101798498316da3c128bef41eaf2a1d46359eab8b0e4395c2446933f118fee5a",
+      "sha256": "2a8fb5bbcc288cc1f5e11bd7ca70c94250ac698912715e3d538487cf72b406e4",
+      "transformation": "Replace exact physical macOS deviceId values from original Xcode summaries with REDACTED-HARDWARE-ID. Raw local inputs are unchanged."
+    },
+    {
+      "destination": "Xcode/summary-command.json",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/xcode/SwiftJLS/summary-command.json",
+      "sha256": "8ce7c42a0c870ca3487a99c26690fcd7e373d803b42d2de6bf8da7eaf41422b8"
+    },
+    {
+      "destination": "Xcode/build-command.json",
+      "kind": "derived-json",
+      "sha256": "7a97e7ee4b851d16339454f75346512277bfdf2016cf627a1bffb89a1fc35481",
+      "inputs": [
+        {
+          "source": "work/swift64/xcode-SwiftJLS.log",
+          "sha256": "974489b4d3a03d905216934dbb74ecbce7d42a6626afc7d225c43f4a09acb63c"
+        },
+        {
+          "source": "work/swift64/xcode/SwiftJLS/summary.json",
+          "sha256": "101798498316da3c128bef41eaf2a1d46359eab8b0e4395c2446933f118fee5a"
+        }
+      ],
+      "transformation": "Reconstruct argv from original log; preserve executor-reported context with explicit attribution."
+    },
+    {
+      "destination": "MigrationExamples/results.json",
+      "kind": "derived-json",
+      "sha256": "4cc5866e55d15d7a11f72a894c646e0db915ede53e1244a4e68dc2623cf8246b",
+      "inputs": [
+        {
+          "source": "work/swift64/migration-examples/results.json",
+          "sha256": "2aeb7ecdd59859783a360d585fbc90054053d7f5981745e0cb094c536fb6b523"
+        }
+      ],
+      "transformation": "Select only the SwiftJLS entry from the original suite results."
+    },
+    {
+      "destination": "MigrationExamples/example.log",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/migration-examples/SwiftJLS.log",
+      "sha256": "040e413d30d1b8886d54298268e69eca64b70ced0a73cd9a00d60631dfd9ee39"
+    },
+    {
+      "destination": "MigrationExamples/consumer/Package.swift",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/migration-examples/Consumer-SwiftJLS/Package.swift",
+      "sha256": "97c24813fdbdd040c4cfb911634fe2c244f8e7730b06e199ceca8e1a7b83d77c"
+    },
+    {
+      "destination": "MigrationExamples/consumer/Sources/MigrationExample/main.swift",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/migration-examples/Consumer-SwiftJLS/Sources/MigrationExample/main.swift",
+      "sha256": "8e0f575a2df5e95127e93041b6071e7eeb8f07f6c0150917091983f060deeae4"
+    },
+    {
+      "destination": "MigrationExamples/swift64_migration_examples.py",
+      "kind": "byte-for-byte-copy",
+      "source": "work/scripts/swift64_migration_examples.py",
+      "sha256": "0b88b4e52c54054a80e69a2405ef767dc545370fee1f129af26d3378c322a27c"
+    },
+    {
+      "destination": "Harness/asan.log",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/harness/asan.log",
+      "sha256": "8f1363c00b493cc1c5877c58bfd8b585b3783e15281d3fc94f6ae995f9a1bd0d"
+    },
+    {
+      "destination": "Harness/debug.log",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/harness/debug.log",
+      "sha256": "d0dd51722f9f6f55d36c34eb84c31f6befd4eed9210faeafcb99de86a17c82f5"
+    },
+    {
+      "destination": "Harness/release.log",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/harness/release.log",
+      "sha256": "f61739dbd9fd8b7a25574771063c042e89ee17da8e8a19a3c0e7e3de311a3c0d"
+    },
+    {
+      "destination": "Harness/results.json",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/harness/results.json",
+      "sha256": "3d5f91ff943b6f010f844dc71cad877c6cdc05307568468105292a067625d9cb"
+    },
+    {
+      "destination": "Harness/tsan.log",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/harness/tsan.log",
+      "sha256": "73e446913f2b1d7e2e82866ce1fca88f9f42fe51e7ec3cc2201673f9b71cb4b0"
+    },
+    {
+      "destination": "Harness/Source/Package.swift",
+      "kind": "byte-for-byte-copy",
+      "source": "outputs/SwiftJ2K/Integration/ContractHarness/Package.swift",
+      "sha256": "90fb41552569414befbc10e6ab0591d1c232b7e5c5df8da509bcec19bef2b2d2"
+    },
+    {
+      "destination": "Harness/Source/Sources/ContractHarness/main.swift",
+      "kind": "byte-for-byte-copy",
+      "source": "outputs/SwiftJ2K/Integration/ContractHarness/Sources/ContractHarness/main.swift",
+      "sha256": "ef21c8e98b7a9d54e6101fdba7987e9b95a82b74f4b557b20edcbd202825827d"
+    },
+    {
+      "destination": "Harness/swift64_harness.py",
+      "kind": "byte-for-byte-copy",
+      "source": "work/scripts/swift64_harness.py",
+      "sha256": "23ba0a5e8691ccc8de885ec01c4cae2e3241c0a06c56c44b81a1c81843a15e56"
+    },
+    {
+      "destination": "Environment/commands.json",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/environment/commands.json",
+      "sha256": "5e1dd3afe353e2842743a331b5b19aaf964d2c9dbc4bd02c5b9f78e289c86a69"
+    },
+    {
+      "destination": "Environment/cpu-outside-sandbox.log",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/environment/cpu-outside-sandbox.log",
+      "sha256": "93fefc01ebdd455687416314efbedce855bd75f326b6525593fde21e662ed727"
+    },
+    {
+      "destination": "Environment/cpu.log",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/environment/cpu.log",
+      "sha256": "4b48e95fc2c708e90935b4eb0c7fdbef56360fded00e57f1b083e052354d3774"
+    },
+    {
+      "destination": "Environment/metal.log",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/environment/metal.log",
+      "sha256": "89b399788c3fe43373dc237205a99106a2cdb97aa7565465bddb133346329425"
+    },
+    {
+      "destination": "Environment/os.log",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/environment/os.log",
+      "sha256": "98ec1edfdd0153a7f67baccc3fc2481b06de7a75d245263efaab2412ee753e57"
+    },
+    {
+      "destination": "Environment/power.log",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/environment/power.log",
+      "sha256": "f4ecf798c210f78a0ee5085187e3452f83b79d9051225e3fb08be13c7b3a129e"
+    },
+    {
+      "destination": "Environment/sdk.log",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/environment/sdk.log",
+      "sha256": "6b639767e1fc18cddee8b85232ec497ed0f3fe6a21b1ef560e5b035dc272eab0"
+    },
+    {
+      "destination": "Environment/simulator-runtime-summary.json",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/environment/simulator-runtime-summary.json",
+      "sha256": "a24d14e3287cf92944a009c8a580b6a70ef5ebb2939342b1ef71aacb95018099"
+    },
+    {
+      "destination": "Environment/simulators.log",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/environment/simulators.log",
+      "sha256": "1a144bd179deaaa30cd0c04d4ebf6e4928a76e086eac52ddbfd4ee54088fe83b"
+    },
+    {
+      "destination": "Environment/swift.log",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/environment/swift.log",
+      "sha256": "1b207d5b85484205225f907ee34c5c63fcf5ba15260fad7ceb129191841e9908"
+    },
+    {
+      "destination": "Environment/target-info.log",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/environment/target-info.log",
+      "sha256": "723862251a92f4e39ea84812234755f0110ca5151f9c21516853daab508e26bd"
+    },
+    {
+      "destination": "Environment/xcode.log",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/environment/xcode.log",
+      "sha256": "694b44731d0b415c5b11d844151e466d7f5e200a95627efda377f232f1a6ab77"
+    },
+    {
+      "destination": "SBOMAudit/RESULTS.md",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/sbom-validation/RESULTS.md",
+      "sha256": "8098223ea86c71344d595fded59dc5396fabc6aa43c4837a9a9dd698f6260014"
+    },
+    {
+      "destination": "SBOMAudit/audit.py",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/sbom-validation/audit.py",
+      "sha256": "e8f38cb7330adea7739c123e6606407d9c72b437e9243c33b98560d1e21dadb2"
+    },
+    {
+      "destination": "SBOMAudit/candidate-audit.json",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/sbom-validation/candidate-audit.json",
+      "sha256": "6121ca5921619abafe32e2609a62a28ca6e88583a684a56150ede1fdb639b93c"
+    },
+    {
+      "destination": "SBOMAudit/schema-sources.json",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/sbom-validation/schema-sources.json",
+      "sha256": "6770cf78b5ab2f0f54c470571e6c33dbb399194a411db5c49bcd425a3034fb5e"
+    },
+    {
+      "destination": "Benchmark/Original/baseline-resources.log",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/benchmark/baseline-resources.log",
+      "sha256": "0387b55e42ca5f8920e2e073a99e53c5bdc1959211d5fbbfa29de01d92845f12"
+    },
+    {
+      "destination": "Benchmark/Original/builds.json",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/benchmark/builds.json",
+      "sha256": "442ba2c68745f35ef6901e589a876d8a10eeccbbfe968fc1471963dca6e6febf"
+    },
+    {
+      "destination": "Benchmark/Original/candidate-resources.log",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/benchmark/candidate-resources.log",
+      "sha256": "06827ab0081732b415eb1c7525e7e2ecd0543373ee33394003d595387237a77d"
+    },
+    {
+      "destination": "Benchmark/Original/raw-timings.json",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/benchmark/raw-timings.json",
+      "sha256": "529019dc258615f6335a60ac7a1764f847891528e955e8a0361c58ae90f802fc"
+    },
+    {
+      "destination": "Benchmark/Original/results.json",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/benchmark/results.json",
+      "sha256": "39e7046ef613733e6318e67fc96aa9cdfc3f6e9a92ce500fc60395f920c9393e"
+    },
+    {
+      "destination": "Benchmark/Repeat/baseline-resources.log",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/benchmark-repeat/baseline-resources.log",
+      "sha256": "ec0e710d6b41b77d18d7348830d0ef4bd92baa2fe399d2bc8496b76b3ad0341f"
+    },
+    {
+      "destination": "Benchmark/Repeat/builds.json",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/benchmark-repeat/builds.json",
+      "sha256": "442ba2c68745f35ef6901e589a876d8a10eeccbbfe968fc1471963dca6e6febf"
+    },
+    {
+      "destination": "Benchmark/Repeat/candidate-resources.log",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/benchmark-repeat/candidate-resources.log",
+      "sha256": "7a590161c1cb0c218b1803d12d4572114c040b4ad23bdc5cb91e5c1fe8ef909d"
+    },
+    {
+      "destination": "Benchmark/Repeat/raw-timings.json",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/benchmark-repeat/raw-timings.json",
+      "sha256": "a5951bb03a709f3a3d535b798164b6136c778ceca077c09844f2ea5b4b27c0ef"
+    },
+    {
+      "destination": "Benchmark/Repeat/results.json",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/benchmark-repeat/results.json",
+      "sha256": "0eadbc34cb515559d1127f5376ddc53b0cd453e44638485e25f6529d38896acc"
+    },
+    {
+      "destination": "Benchmark/SandboxAttempt/baseline-resources.log",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/benchmark-sandbox-attempt/baseline-resources.log",
+      "sha256": "eeb2ced40b1f36d3110c2087e022bfbcb7e1a87a297491118bff56fdbbffb8e5"
+    },
+    {
+      "destination": "Benchmark/SandboxAttempt/builds.json",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/benchmark-sandbox-attempt/builds.json",
+      "sha256": "442ba2c68745f35ef6901e589a876d8a10eeccbbfe968fc1471963dca6e6febf"
+    },
+    {
+      "destination": "Benchmark/SandboxAttempt/candidate-resources.log",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/benchmark-sandbox-attempt/candidate-resources.log",
+      "sha256": "9eb7d193161732cb88042cc9266c30a18b2091c9434be8beb5c1412e4408f218"
+    },
+    {
+      "destination": "Benchmark/SandboxAttempt/failure.json",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/benchmark-sandbox-attempt/failure.json",
+      "sha256": "1c5b32c0a01b5fd7ed1129bed29120d72b8c08a8d7eb655e96fce66e83377c9c"
+    },
+    {
+      "destination": "Benchmark/Original/baseline/Package.swift",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/benchmark/baseline/Package.swift",
+      "sha256": "1a6dc206ea8d374e2155387688f860bffa81e10d9c99d63f3fe82285f15f6277"
+    },
+    {
+      "destination": "Benchmark/Original/baseline/Sources/StorageBench/main.swift",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/benchmark/baseline/Sources/StorageBench/main.swift",
+      "sha256": "7a84c910db3f090732dfb147c253e9cc92551bfd1b479070b1cb497f15000afb"
+    },
+    {
+      "destination": "Benchmark/Original/baseline/build.log",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/benchmark/baseline/build.log",
+      "sha256": "8c689590969ec3553623f8edec1c0402b2f176c2caff6ede2e003aa9201a3da2"
+    },
+    {
+      "destination": "Benchmark/Original/candidate/Package.swift",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/benchmark/candidate/Package.swift",
+      "sha256": "8ac3cfb934918aac88368c7291350711fba1745c1accc3b2b7f584ca88d8c703"
+    },
+    {
+      "destination": "Benchmark/Original/candidate/Sources/StorageBench/main.swift",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/benchmark/candidate/Sources/StorageBench/main.swift",
+      "sha256": "7a84c910db3f090732dfb147c253e9cc92551bfd1b479070b1cb497f15000afb"
+    },
+    {
+      "destination": "Benchmark/Original/candidate/build.log",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/benchmark/candidate/build.log",
+      "sha256": "5b735a4c898ca3a89fd3df3d927aa2b01b97a54b2c59c7d1dfe7421e32324840"
+    },
+    {
+      "destination": "Benchmark/Original/swift64_benchmark.py",
+      "kind": "byte-for-byte-copy",
+      "source": "work/scripts/swift64_benchmark.py",
+      "sha256": "07d5a5d44f607a295f981c4b389be723d08b846de406b1a50480c9f862d21965"
+    },
+    {
+      "destination": "Benchmark/Repeat/swift64_benchmark_repeat.py",
+      "kind": "byte-for-byte-copy",
+      "source": "work/scripts/swift64_benchmark_repeat.py",
+      "sha256": "e01bd2c001e8dad09abdda9893fd2977cce7d153f9a116594baf4d4a4a346954"
+    },
+    {
+      "destination": "Benchmark/Repeat/console.log",
+      "kind": "byte-for-byte-copy",
+      "source": "work/swift64/benchmark-repeat-console.log",
+      "sha256": "489b769e53c71f4c4d033f45e3b9460d7715a58690f1250d7cdeb6d019a70480"
+    },
+    {
+      "destination": "Archival/archive_swift64_evidence.py",
+      "kind": "byte-for-byte-copy",
+      "source": "work/scripts/archive_swift64_evidence.py",
+      "sha256": "61b4c5a18fa88a6fabc35e966190ea7191a1d0f7b3edc598b50465e5f0240aa2"
+    },
+    {
+      "destination": "SOURCE_FINGERPRINTS.json",
+      "kind": "derived-json",
+      "sha256": "04457df2bec90d50ceaf26c6f1fd4921ddae5fa9b40f934fed28116626453e61",
+      "inputs": [
+        {
+          "source": "work/swift64/candidate/SwiftJLS/report.json",
+          "sha256": "e2d491e5aab5270af77f16edd511ae522d7910fcd97136416120c1006e7ac4e8"
+        },
+        {
+          "source": "work/swift64/baseline/SwiftJLS/results.json",
+          "sha256": "54394b48476af6f9b118fbf4cf3035f72fcd41f5835365fe4e7452b16b5ae407"
+        },
+        {
+          "source": "work/swift64/platform-final/results.json",
+          "sha256": "1ac9b8d8816badbc883e2a3ec304a1d6d00ef1f192136877717522c03ed9fb39"
+        },
+        {
+          "source": "work/swift64/harness/results.json",
+          "sha256": "3d5f91ff943b6f010f844dc71cad877c6cdc05307568468105292a067625d9cb"
+        },
+        {
+          "source": "work/swift64/migration-examples/results.json",
+          "sha256": "2aeb7ecdd59859783a360d585fbc90054053d7f5981745e0cb094c536fb6b523"
+        },
+        {
+          "source": "work/swift64/benchmark/builds.json",
+          "sha256": "442ba2c68745f35ef6901e589a876d8a10eeccbbfe968fc1471963dca6e6febf"
+        },
+        {
+          "source": "work/swift64/benchmark-repeat/builds.json",
+          "sha256": "442ba2c68745f35ef6901e589a876d8a10eeccbbfe968fc1471963dca6e6febf"
+        }
+      ],
+      "transformation": "Compare candidate, final platform, harness, benchmark implementation, snippet and SBOM SHA-256 values with original reports. Compare baseline source/test/manifest bytes with git objects at recorded source_sha. No source snapshot is archived."
+    },
+    {
+      "destination": "README.md",
+      "kind": "archival-description",
+      "sha256": "e7aad4e51a0cb51bb49f514e87c08f215a1a77f94969eb8d75a4d0e1f4ecca5e"
+    }
+  ]
+}

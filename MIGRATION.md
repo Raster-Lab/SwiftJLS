@@ -1,10 +1,12 @@
 # Migrating applications from JLSwift to SwiftJLS
 
+The successor now requires Swift 6.4 and retains its OS 26 deployment floors. See the [Swift 6.4 upgrade record](Documentation/Engineering/Swift64/README.md) for development versioning and validation; current codec availability is unchanged.
+
 This guide is for application maintainers and coding agents changing a dependency. Library implementation work follows [AGENTS.md](AGENTS.md) and [IMPLEMENTATION.md](IMPLEMENTATION.md).
 
 **Current status: Milestone 1 API and owning-memory feasibility only. SwiftJLS cannot yet inspect, encode or decode JPEG-LS.** Its codec capabilities are empty and codec operations reject with `CodecError` after preflight checks. Keep the predecessor serving production codec requests until the required successor capabilities are implemented and independently validated. A dependency/import rename alone is insufficient.
 
-This guide uses common contract **0.2.1** and predecessor commit **`299b9a2e5bfe36ef104a3464a27d6c4c82874cc2`**. Compare your application's actual pinned revision before applying it; other predecessor versions may differ. The successor's implemented surface is in [Sources/SwiftJLS](Sources/SwiftJLS); executed coverage and unavailable gates are in [Documentation/MILESTONE1.md](Documentation/MILESTONE1.md).
+This guide uses common contract **0.3.0** and predecessor commit **`299b9a2e5bfe36ef104a3464a27d6c4c82874cc2`**. Compare your application's actual pinned revision before applying it; other predecessor versions may differ. The successor's implemented surface is in [Sources/SwiftJLS](Sources/SwiftJLS); executed coverage and unavailable gates are in [Documentation/MILESTONE1.md](Documentation/MILESTONE1.md).
 
 ## Dependency and deployment changes
 
@@ -13,14 +15,14 @@ This guide uses common contract **0.2.1** and predecessor commit **`299b9a2e5bfe
 | Repository / package | `Raster-Lab/JLSwift` / `JLSwift` | `Raster-Lab/SwiftJLS` / `SwiftJLS` |
 | Library product / import | `JPEGLS` / `import JPEGLS` | `SwiftJLS` / `import SwiftJLS` |
 | Executable | `jpegls` (target `jpeglscli`) | None; `swiftjls` is planned |
-| Swift | Tools 6.2, Swift 6 language mode | Tools 6.2, Swift 6 language mode; complete concurrency checking |
+| Swift | Tools 6.2, Swift 6 language mode | Tools 6.4, Swift 6 language mode; complete concurrency checking |
 | Apple deployment minima | macOS 12, iOS 15 | macOS, iOS/iPadOS, tvOS, visionOS, watchOS 26.0 |
 
 Evidence: [pinned predecessor manifest](https://github.com/Raster-Lab/JLSwift/blob/299b9a2e5bfe36ef104a3464a27d6c4c82874cc2/Package.swift), [current manifest](Package.swift), [platform qualification requirements](Documentation/PLATFORMS.md). An application supporting older Apple systems must retain a compatible dependency path or deliberately raise its deployment target before linking SwiftJLS. Build-only evidence does not establish device/runtime support.
 
 For a local migration trial, add `.package(path: "../SwiftJLS")` to the consumer's package dependencies and `.product(name: "SwiftJLS", package: "SwiftJLS")` to its executable/application target. Adjust the relative path to your checkout. Alternatively add the local package through Xcode. Keep `JPEGLS` alongside it while the application adapter is being developed.
 
-For a remote trial, use `https://github.com/Raster-Lab/SwiftJLS.git` and pin an actual reviewed full commit SHA available in that repository. Record it in the migration review and commit the application's resolved dependencies. **Do not use a `from: "1.0.0"` requirement yet:** 1.0.0 is intended, not published. SwiftJLS has no dependency on another suite codec or umbrella; adding all four is unnecessary.
+For a remote trial, use `https://github.com/Raster-Lab/SwiftJLS.git` and pin an actual reviewed full commit SHA available in that repository. Record it in the migration review and commit the application's resolved dependencies. **Do not use a `from: "1.1.0"` requirement yet:** 1.1.0 is intended, not published. SwiftJLS has no dependency on another suite codec or umbrella; adding all four is unnecessary.
 
 ## API mapping and current availability
 

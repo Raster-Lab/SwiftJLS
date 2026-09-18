@@ -1,5 +1,12 @@
 # Change log
 
+## 1.1.0-dev.1 — Swift 6.4 upgrade, 2026-09-19 (unreleased)
+
+- Require Swift tools/compiler 6.4, retaining Swift 6 language mode and OS 26 deployment floors.
+- Advance the coordinated common contract to 0.3.0 and the earlier unreleased 1.0.0 version target to 1.1.0.
+- Adopt checked native-order span access for UInt16 samples with explicit endian conversion; preserve public API and owning-storage semantics.
+- Add the supplied upgrade references, F01–F13 feature register, headless Swift Build validation and exact evidence. No codec capability, stable release or tag is added.
+
 - Final Milestone 1 review: prevent image publication when cancellation occurs inside provider sealing/validation; deterministic regressions and full checks pass.
 
 ## Unreleased — Milestone 1 feasibility, 2026-09-18

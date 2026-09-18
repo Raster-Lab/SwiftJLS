@@ -1,0 +1,276 @@
+{
+  "checked_at_utc": "2026-09-18T22:29:23.936543+00:00",
+  "scope": "Final validated candidate at archival time; later source changes require new evidence.",
+  "candidate_report": {
+    "source": "work/swift64/candidate/SwiftJLS/report.json",
+    "sha256": "e2d491e5aab5270af77f16edd511ae522d7910fcd97136416120c1006e7ac4e8"
+  },
+  "candidate": [
+    {
+      "path": "outputs/SwiftJLS/Package.swift",
+      "expected_sha256": "3fb86dbb0509aa9beb09409e5f708ff587dd9e23cd6f2d96bb378a1179da0939",
+      "observed_sha256": "3fb86dbb0509aa9beb09409e5f708ff587dd9e23cd6f2d96bb378a1179da0939",
+      "matches": true
+    },
+    {
+      "path": "outputs/SwiftJLS/Scripts/README.md",
+      "expected_sha256": "b18381350333a32d176077624887beda613b784d139de750f9230364eaf1f44d",
+      "observed_sha256": "b18381350333a32d176077624887beda613b784d139de750f9230364eaf1f44d",
+      "matches": true
+    },
+    {
+      "path": "outputs/SwiftJLS/Scripts/validate-swift64.py",
+      "expected_sha256": "2dbdd2bcf32af3c3282d40054d1eec07c425bbdeea5796115fcaa685c9625309",
+      "observed_sha256": "2dbdd2bcf32af3c3282d40054d1eec07c425bbdeea5796115fcaa685c9625309",
+      "matches": true
+    },
+    {
+      "path": "outputs/SwiftJLS/Scripts/validate.sh",
+      "expected_sha256": "5fde61d2ab79718a455979ffd6909cdbc9592445c09a02f1fce45a7c316a0365",
+      "observed_sha256": "5fde61d2ab79718a455979ffd6909cdbc9592445c09a02f1fce45a7c316a0365",
+      "matches": true
+    },
+    {
+      "path": "outputs/SwiftJLS/Sources/SwiftJLS/CodecAPI.swift",
+      "expected_sha256": "f2744a85794dc40f46e9062e01bed9484ea4eca14ae729bbe870e589839b0e91",
+      "observed_sha256": "f2744a85794dc40f46e9062e01bed9484ea4eca14ae729bbe870e589839b0e91",
+      "matches": true
+    },
+    {
+      "path": "outputs/SwiftJLS/Sources/SwiftJLS/Errors.swift",
+      "expected_sha256": "cfae3357b4aba0e62df1ed6096b8af951d39d0155184b8881c737d48ec936643",
+      "observed_sha256": "cfae3357b4aba0e62df1ed6096b8af951d39d0155184b8881c737d48ec936643",
+      "matches": true
+    },
+    {
+      "path": "outputs/SwiftJLS/Sources/SwiftJLS/Image.swift",
+      "expected_sha256": "a5f050b9334d533cd4f0d01b73bb7e465b9e50718abf7c07eb80dc0109e97e0e",
+      "observed_sha256": "a5f050b9334d533cd4f0d01b73bb7e465b9e50718abf7c07eb80dc0109e97e0e",
+      "matches": true
+    },
+    {
+      "path": "outputs/SwiftJLS/Sources/SwiftJLS/ImageDescriptor.swift",
+      "expected_sha256": "a6d91691d00c0bee8f19986f7bd95739589794898e3c163e80923885d21c5a96",
+      "observed_sha256": "a6d91691d00c0bee8f19986f7bd95739589794898e3c163e80923885d21c5a96",
+      "matches": true
+    },
+    {
+      "path": "outputs/SwiftJLS/Sources/SwiftJLS/ImageStorage.swift",
+      "expected_sha256": "8bc26a7d1237260dbb607fe2612f55d05a9376365371573332190e78308095cd",
+      "observed_sha256": "8bc26a7d1237260dbb607fe2612f55d05a9376365371573332190e78308095cd",
+      "matches": true
+    },
+    {
+      "path": "outputs/SwiftJLS/Sources/SwiftJLS/Options.swift",
+      "expected_sha256": "082a589b2172282b6a66ea3bd6e72f6d865671a782cb1b3839549db3e575f622",
+      "observed_sha256": "082a589b2172282b6a66ea3bd6e72f6d865671a782cb1b3839549db3e575f622",
+      "matches": true
+    },
+    {
+      "path": "outputs/SwiftJLS/Tests/SwiftJLSTests/APITests.swift",
+      "expected_sha256": "473db3c015c176c4ebe998e2c953a26c25664602f9e670ebf56b84f5ec9381c0",
+      "observed_sha256": "473db3c015c176c4ebe998e2c953a26c25664602f9e670ebf56b84f5ec9381c0",
+      "matches": true
+    },
+    {
+      "path": "outputs/SwiftJLS/Tests/SwiftJLSTests/CancellationPublicationTests.swift",
+      "expected_sha256": "d923382876b2044cd5ae6015bf57adae1c00ad9bb7a9db25b8f5cf83cd710754",
+      "observed_sha256": "d923382876b2044cd5ae6015bf57adae1c00ad9bb7a9db25b8f5cf83cd710754",
+      "matches": true
+    },
+    {
+      "path": "outputs/SwiftJLS/Tests/SwiftJLSTests/DescriptorTests.swift",
+      "expected_sha256": "f33ede00fb3da33f5407960fdaf1b755423ad7e4f140d8670b7c7d26c795cf54",
+      "observed_sha256": "f33ede00fb3da33f5407960fdaf1b755423ad7e4f140d8670b7c7d26c795cf54",
+      "matches": true
+    },
+    {
+      "path": "outputs/SwiftJLS/Tests/SwiftJLSTests/OwnershipTests.swift",
+      "expected_sha256": "1661ac6a7b28cc0594ac19bab1b090adbd226aeb19b320921319aa1f5a6f6d33",
+      "observed_sha256": "1661ac6a7b28cc0594ac19bab1b090adbd226aeb19b320921319aa1f5a6f6d33",
+      "matches": true
+    },
+    {
+      "path": "outputs/SwiftJLS/Tests/SwiftJLSTests/Swift64SampleAccessTests.swift",
+      "expected_sha256": "e157ace22eee0b035ae7b956b33ce67b39ab553dd3700aa23ae32670b376517d",
+      "observed_sha256": "e157ace22eee0b035ae7b956b33ce67b39ab553dd3700aa23ae32670b376517d",
+      "matches": true
+    }
+  ],
+  "baseline_git_snapshot": [
+    {
+      "path": "work/swift64/baseline/SwiftJLS/source/Package.swift",
+      "expected_sha256": "3f9941cc2b81471f253f4acbed9af5c617e321c73a0439055967e63f7c686dda",
+      "observed_sha256": "3f9941cc2b81471f253f4acbed9af5c617e321c73a0439055967e63f7c686dda",
+      "matches": true
+    },
+    {
+      "path": "work/swift64/baseline/SwiftJLS/source/Sources/SwiftJLS/CodecAPI.swift",
+      "expected_sha256": "50bc697ef1c976fb164d659b6a7b4d3a6858e5591ce60a83b8d62cb17989c174",
+      "observed_sha256": "50bc697ef1c976fb164d659b6a7b4d3a6858e5591ce60a83b8d62cb17989c174",
+      "matches": true
+    },
+    {
+      "path": "work/swift64/baseline/SwiftJLS/source/Sources/SwiftJLS/Errors.swift",
+      "expected_sha256": "cfae3357b4aba0e62df1ed6096b8af951d39d0155184b8881c737d48ec936643",
+      "observed_sha256": "cfae3357b4aba0e62df1ed6096b8af951d39d0155184b8881c737d48ec936643",
+      "matches": true
+    },
+    {
+      "path": "work/swift64/baseline/SwiftJLS/source/Sources/SwiftJLS/Image.swift",
+      "expected_sha256": "a10dda5b5d33b63aec4afb4eb060a3a2d8017dbb9bc0c3b1059a4498f77222e5",
+      "observed_sha256": "a10dda5b5d33b63aec4afb4eb060a3a2d8017dbb9bc0c3b1059a4498f77222e5",
+      "matches": true
+    },
+    {
+      "path": "work/swift64/baseline/SwiftJLS/source/Sources/SwiftJLS/ImageDescriptor.swift",
+      "expected_sha256": "a6d91691d00c0bee8f19986f7bd95739589794898e3c163e80923885d21c5a96",
+      "observed_sha256": "a6d91691d00c0bee8f19986f7bd95739589794898e3c163e80923885d21c5a96",
+      "matches": true
+    },
+    {
+      "path": "work/swift64/baseline/SwiftJLS/source/Sources/SwiftJLS/ImageStorage.swift",
+      "expected_sha256": "8bc26a7d1237260dbb607fe2612f55d05a9376365371573332190e78308095cd",
+      "observed_sha256": "8bc26a7d1237260dbb607fe2612f55d05a9376365371573332190e78308095cd",
+      "matches": true
+    },
+    {
+      "path": "work/swift64/baseline/SwiftJLS/source/Sources/SwiftJLS/Options.swift",
+      "expected_sha256": "082a589b2172282b6a66ea3bd6e72f6d865671a782cb1b3839549db3e575f622",
+      "observed_sha256": "082a589b2172282b6a66ea3bd6e72f6d865671a782cb1b3839549db3e575f622",
+      "matches": true
+    },
+    {
+      "path": "work/swift64/baseline/SwiftJLS/source/Tests/SwiftJLSTests/APITests.swift",
+      "expected_sha256": "473db3c015c176c4ebe998e2c953a26c25664602f9e670ebf56b84f5ec9381c0",
+      "observed_sha256": "473db3c015c176c4ebe998e2c953a26c25664602f9e670ebf56b84f5ec9381c0",
+      "matches": true
+    },
+    {
+      "path": "work/swift64/baseline/SwiftJLS/source/Tests/SwiftJLSTests/CancellationPublicationTests.swift",
+      "expected_sha256": "d923382876b2044cd5ae6015bf57adae1c00ad9bb7a9db25b8f5cf83cd710754",
+      "observed_sha256": "d923382876b2044cd5ae6015bf57adae1c00ad9bb7a9db25b8f5cf83cd710754",
+      "matches": true
+    },
+    {
+      "path": "work/swift64/baseline/SwiftJLS/source/Tests/SwiftJLSTests/DescriptorTests.swift",
+      "expected_sha256": "f33ede00fb3da33f5407960fdaf1b755423ad7e4f140d8670b7c7d26c795cf54",
+      "observed_sha256": "f33ede00fb3da33f5407960fdaf1b755423ad7e4f140d8670b7c7d26c795cf54",
+      "matches": true
+    },
+    {
+      "path": "work/swift64/baseline/SwiftJLS/source/Tests/SwiftJLSTests/OwnershipTests.swift",
+      "expected_sha256": "1661ac6a7b28cc0594ac19bab1b090adbd226aeb19b320921319aa1f5a6f6d33",
+      "observed_sha256": "1661ac6a7b28cc0594ac19bab1b090adbd226aeb19b320921319aa1f5a6f6d33",
+      "matches": true
+    }
+  ],
+  "platform_final": [
+    {
+      "path": "outputs/SwiftJLS/Sources/SwiftJLS/CodecAPI.swift",
+      "expected_sha256": "f2744a85794dc40f46e9062e01bed9484ea4eca14ae729bbe870e589839b0e91",
+      "observed_sha256": "f2744a85794dc40f46e9062e01bed9484ea4eca14ae729bbe870e589839b0e91",
+      "matches": true
+    },
+    {
+      "path": "outputs/SwiftJLS/Sources/SwiftJLS/Errors.swift",
+      "expected_sha256": "cfae3357b4aba0e62df1ed6096b8af951d39d0155184b8881c737d48ec936643",
+      "observed_sha256": "cfae3357b4aba0e62df1ed6096b8af951d39d0155184b8881c737d48ec936643",
+      "matches": true
+    },
+    {
+      "path": "outputs/SwiftJLS/Sources/SwiftJLS/Image.swift",
+      "expected_sha256": "a5f050b9334d533cd4f0d01b73bb7e465b9e50718abf7c07eb80dc0109e97e0e",
+      "observed_sha256": "a5f050b9334d533cd4f0d01b73bb7e465b9e50718abf7c07eb80dc0109e97e0e",
+      "matches": true
+    },
+    {
+      "path": "outputs/SwiftJLS/Sources/SwiftJLS/ImageDescriptor.swift",
+      "expected_sha256": "a6d91691d00c0bee8f19986f7bd95739589794898e3c163e80923885d21c5a96",
+      "observed_sha256": "a6d91691d00c0bee8f19986f7bd95739589794898e3c163e80923885d21c5a96",
+      "matches": true
+    },
+    {
+      "path": "outputs/SwiftJLS/Sources/SwiftJLS/ImageStorage.swift",
+      "expected_sha256": "8bc26a7d1237260dbb607fe2612f55d05a9376365371573332190e78308095cd",
+      "observed_sha256": "8bc26a7d1237260dbb607fe2612f55d05a9376365371573332190e78308095cd",
+      "matches": true
+    },
+    {
+      "path": "outputs/SwiftJLS/Sources/SwiftJLS/Options.swift",
+      "expected_sha256": "082a589b2172282b6a66ea3bd6e72f6d865671a782cb1b3839549db3e575f622",
+      "observed_sha256": "082a589b2172282b6a66ea3bd6e72f6d865671a782cb1b3839549db3e575f622",
+      "matches": true
+    }
+  ],
+  "harness": [
+    {
+      "path": "outputs/SwiftJ2K/Integration/ContractHarness/Package.swift",
+      "expected_sha256": "90fb41552569414befbc10e6ab0591d1c232b7e5c5df8da509bcec19bef2b2d2",
+      "observed_sha256": "90fb41552569414befbc10e6ab0591d1c232b7e5c5df8da509bcec19bef2b2d2",
+      "matches": true
+    },
+    {
+      "path": "outputs/SwiftJ2K/Integration/ContractHarness/Sources/ContractHarness/main.swift",
+      "expected_sha256": "ef21c8e98b7a9d54e6101fdba7987e9b95a82b74f4b557b20edcbd202825827d",
+      "observed_sha256": "ef21c8e98b7a9d54e6101fdba7987e9b95a82b74f4b557b20edcbd202825827d",
+      "matches": true
+    }
+  ],
+  "benchmark": [
+    {
+      "run": "benchmark",
+      "variant": "baseline",
+      "path": "work/swift64/baseline/SwiftJ2K/source/Sources/SwiftJ2K/Image.swift",
+      "expected_sha256": "a10dda5b5d33b63aec4afb4eb060a3a2d8017dbb9bc0c3b1059a4498f77222e5",
+      "observed_sha256": "a10dda5b5d33b63aec4afb4eb060a3a2d8017dbb9bc0c3b1059a4498f77222e5",
+      "matches": true
+    },
+    {
+      "run": "benchmark",
+      "variant": "candidate",
+      "path": "outputs/SwiftJ2K/Sources/SwiftJ2K/Image.swift",
+      "expected_sha256": "a5f050b9334d533cd4f0d01b73bb7e465b9e50718abf7c07eb80dc0109e97e0e",
+      "observed_sha256": "a5f050b9334d533cd4f0d01b73bb7e465b9e50718abf7c07eb80dc0109e97e0e",
+      "matches": true
+    },
+    {
+      "run": "benchmark-repeat",
+      "variant": "baseline",
+      "path": "work/swift64/baseline/SwiftJ2K/source/Sources/SwiftJ2K/Image.swift",
+      "expected_sha256": "a10dda5b5d33b63aec4afb4eb060a3a2d8017dbb9bc0c3b1059a4498f77222e5",
+      "observed_sha256": "a10dda5b5d33b63aec4afb4eb060a3a2d8017dbb9bc0c3b1059a4498f77222e5",
+      "matches": true
+    },
+    {
+      "run": "benchmark-repeat",
+      "variant": "candidate",
+      "path": "outputs/SwiftJ2K/Sources/SwiftJ2K/Image.swift",
+      "expected_sha256": "a5f050b9334d533cd4f0d01b73bb7e465b9e50718abf7c07eb80dc0109e97e0e",
+      "observed_sha256": "a5f050b9334d533cd4f0d01b73bb7e465b9e50718abf7c07eb80dc0109e97e0e",
+      "matches": true
+    }
+  ],
+  "migration_example": [
+    {
+      "path": "work/swift64/migration-examples/Consumer-SwiftJLS/Sources/MigrationExample/main.swift",
+      "expected_sha256": "8e0f575a2df5e95127e93041b6071e7eeb8f07f6c0150917091983f060deeae4",
+      "observed_sha256": "8e0f575a2df5e95127e93041b6071e7eeb8f07f6c0150917091983f060deeae4",
+      "matches": true
+    }
+  ],
+  "sboms": [
+    {
+      "path": "work/swift64/candidate/SwiftJLS/sboms/spdx/spdx3-3.0.1-SwiftJLS-d85332fd7a7ce67ae27f9806f3e4b3c09dd3bd9f-modified-all-2026-09-18T22_13_16Z.json",
+      "expected_sha256": "62dc3a430130bb8f3498813961fb421f99fb87630bdc4b4749551e2a93f30ab6",
+      "observed_sha256": "62dc3a430130bb8f3498813961fb421f99fb87630bdc4b4749551e2a93f30ab6",
+      "matches": true
+    },
+    {
+      "path": "work/swift64/candidate/SwiftJLS/sboms/cyclonedx/cyclonedx1-1.7-SwiftJLS-d85332fd7a7ce67ae27f9806f3e4b3c09dd3bd9f-modified-all-2026-09-18T22_13_17Z.json",
+      "expected_sha256": "aba577de5db5a02c047a2ac4b031bbe0c8806e8c652110eb96b3322ee05e4edb",
+      "observed_sha256": "aba577de5db5a02c047a2ac4b031bbe0c8806e8c652110eb96b3322ee05e4edb",
+      "matches": true
+    }
+  ]
+}

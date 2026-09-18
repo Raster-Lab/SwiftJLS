@@ -1,0 +1,83 @@
+Building for production...
+[Planning deferred tasks]
+[20 / 40] SwiftJLS
+[27 / 75]
+[33 / 75]
+[37 / 75]
+[40 / 75]
+[44 / 75]
+[47 / 75]
+[51 / 75]
+[52 / 75]
+[54 / 75]
+[55 / 75]
+[56 / 75] SwiftJLS
+[66 / 76] SwiftJLSTests-product
+[68 / 79]
+[70 / 79] SwiftJLSTests-product
+[75 / 79] SwiftJLSTests-product
+Build complete! (6.49 secs)
+􀟈  Test run started.
+􀄵  Testing Library Version: 2084
+􀄵  Target Platform: arm64e-apple-macos14.0
+􀟈  Suite "Descriptor validation" started.
+􀟈  Suite APITests started.
+􀟈  Test failedFillInvalidatesDestination() started.
+􀟈  Test reentrantLeaseOperationsRejectWithoutDeadlocking() started.
+􀟈  Test concurrentAdaptersReserveExactlyOneWriter() started.
+􀟈  Test sameTokenCannotAuthoriseConcurrentOverlappingBorrows() started.
+􀟈  Test actualTaskCancellationDuringFillPreventsPublication() started.
+􀟈  Test sealedOwnerSupportsConcurrentReadersAndNestedRead() started.
+􀟈  Test metadataAndDestinationLimitsUseCallerBudget() started.
+􀟈  Test imageRetainsAdapterUntilLastImageReleaseExactlyOnce() started.
+􀟈  Test abandonedDestinationInvalidatesItsReservedOwner() started.
+􀟈  Test adaptersShareWriterAuthorityAndRejectForgedLease() started.
+􀟈  Test finalRowNeedsOnlyItsActualSampleBytes() started.
+􀟈  Test rejectsArithmeticOverflowBeforeAllocation() started.
+􀟈  Test semanticMetadataMustAgreeWithComponents() started.
+􀟈  Test deterministicLayoutMutation() started.
+􀟈  Test rejectsOverlappingPlanesAndIncompleteMapping() started.
+􀟈  Test cancellationInProviderFinalisationPreventsPublication(_:) started.
+􀟈  Test exactSamplesAndZeroedPadding(precision:) started.
+􀟈  Test cancellationKeepsSwiftCancellationError() started.
+􀟈  Test rejectsMisalignedOffsetsAndStrides() started.
+􀟈  Test rejectsInvalidGeometryAndPrecision() started.
+􀟈  Test noSyntheticBytesAdvertisedAsCompressedFormats() started.
+􀟈  Test resourceAndRequiredBackendErrorsPrecedeUnsupportedCodec() started.
+􀟈  Test sampleHelperPreservesExplicitBigEndian() started.
+􀟈  Test outOfRangeTwelveBitSampleInvalidatesDestination() started.
+􀟈  Test paddedOddDimensionsAndPrecision() started.
+􀟈  Test defaultsAndUnsupportedFidelityAreExplicit() started.
+􀟈  Test case passing 1 argument point → .sealing to cancellationInProviderFinalisationPreventsPublication(_:) started.
+􀟈  Test case passing 1 argument point → .validatingSealedStorage to cancellationInProviderFinalisationPreventsPublication(_:) started.
+􀟈  Test case passing 1 argument precision → 12 to exactSamplesAndZeroedPadding(precision:) started.
+􀟈  Test case passing 1 argument precision → 16 to exactSamplesAndZeroedPadding(precision:) started.
+􁁛  Test reentrantLeaseOperationsRejectWithoutDeadlocking() passed after 0.001 seconds.
+􁁛  Test abandonedDestinationInvalidatesItsReservedOwner() passed after 0.001 seconds.
+􁁛  Test imageRetainsAdapterUntilLastImageReleaseExactlyOnce() passed after 0.001 seconds.
+􁁛  Test rejectsOverlappingPlanesAndIncompleteMapping() passed after 0.001 seconds.
+􁁛  Test sameTokenCannotAuthoriseConcurrentOverlappingBorrows() passed after 0.001 seconds.
+􁁛  Test rejectsArithmeticOverflowBeforeAllocation() passed after 0.001 seconds.
+􁁛  Test adaptersShareWriterAuthorityAndRejectForgedLease() passed after 0.001 seconds.
+􁁛  Test semanticMetadataMustAgreeWithComponents() passed after 0.001 seconds.
+􁁛  Test finalRowNeedsOnlyItsActualSampleBytes() passed after 0.001 seconds.
+􁁛  Test concurrentAdaptersReserveExactlyOneWriter() passed after 0.001 seconds.
+􁁛  Test failedFillInvalidatesDestination() passed after 0.001 seconds.
+􁁛  Test sampleHelperPreservesExplicitBigEndian() passed after 0.001 seconds.
+􁁛  Test rejectsInvalidGeometryAndPrecision() passed after 0.001 seconds.
+􁁛  Test rejectsMisalignedOffsetsAndStrides() passed after 0.001 seconds.
+􁁛  Test paddedOddDimensionsAndPrecision() passed after 0.001 seconds.
+􁁛  Test sealedOwnerSupportsConcurrentReadersAndNestedRead() passed after 0.001 seconds.
+􁁛  Test metadataAndDestinationLimitsUseCallerBudget() passed after 0.001 seconds.
+􁁛  Test cancellationInProviderFinalisationPreventsPublication(_:) with 2 test cases passed after 0.001 seconds.
+􁁛  Test cancellationKeepsSwiftCancellationError() passed after 0.001 seconds.
+􁁛  Test actualTaskCancellationDuringFillPreventsPublication() passed after 0.001 seconds.
+􁁛  Test outOfRangeTwelveBitSampleInvalidatesDestination() passed after 0.001 seconds.
+􁁛  Test exactSamplesAndZeroedPadding(precision:) with 2 test cases passed after 0.001 seconds.
+􁁛  Test noSyntheticBytesAdvertisedAsCompressedFormats() passed after 0.001 seconds.
+􁁛  Test defaultsAndUnsupportedFidelityAreExplicit() passed after 0.001 seconds.
+􁁛  Test resourceAndRequiredBackendErrorsPrecedeUnsupportedCodec() passed after 0.001 seconds.
+􁁛  Test deterministicLayoutMutation() passed after 0.001 seconds.
+􁁛  Suite APITests passed after 0.001 seconds.
+􁁛  Suite "Descriptor validation" passed after 0.001 seconds.
+􁁛  Test run with 26 tests in 2 suites passed after 0.001 seconds.
