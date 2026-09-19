@@ -1,0 +1,919 @@
+[
+  {
+    "source": "work/apple-platform-qualification/final/SwiftJLS/mac/catalyst-release-test.log",
+    "archive": "Xcode/mac/catalyst-release-test.log",
+    "source_sha256": "0a673f3d6638f032ee03f29326bf4115f496851a9160f4cbd72db7c72cbcfaa8",
+    "archived_sha256": "dbff41d0c7aaa20938e14718dd5a32e2ff0cd08b9f7bee7443901a601dde5a8e",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/final/SwiftJLS/mac/macos-debug-summary.log",
+    "archive": "Xcode/mac/macos-debug-summary.log",
+    "source_sha256": "67b6bc541046ddedc7e1d795a30d17bbd0322ff4d9e1c5dbce57a95503240e3e",
+    "archived_sha256": "c43e6ed07c25c02864310554195e36efec57bfbfe91ebbc5ce024d2ea284cdae",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/final/SwiftJLS/mac/report.json",
+    "archive": "Xcode/mac/report.json",
+    "source_sha256": "a0349e8692d6423d6eb25f0f4d745aee910f267f42773dfd489d52c3bee48da0",
+    "archived_sha256": "d01a15fbdc371ab8f45d52f87eaf6167d606146ac5d01437c1caa03e3c083180",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/final/SwiftJLS/mac/catalyst-debug-summary.json",
+    "archive": "Xcode/mac/catalyst-debug-summary.json",
+    "source_sha256": "116cde81500ce2a363a93b4b5b485b5c72ca1b5a0f77defce6d07dada516af4b",
+    "archived_sha256": "39d890ebcd48a2ca5e9398d82dd735bd321ba5522e2acbc06bc8b1c9e3f4c4fe",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/final/SwiftJLS/mac/catalyst-release-enumeration.json",
+    "archive": "Xcode/mac/catalyst-release-enumeration.json",
+    "source_sha256": "58fb31cc1d3dd7fe34d2c2fa14fce69deb19be4fdda95e6b35bd2c27d1df1a40",
+    "archived_sha256": "58fb31cc1d3dd7fe34d2c2fa14fce69deb19be4fdda95e6b35bd2c27d1df1a40",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/final/SwiftJLS/mac/macos-debug-enumerate.log",
+    "archive": "LOCAL_ONLY/BUILD_LOGS.tar.gz::Xcode/mac/macos-debug-enumerate.log",
+    "source_sha256": "6c314fbc1a73a74790635876a6800919baf98412896cf29bfc846b70fcd7b1c9",
+    "archived_sha256": "6fb32e51cf3c2cdb0f0e644fb914f428d5841b43ac0371875a185866755c478f",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted",
+    "publication": "Not uploaded; retained locally after automatic upload review rejected the archive due to possible sensitive internal metadata."
+  },
+  {
+    "source": "work/apple-platform-qualification/final/SwiftJLS/mac/catalyst-release-summary.json",
+    "archive": "Xcode/mac/catalyst-release-summary.json",
+    "source_sha256": "db7fb7bd0e648ee432a2e6af75a5ee0e2a952457f09ba8f8336dddbf1a454178",
+    "archived_sha256": "83e0404228cd5171714713497500a95d5611c47f61c8e3002f1c884b67534dbf",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/final/SwiftJLS/mac/macos-release-summary.json",
+    "archive": "Xcode/mac/macos-release-summary.json",
+    "source_sha256": "c838f4da2cbf8d600ecf0a8bbde19788ef07f02261be6d7f232a5ed5f44ba7dd",
+    "archived_sha256": "77c90294bb2dfe7f12e388c3abaa5429e3b1a4fd7351e5a3058e275dbb290cc4",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/final/SwiftJLS/mac/swift.log",
+    "archive": "Xcode/mac/swift.log",
+    "source_sha256": "30bb0d72a580e8e936ab32e24cab2876f82fa6b06d66fef876fe21a47e828acc",
+    "archived_sha256": "30bb0d72a580e8e936ab32e24cab2876f82fa6b06d66fef876fe21a47e828acc",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/final/SwiftJLS/mac/macos-release-enumerate.log",
+    "archive": "LOCAL_ONLY/BUILD_LOGS.tar.gz::Xcode/mac/macos-release-enumerate.log",
+    "source_sha256": "d8b23f3884675d379e04506a3e19a1f5f7197bef822e4fc16ec3bc257d51b727",
+    "archived_sha256": "93d5f725a54fe2e6e83fcbcfb4b1e810a32d55a59185251ce63876163f264e21",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted",
+    "publication": "Not uploaded; retained locally after automatic upload review rejected the archive due to possible sensitive internal metadata."
+  },
+  {
+    "source": "work/apple-platform-qualification/final/SwiftJLS/mac/catalyst-debug-enumeration.json",
+    "archive": "Xcode/mac/catalyst-debug-enumeration.json",
+    "source_sha256": "58fb31cc1d3dd7fe34d2c2fa14fce69deb19be4fdda95e6b35bd2c27d1df1a40",
+    "archived_sha256": "58fb31cc1d3dd7fe34d2c2fa14fce69deb19be4fdda95e6b35bd2c27d1df1a40",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/final/SwiftJLS/mac/catalyst-release-summary.log",
+    "archive": "Xcode/mac/catalyst-release-summary.log",
+    "source_sha256": "864b9a096cc3d0d8a9873b3a96f805b74ac0fba18c88d70a18b282f9c7a86432",
+    "archived_sha256": "252566c07ca08942c5f22dfa34701153ce1b443e8110cf345c856052447c1aba",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/final/SwiftJLS/mac/catalyst-debug-enumerate.log",
+    "archive": "LOCAL_ONLY/BUILD_LOGS.tar.gz::Xcode/mac/catalyst-debug-enumerate.log",
+    "source_sha256": "35bf52968af0ddac9553db5c586999ab508cd3b3ac882e78362ba297cee634c0",
+    "archived_sha256": "5932db9202e325e69f6ee25c728042226b864c974cd8d59fb5bb7092b43c365f",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted",
+    "publication": "Not uploaded; retained locally after automatic upload review rejected the archive due to possible sensitive internal metadata."
+  },
+  {
+    "source": "work/apple-platform-qualification/final/SwiftJLS/mac/macos-debug-test.log",
+    "archive": "Xcode/mac/macos-debug-test.log",
+    "source_sha256": "8f0be849fcdbef28517597705b10e9a2fc017b90130e1cfaf61b9e6d20cc4010",
+    "archived_sha256": "7f35affe9234f7115ec5f844af78378bc9b9df48e5fb91969c4990358d81c3d1",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/final/SwiftJLS/mac/macos-release-summary.log",
+    "archive": "Xcode/mac/macos-release-summary.log",
+    "source_sha256": "f2f83e25ac364a4f5337dfc214a5d1be3ef8b65a2281e6d0b4728c6d63899850",
+    "archived_sha256": "6ce85bc58e1e86ba6474bb53db82bf60139749fcf9033d30673669060f626a76",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/final/SwiftJLS/mac/macos-debug-summary.json",
+    "archive": "Xcode/mac/macos-debug-summary.json",
+    "source_sha256": "00fbb20a9dabf5ea5f412d2f4cecd06c3bbaa84b97e321cc88df6fa822fecb46",
+    "archived_sha256": "073ac729e7b4edff5d8857f000d2afa10e959795c30dd6f56edb686129457944",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/final/SwiftJLS/mac/catalyst-debug-test.log",
+    "archive": "Xcode/mac/catalyst-debug-test.log",
+    "source_sha256": "5b3a80fd2b37488e493437593316ff0d248a89deae71b0d9b352d41b392da7fa",
+    "archived_sha256": "5ac55f0471005019355405891d9241b9af94d68c9e352f90608c9ed270864df8",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/final/SwiftJLS/mac/macos-release-enumeration.json",
+    "archive": "Xcode/mac/macos-release-enumeration.json",
+    "source_sha256": "58fb31cc1d3dd7fe34d2c2fa14fce69deb19be4fdda95e6b35bd2c27d1df1a40",
+    "archived_sha256": "58fb31cc1d3dd7fe34d2c2fa14fce69deb19be4fdda95e6b35bd2c27d1df1a40",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/final/SwiftJLS/mac/catalyst-debug-summary.log",
+    "archive": "Xcode/mac/catalyst-debug-summary.log",
+    "source_sha256": "b884246861929e3a602968fd235d41fd10331cbd2225754648a0a96416aa6c4b",
+    "archived_sha256": "4aa66af94310caf2d6956bf39e37aae157cd7b5cf6081004a8aad884b63329e6",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/final/SwiftJLS/mac/working-changes.log",
+    "archive": "Xcode/mac/working-changes.log",
+    "source_sha256": "7c3ddeab020f4a6f0a131c8d0702c8b62f49989e40e64a68cec0c803ce4b45db",
+    "archived_sha256": "7c3ddeab020f4a6f0a131c8d0702c8b62f49989e40e64a68cec0c803ce4b45db",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/final/SwiftJLS/mac/revision.log",
+    "archive": "Xcode/mac/revision.log",
+    "source_sha256": "35c470576d74e109b16a8339f950cffe1c53135619a73fc50a13c6520a36ea4d",
+    "archived_sha256": "35c470576d74e109b16a8339f950cffe1c53135619a73fc50a13c6520a36ea4d",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/final/SwiftJLS/mac/sdks.log",
+    "archive": "Xcode/mac/sdks.log",
+    "source_sha256": "68b2cdfa4a24ff8ff2f6fbf2e01f0ad0ffe65ce46e5217fe39fb97e2b836902f",
+    "archived_sha256": "68b2cdfa4a24ff8ff2f6fbf2e01f0ad0ffe65ce46e5217fe39fb97e2b836902f",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/final/SwiftJLS/mac/xcode.log",
+    "archive": "Xcode/mac/xcode.log",
+    "source_sha256": "694b44731d0b415c5b11d844151e466d7f5e200a95627efda377f232f1a6ab77",
+    "archived_sha256": "694b44731d0b415c5b11d844151e466d7f5e200a95627efda377f232f1a6ab77",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/final/SwiftJLS/mac/catalyst-release-enumerate.log",
+    "archive": "LOCAL_ONLY/BUILD_LOGS.tar.gz::Xcode/mac/catalyst-release-enumerate.log",
+    "source_sha256": "294bbc26fa76eb1dcb8b6cb777bfd4d08fdc01beeb06a8ea6b55339ae8bb960a",
+    "archived_sha256": "d323f542ed4949adc90a9a7226e7832734fd0d575f6bcca0215ae558c49e6707",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted",
+    "publication": "Not uploaded; retained locally after automatic upload review rejected the archive due to possible sensitive internal metadata."
+  },
+  {
+    "source": "work/apple-platform-qualification/final/SwiftJLS/mac/macos-release-test.log",
+    "archive": "Xcode/mac/macos-release-test.log",
+    "source_sha256": "6c13d94f24c80618bbd82e6d9285ebd7fed34167043fe03b61a2f9f4368db311",
+    "archived_sha256": "43171ee3e8282cc9f4b2817cf6d8175c1bd423303bb8fbe98a1afde7996cc840",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/final/SwiftJLS/mac/host.log",
+    "archive": "Xcode/mac/host.log",
+    "source_sha256": "98ec1edfdd0153a7f67baccc3fc2481b06de7a75d245263efaab2412ee753e57",
+    "archived_sha256": "98ec1edfdd0153a7f67baccc3fc2481b06de7a75d245263efaab2412ee753e57",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/final/SwiftJLS/mac/macos-debug-enumeration.json",
+    "archive": "Xcode/mac/macos-debug-enumeration.json",
+    "source_sha256": "58fb31cc1d3dd7fe34d2c2fa14fce69deb19be4fdda95e6b35bd2c27d1df1a40",
+    "archived_sha256": "58fb31cc1d3dd7fe34d2c2fa14fce69deb19be4fdda95e6b35bd2c27d1df1a40",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/final/SwiftJLS/mobile/watchos-debug-summary.log",
+    "archive": "Xcode/mobile/watchos-debug-summary.log",
+    "source_sha256": "d8ce552cf727a0ea174771ef5cc1a2628d49b3c494a535ce93774d7e910ed5f7",
+    "archived_sha256": "d8ce552cf727a0ea174771ef5cc1a2628d49b3c494a535ce93774d7e910ed5f7",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/final/SwiftJLS/mobile/watchos-debug-enumerate.log",
+    "archive": "LOCAL_ONLY/BUILD_LOGS.tar.gz::Xcode/mobile/watchos-debug-enumerate.log",
+    "source_sha256": "dcb43c9c57b3abb5bef8b09776c21a4976000e5ab00f16a4f543b44b67c649ad",
+    "archived_sha256": "6a90cc5c5ca9b3a9b7cb5e90f93beee364fbb13b1d970bae78080d34d1a98cb9",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted",
+    "publication": "Not uploaded; retained locally after automatic upload review rejected the archive due to possible sensitive internal metadata."
+  },
+  {
+    "source": "work/apple-platform-qualification/final/SwiftJLS/mobile/ipados-release-summary.json",
+    "archive": "Xcode/mobile/ipados-release-summary.json",
+    "source_sha256": "b7920a46349358773dade1fc66ef377a7894daedea03b654bce932a2ff8b542a",
+    "archived_sha256": "b7920a46349358773dade1fc66ef377a7894daedea03b654bce932a2ff8b542a",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/final/SwiftJLS/mobile/report.json",
+    "archive": "Xcode/mobile/report.json",
+    "source_sha256": "7974721acb4a6bd1f4f23f2d20b3802e925fa42a0ae9ed996e87afdcb5220f72",
+    "archived_sha256": "52068284f1005cf7442ee096244a7ac5002d2215994425b0ea7874c5c1a876c5",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/final/SwiftJLS/mobile/ipados-debug-enumerate.log",
+    "archive": "LOCAL_ONLY/BUILD_LOGS.tar.gz::Xcode/mobile/ipados-debug-enumerate.log",
+    "source_sha256": "1356b77d66f2c127ff26012664bd89c5440b2550861cecb41cc58756e8226540",
+    "archived_sha256": "db463aa16840f440406690b65982ddcbffc44b2bff64ae8049196119cab6f03d",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted",
+    "publication": "Not uploaded; retained locally after automatic upload review rejected the archive due to possible sensitive internal metadata."
+  },
+  {
+    "source": "work/apple-platform-qualification/final/SwiftJLS/mobile/ipados-release-enumeration.json",
+    "archive": "Xcode/mobile/ipados-release-enumeration.json",
+    "source_sha256": "58fb31cc1d3dd7fe34d2c2fa14fce69deb19be4fdda95e6b35bd2c27d1df1a40",
+    "archived_sha256": "58fb31cc1d3dd7fe34d2c2fa14fce69deb19be4fdda95e6b35bd2c27d1df1a40",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/final/SwiftJLS/mobile/ios-release-test.log",
+    "archive": "Xcode/mobile/ios-release-test.log",
+    "source_sha256": "5a2d497dfef20c02225475e2dc449609ff5666befd99d9a7d77e3fe4f151b95e",
+    "archived_sha256": "4dd355d7897e32a688755a1a9cddfe4083c59d852e5393554b554a83e47adede",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/final/SwiftJLS/mobile/watchos-debug-summary.json",
+    "archive": "Xcode/mobile/watchos-debug-summary.json",
+    "source_sha256": "eb5a8dde32ab5be4ce064145e7cda7e468cfb414c6a279045f9582272bf025c1",
+    "archived_sha256": "eb5a8dde32ab5be4ce064145e7cda7e468cfb414c6a279045f9582272bf025c1",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/final/SwiftJLS/mobile/watchos-release-summary.json",
+    "archive": "Xcode/mobile/watchos-release-summary.json",
+    "source_sha256": "47fbd09ef044ece7620796bfe1f743bccbd8247dba014916cf5619695734e62f",
+    "archived_sha256": "47fbd09ef044ece7620796bfe1f743bccbd8247dba014916cf5619695734e62f",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/final/SwiftJLS/mobile/ios-release-summary.log",
+    "archive": "Xcode/mobile/ios-release-summary.log",
+    "source_sha256": "64c1b1dc789299eca7ecb4b8bf0e0dbf16fc17b912606de82aa68da27ee6f0a8",
+    "archived_sha256": "64c1b1dc789299eca7ecb4b8bf0e0dbf16fc17b912606de82aa68da27ee6f0a8",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/final/SwiftJLS/mobile/ipados-release-test.log",
+    "archive": "Xcode/mobile/ipados-release-test.log",
+    "source_sha256": "0b063e2f6d75bcbcfbc424a3c44825b0150e2f2a3b9b8579f990b996fe3b7184",
+    "archived_sha256": "2dbc02b333a0a821c46abc1a4024de4e90a55267d74187f4ffecfc7f6df362c8",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/final/SwiftJLS/mobile/swift.log",
+    "archive": "Xcode/mobile/swift.log",
+    "source_sha256": "30bb0d72a580e8e936ab32e24cab2876f82fa6b06d66fef876fe21a47e828acc",
+    "archived_sha256": "30bb0d72a580e8e936ab32e24cab2876f82fa6b06d66fef876fe21a47e828acc",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/final/SwiftJLS/mobile/watchos-release-enumeration.json",
+    "archive": "Xcode/mobile/watchos-release-enumeration.json",
+    "source_sha256": "58fb31cc1d3dd7fe34d2c2fa14fce69deb19be4fdda95e6b35bd2c27d1df1a40",
+    "archived_sha256": "58fb31cc1d3dd7fe34d2c2fa14fce69deb19be4fdda95e6b35bd2c27d1df1a40",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/final/SwiftJLS/mobile/ipados-debug-enumeration.json",
+    "archive": "Xcode/mobile/ipados-debug-enumeration.json",
+    "source_sha256": "58fb31cc1d3dd7fe34d2c2fa14fce69deb19be4fdda95e6b35bd2c27d1df1a40",
+    "archived_sha256": "58fb31cc1d3dd7fe34d2c2fa14fce69deb19be4fdda95e6b35bd2c27d1df1a40",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/final/SwiftJLS/mobile/ipados-debug-test.log",
+    "archive": "Xcode/mobile/ipados-debug-test.log",
+    "source_sha256": "3e9f044c67a948f7c395810964a20e7fc5990b1422f3b00fa5b31d7819a9ecd7",
+    "archived_sha256": "06d68dc7c7b46c14099e6f1a87e2c5a231912652792e6f2185b05a96799d1abc",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/final/SwiftJLS/mobile/ios-debug-enumerate.log",
+    "archive": "LOCAL_ONLY/BUILD_LOGS.tar.gz::Xcode/mobile/ios-debug-enumerate.log",
+    "source_sha256": "20f898b97da65fde485fe3248af12b249389728286b580e453025abb8e5bdc5d",
+    "archived_sha256": "2fdfa86c457114ef7a4e0c74f31c04d027b497ea4ebe76dd9f35fde2bfc2ba62",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted",
+    "publication": "Not uploaded; retained locally after automatic upload review rejected the archive due to possible sensitive internal metadata."
+  },
+  {
+    "source": "work/apple-platform-qualification/final/SwiftJLS/mobile/watchos-debug-test.log",
+    "archive": "Xcode/mobile/watchos-debug-test.log",
+    "source_sha256": "610d85011984a5b4f7e9926c54c3f3c46cebfd801a9ef6a33c31415f2a3c11d0",
+    "archived_sha256": "b09c49130597a5e9eb147c49af2a5365f257f8f2764591187cca6d1ac26c1896",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/final/SwiftJLS/mobile/ios-debug-test.log",
+    "archive": "Xcode/mobile/ios-debug-test.log",
+    "source_sha256": "318969c4dbbdeac12feac69b282a0ab7e939b6338a3e467854893aa4b0a04b06",
+    "archived_sha256": "588a1dfa661399d4a94ceb7eb76fda699f8a52c4484996c2bbdccd9b857622f3",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/final/SwiftJLS/mobile/ios-debug-enumeration.json",
+    "archive": "Xcode/mobile/ios-debug-enumeration.json",
+    "source_sha256": "58fb31cc1d3dd7fe34d2c2fa14fce69deb19be4fdda95e6b35bd2c27d1df1a40",
+    "archived_sha256": "58fb31cc1d3dd7fe34d2c2fa14fce69deb19be4fdda95e6b35bd2c27d1df1a40",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/final/SwiftJLS/mobile/ipados-release-summary.log",
+    "archive": "Xcode/mobile/ipados-release-summary.log",
+    "source_sha256": "0ce7784f235cfe41402c8cce1b3fb90e68168e4d42be2ba4a9dbdb1f1593293e",
+    "archived_sha256": "0ce7784f235cfe41402c8cce1b3fb90e68168e4d42be2ba4a9dbdb1f1593293e",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/final/SwiftJLS/mobile/watchos-debug-enumeration.json",
+    "archive": "Xcode/mobile/watchos-debug-enumeration.json",
+    "source_sha256": "58fb31cc1d3dd7fe34d2c2fa14fce69deb19be4fdda95e6b35bd2c27d1df1a40",
+    "archived_sha256": "58fb31cc1d3dd7fe34d2c2fa14fce69deb19be4fdda95e6b35bd2c27d1df1a40",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/final/SwiftJLS/mobile/ios-release-summary.json",
+    "archive": "Xcode/mobile/ios-release-summary.json",
+    "source_sha256": "e138d07e52654821f6b05e2ed81029dac8fe1b88331c1f0da57a2f47b213b981",
+    "archived_sha256": "e138d07e52654821f6b05e2ed81029dac8fe1b88331c1f0da57a2f47b213b981",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/final/SwiftJLS/mobile/ipados-debug-summary.json",
+    "archive": "Xcode/mobile/ipados-debug-summary.json",
+    "source_sha256": "a75f8e37c36176a146af780d25d913e9e5d9f90817fd1689184d7d954b8b1e59",
+    "archived_sha256": "a75f8e37c36176a146af780d25d913e9e5d9f90817fd1689184d7d954b8b1e59",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/final/SwiftJLS/mobile/working-changes.log",
+    "archive": "Xcode/mobile/working-changes.log",
+    "source_sha256": "7c3ddeab020f4a6f0a131c8d0702c8b62f49989e40e64a68cec0c803ce4b45db",
+    "archived_sha256": "7c3ddeab020f4a6f0a131c8d0702c8b62f49989e40e64a68cec0c803ce4b45db",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/final/SwiftJLS/mobile/watchos-release-summary.log",
+    "archive": "Xcode/mobile/watchos-release-summary.log",
+    "source_sha256": "0a66d5a7dc1ee3ed80aeffd5bb53ecb060ff338b0dc58921a3cad9c8e73c9c3f",
+    "archived_sha256": "0a66d5a7dc1ee3ed80aeffd5bb53ecb060ff338b0dc58921a3cad9c8e73c9c3f",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/final/SwiftJLS/mobile/ios-release-enumerate.log",
+    "archive": "LOCAL_ONLY/BUILD_LOGS.tar.gz::Xcode/mobile/ios-release-enumerate.log",
+    "source_sha256": "99577c2face43fa376d0abf38172c201035eaff4d7044ecdcbe8a211f9e6d9c3",
+    "archived_sha256": "b155741bd7093da6c2db20df83a6a64c8c73c82bcf4eb2945f06bf6f346dac3b",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted",
+    "publication": "Not uploaded; retained locally after automatic upload review rejected the archive due to possible sensitive internal metadata."
+  },
+  {
+    "source": "work/apple-platform-qualification/final/SwiftJLS/mobile/revision.log",
+    "archive": "Xcode/mobile/revision.log",
+    "source_sha256": "35c470576d74e109b16a8339f950cffe1c53135619a73fc50a13c6520a36ea4d",
+    "archived_sha256": "35c470576d74e109b16a8339f950cffe1c53135619a73fc50a13c6520a36ea4d",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/final/SwiftJLS/mobile/watchos-release-test.log",
+    "archive": "Xcode/mobile/watchos-release-test.log",
+    "source_sha256": "3d27556aec030c5defb2503a581551126a7dbb9ce1403c07c2eb167b3fc64fcf",
+    "archived_sha256": "3531d73ad4f42cb5e434f9762b344ea08e883fc220c5346021aa178923ff7d3c",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/final/SwiftJLS/mobile/ios-debug-summary.log",
+    "archive": "Xcode/mobile/ios-debug-summary.log",
+    "source_sha256": "9acc0c8bc731f0dcc56ff5f52d294684320bda948f0f5063c3f097168c2e2149",
+    "archived_sha256": "9acc0c8bc731f0dcc56ff5f52d294684320bda948f0f5063c3f097168c2e2149",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/final/SwiftJLS/mobile/sdks.log",
+    "archive": "Xcode/mobile/sdks.log",
+    "source_sha256": "68b2cdfa4a24ff8ff2f6fbf2e01f0ad0ffe65ce46e5217fe39fb97e2b836902f",
+    "archived_sha256": "68b2cdfa4a24ff8ff2f6fbf2e01f0ad0ffe65ce46e5217fe39fb97e2b836902f",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/final/SwiftJLS/mobile/xcode.log",
+    "archive": "Xcode/mobile/xcode.log",
+    "source_sha256": "694b44731d0b415c5b11d844151e466d7f5e200a95627efda377f232f1a6ab77",
+    "archived_sha256": "694b44731d0b415c5b11d844151e466d7f5e200a95627efda377f232f1a6ab77",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/final/SwiftJLS/mobile/ios-release-enumeration.json",
+    "archive": "Xcode/mobile/ios-release-enumeration.json",
+    "source_sha256": "58fb31cc1d3dd7fe34d2c2fa14fce69deb19be4fdda95e6b35bd2c27d1df1a40",
+    "archived_sha256": "58fb31cc1d3dd7fe34d2c2fa14fce69deb19be4fdda95e6b35bd2c27d1df1a40",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/final/SwiftJLS/mobile/host.log",
+    "archive": "Xcode/mobile/host.log",
+    "source_sha256": "98ec1edfdd0153a7f67baccc3fc2481b06de7a75d245263efaab2412ee753e57",
+    "archived_sha256": "98ec1edfdd0153a7f67baccc3fc2481b06de7a75d245263efaab2412ee753e57",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/final/SwiftJLS/mobile/watchos-release-enumerate.log",
+    "archive": "LOCAL_ONLY/BUILD_LOGS.tar.gz::Xcode/mobile/watchos-release-enumerate.log",
+    "source_sha256": "993614dda991d5c226f39eddbcf2f52d623cf4aeb66b066ea07d950bcb6b5143",
+    "archived_sha256": "25234ecb047543ad2a55fbf8315ff90e832754a7fcacce99fef1ee1e93f0766f",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted",
+    "publication": "Not uploaded; retained locally after automatic upload review rejected the archive due to possible sensitive internal metadata."
+  },
+  {
+    "source": "work/apple-platform-qualification/final/SwiftJLS/mobile/ipados-debug-summary.log",
+    "archive": "Xcode/mobile/ipados-debug-summary.log",
+    "source_sha256": "b25c477f23f6450d0243dc9c2a53866126f119131e156de5a475d50e4e4b1f37",
+    "archived_sha256": "b25c477f23f6450d0243dc9c2a53866126f119131e156de5a475d50e4e4b1f37",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/final/SwiftJLS/mobile/ipados-release-enumerate.log",
+    "archive": "LOCAL_ONLY/BUILD_LOGS.tar.gz::Xcode/mobile/ipados-release-enumerate.log",
+    "source_sha256": "7a5c0d10fcdee6d557670848a86973164ff627d0bdb4c2a32bb93376c0423a5d",
+    "archived_sha256": "020dc9be484493f3913557a373f9c51f49215abd880f06f8e9eeb69195a5d946",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted",
+    "publication": "Not uploaded; retained locally after automatic upload review rejected the archive due to possible sensitive internal metadata."
+  },
+  {
+    "source": "work/apple-platform-qualification/final/SwiftJLS/mobile/ios-debug-summary.json",
+    "archive": "Xcode/mobile/ios-debug-summary.json",
+    "source_sha256": "37e781357f24320136508dbb005108b8ca453f37ff9f980af5c773e993a172f3",
+    "archived_sha256": "37e781357f24320136508dbb005108b8ca453f37ff9f980af5c773e993a172f3",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/final/SwiftJLS/spatial-tv/tvos-debug-summary.json",
+    "archive": "Xcode/spatial-tv/tvos-debug-summary.json",
+    "source_sha256": "003ada820f2be9446d9f86792c9e1892e1d2079f47f37ccc4d3f3947baae85be",
+    "archived_sha256": "003ada820f2be9446d9f86792c9e1892e1d2079f47f37ccc4d3f3947baae85be",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/final/SwiftJLS/spatial-tv/tvos-release-summary.json",
+    "archive": "Xcode/spatial-tv/tvos-release-summary.json",
+    "source_sha256": "94ce9dddc00afa96871f8b2923bd62a9803ebed0e11bc0f2d676810843c39ea1",
+    "archived_sha256": "94ce9dddc00afa96871f8b2923bd62a9803ebed0e11bc0f2d676810843c39ea1",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/final/SwiftJLS/spatial-tv/tvos-release-summary.log",
+    "archive": "Xcode/spatial-tv/tvos-release-summary.log",
+    "source_sha256": "d7bf7942980d91c4b27ae13f22a9e1b133834130eee856c16f267b72817340b5",
+    "archived_sha256": "d7bf7942980d91c4b27ae13f22a9e1b133834130eee856c16f267b72817340b5",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/final/SwiftJLS/spatial-tv/report.json",
+    "archive": "Xcode/spatial-tv/report.json",
+    "source_sha256": "a2906c382e64a9613652a85713314993f271908c2ed943c762744dc9cad64a95",
+    "archived_sha256": "a45c26916271825a03ea9222858e31f65c60693f8cc1cf1eeea3a246334f5c01",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/final/SwiftJLS/spatial-tv/tvos-release-enumeration.json",
+    "archive": "Xcode/spatial-tv/tvos-release-enumeration.json",
+    "source_sha256": "58fb31cc1d3dd7fe34d2c2fa14fce69deb19be4fdda95e6b35bd2c27d1df1a40",
+    "archived_sha256": "58fb31cc1d3dd7fe34d2c2fa14fce69deb19be4fdda95e6b35bd2c27d1df1a40",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/final/SwiftJLS/spatial-tv/visionos-debug-summary.log",
+    "archive": "Xcode/spatial-tv/visionos-debug-summary.log",
+    "source_sha256": "947062754b4da1c6c925eca8251965bed0d462a31ee59a1f031eb28dad784cc8",
+    "archived_sha256": "947062754b4da1c6c925eca8251965bed0d462a31ee59a1f031eb28dad784cc8",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/final/SwiftJLS/spatial-tv/visionos-debug-enumerate.log",
+    "archive": "LOCAL_ONLY/BUILD_LOGS.tar.gz::Xcode/spatial-tv/visionos-debug-enumerate.log",
+    "source_sha256": "b50448e69479a6e33c43f37c6fdf6166715028b6cc38a4af6e9ee818d9bacc30",
+    "archived_sha256": "a8e85b7c44a3a967b24e2083127648d60a0ae4cb2b9429bbfe7670b3df08dc22",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted",
+    "publication": "Not uploaded; retained locally after automatic upload review rejected the archive due to possible sensitive internal metadata."
+  },
+  {
+    "source": "work/apple-platform-qualification/final/SwiftJLS/spatial-tv/swift.log",
+    "archive": "Xcode/spatial-tv/swift.log",
+    "source_sha256": "30bb0d72a580e8e936ab32e24cab2876f82fa6b06d66fef876fe21a47e828acc",
+    "archived_sha256": "30bb0d72a580e8e936ab32e24cab2876f82fa6b06d66fef876fe21a47e828acc",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/final/SwiftJLS/spatial-tv/visionos-debug-summary.json",
+    "archive": "Xcode/spatial-tv/visionos-debug-summary.json",
+    "source_sha256": "131a716ba3a6c865302b544e1e993d862b46a8717c984f903154772a3f675066",
+    "archived_sha256": "131a716ba3a6c865302b544e1e993d862b46a8717c984f903154772a3f675066",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/final/SwiftJLS/spatial-tv/visionos-release-enumerate.log",
+    "archive": "LOCAL_ONLY/BUILD_LOGS.tar.gz::Xcode/spatial-tv/visionos-release-enumerate.log",
+    "source_sha256": "9adc9d36683d5add8fb955e36247c4e2d407a8b49461e824422a0670d6d552f7",
+    "archived_sha256": "a796b352e9e26638c7956e41813ab4ab72ff018b15f804edd42e3604e83be63f",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted",
+    "publication": "Not uploaded; retained locally after automatic upload review rejected the archive due to possible sensitive internal metadata."
+  },
+  {
+    "source": "work/apple-platform-qualification/final/SwiftJLS/spatial-tv/visionos-debug-enumeration.json",
+    "archive": "Xcode/spatial-tv/visionos-debug-enumeration.json",
+    "source_sha256": "58fb31cc1d3dd7fe34d2c2fa14fce69deb19be4fdda95e6b35bd2c27d1df1a40",
+    "archived_sha256": "58fb31cc1d3dd7fe34d2c2fa14fce69deb19be4fdda95e6b35bd2c27d1df1a40",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/final/SwiftJLS/spatial-tv/visionos-release-test.log",
+    "archive": "Xcode/spatial-tv/visionos-release-test.log",
+    "source_sha256": "b8f951587597ae71b3f0769ad3d7e6f32b6bf3c1f01def33d0478471e0e6b8d3",
+    "archived_sha256": "e24f387e5a8c5f34fdeefd770ac79d7c2118b8848fc05934e8dab9ec424f35ff",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/final/SwiftJLS/spatial-tv/visionos-release-summary.log",
+    "archive": "Xcode/spatial-tv/visionos-release-summary.log",
+    "source_sha256": "30acafaa397ffbd255b51687307bf3eafd4420d54a2297932dc7a333bc59eb42",
+    "archived_sha256": "30acafaa397ffbd255b51687307bf3eafd4420d54a2297932dc7a333bc59eb42",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/final/SwiftJLS/spatial-tv/tvos-release-enumerate.log",
+    "archive": "LOCAL_ONLY/BUILD_LOGS.tar.gz::Xcode/spatial-tv/tvos-release-enumerate.log",
+    "source_sha256": "0a40b115d65fd57e95f89d41f4a1e219233be2bef8e8ae55576cd8ba5f400b82",
+    "archived_sha256": "94e6de5c5240850f13dd363dd46f498e54b1402d8258c772afb44a1684b518ad",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted",
+    "publication": "Not uploaded; retained locally after automatic upload review rejected the archive due to possible sensitive internal metadata."
+  },
+  {
+    "source": "work/apple-platform-qualification/final/SwiftJLS/spatial-tv/working-changes.log",
+    "archive": "Xcode/spatial-tv/working-changes.log",
+    "source_sha256": "7c3ddeab020f4a6f0a131c8d0702c8b62f49989e40e64a68cec0c803ce4b45db",
+    "archived_sha256": "7c3ddeab020f4a6f0a131c8d0702c8b62f49989e40e64a68cec0c803ce4b45db",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/final/SwiftJLS/spatial-tv/visionos-debug-test.log",
+    "archive": "Xcode/spatial-tv/visionos-debug-test.log",
+    "source_sha256": "81f3fabef0f01410083bb42dd3bd27eaf8641b8078f0e196f79b88569e458d93",
+    "archived_sha256": "b968eaadb7d371d09b36b8f87459f5dc892ccc994f08b24f84a9ed7a3570f8b5",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/final/SwiftJLS/spatial-tv/tvos-debug-enumerate.log",
+    "archive": "LOCAL_ONLY/BUILD_LOGS.tar.gz::Xcode/spatial-tv/tvos-debug-enumerate.log",
+    "source_sha256": "3bfc00a6131293c8f1d53935430531187539bd83e6affd1118e846b372f18b5d",
+    "archived_sha256": "f6a55bf0a2eefbb702ddfec6e490348795e4cd5157f779e496a676329c9dfc5a",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted",
+    "publication": "Not uploaded; retained locally after automatic upload review rejected the archive due to possible sensitive internal metadata."
+  },
+  {
+    "source": "work/apple-platform-qualification/final/SwiftJLS/spatial-tv/tvos-release-test.log",
+    "archive": "Xcode/spatial-tv/tvos-release-test.log",
+    "source_sha256": "3499a940e4a2dc2b807af3237769daee60c1661fd3333748d24a114cadbf3132",
+    "archived_sha256": "b52dc110d09f193caf0f1cf785c4a0f778d59a55128fcfa5520a94ed71e3603d",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/final/SwiftJLS/spatial-tv/revision.log",
+    "archive": "Xcode/spatial-tv/revision.log",
+    "source_sha256": "35c470576d74e109b16a8339f950cffe1c53135619a73fc50a13c6520a36ea4d",
+    "archived_sha256": "35c470576d74e109b16a8339f950cffe1c53135619a73fc50a13c6520a36ea4d",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/final/SwiftJLS/spatial-tv/visionos-release-summary.json",
+    "archive": "Xcode/spatial-tv/visionos-release-summary.json",
+    "source_sha256": "5985713911c7e70786a8f37b1815a69a119762b959452633d3a19ff74f68446f",
+    "archived_sha256": "5985713911c7e70786a8f37b1815a69a119762b959452633d3a19ff74f68446f",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/final/SwiftJLS/spatial-tv/sdks.log",
+    "archive": "Xcode/spatial-tv/sdks.log",
+    "source_sha256": "68b2cdfa4a24ff8ff2f6fbf2e01f0ad0ffe65ce46e5217fe39fb97e2b836902f",
+    "archived_sha256": "68b2cdfa4a24ff8ff2f6fbf2e01f0ad0ffe65ce46e5217fe39fb97e2b836902f",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/final/SwiftJLS/spatial-tv/tvos-debug-test.log",
+    "archive": "Xcode/spatial-tv/tvos-debug-test.log",
+    "source_sha256": "0db8da64655be56f29a05c2a596cd06898d38fa3c5b4b5f9d2fb00640bcd12e1",
+    "archived_sha256": "55e4a98076718df4f67c1f01de31f0bd6e11af349886d9b2ba0caa96590b9ef6",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/final/SwiftJLS/spatial-tv/xcode.log",
+    "archive": "Xcode/spatial-tv/xcode.log",
+    "source_sha256": "694b44731d0b415c5b11d844151e466d7f5e200a95627efda377f232f1a6ab77",
+    "archived_sha256": "694b44731d0b415c5b11d844151e466d7f5e200a95627efda377f232f1a6ab77",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/final/SwiftJLS/spatial-tv/visionos-release-enumeration.json",
+    "archive": "Xcode/spatial-tv/visionos-release-enumeration.json",
+    "source_sha256": "58fb31cc1d3dd7fe34d2c2fa14fce69deb19be4fdda95e6b35bd2c27d1df1a40",
+    "archived_sha256": "58fb31cc1d3dd7fe34d2c2fa14fce69deb19be4fdda95e6b35bd2c27d1df1a40",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/final/SwiftJLS/spatial-tv/host.log",
+    "archive": "Xcode/spatial-tv/host.log",
+    "source_sha256": "98ec1edfdd0153a7f67baccc3fc2481b06de7a75d245263efaab2412ee753e57",
+    "archived_sha256": "98ec1edfdd0153a7f67baccc3fc2481b06de7a75d245263efaab2412ee753e57",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/final/SwiftJLS/spatial-tv/tvos-debug-summary.log",
+    "archive": "Xcode/spatial-tv/tvos-debug-summary.log",
+    "source_sha256": "6d1555adec042bc183a4f3be8b6cb5a1456ca6f6595351e80c38bd841d010dea",
+    "archived_sha256": "6d1555adec042bc183a4f3be8b6cb5a1456ca6f6595351e80c38bd841d010dea",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/final/SwiftJLS/spatial-tv/tvos-debug-enumeration.json",
+    "archive": "Xcode/spatial-tv/tvos-debug-enumeration.json",
+    "source_sha256": "58fb31cc1d3dd7fe34d2c2fa14fce69deb19be4fdda95e6b35bd2c27d1df1a40",
+    "archived_sha256": "58fb31cc1d3dd7fe34d2c2fa14fce69deb19be4fdda95e6b35bd2c27d1df1a40",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/safety/SwiftJLS/swift-test-help.log",
+    "archive": "Safety/swift-test-help.log",
+    "source_sha256": "070f260663244222b162841bd3ea3244f88ba6d8af15dfbcc3e2cd4d7a2fd28c",
+    "archived_sha256": "070f260663244222b162841bd3ea3244f88ba6d8af15dfbcc3e2cd4d7a2fd28c",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/safety/SwiftJLS/asan-discovery.log",
+    "archive": "Safety/asan-discovery.log",
+    "source_sha256": "f0d5f54d50454aa4f00e4299e90fc4aa36b19639c1c32c51eecbac238f844c92",
+    "archived_sha256": "f0d5f54d50454aa4f00e4299e90fc4aa36b19639c1c32c51eecbac238f844c92",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/safety/SwiftJLS/report.json",
+    "archive": "Safety/report.json",
+    "source_sha256": "ffe4838a7f7fb44f2b1fd0b4df82ec3d29b6fb2afc048f12f7cda5124cc4879d",
+    "archived_sha256": "5757f1e7b8307e2ef913fb1cd7da9435590a14e540845caa30a1491cea5e5afa",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/safety/SwiftJLS/tsan-tests.log",
+    "archive": "Safety/tsan-tests.log",
+    "source_sha256": "1cb65bcb9b05de7984adfea05513b8b86d8f8474de359b1a4139fe9ae13790b0",
+    "archived_sha256": "1cb65bcb9b05de7984adfea05513b8b86d8f8474de359b1a4139fe9ae13790b0",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/safety/SwiftJLS/working-tree.log",
+    "archive": "Safety/working-tree.log",
+    "source_sha256": "7c3ddeab020f4a6f0a131c8d0702c8b62f49989e40e64a68cec0c803ce4b45db",
+    "archived_sha256": "7c3ddeab020f4a6f0a131c8d0702c8b62f49989e40e64a68cec0c803ce4b45db",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/safety/SwiftJLS/swift-package-help.log",
+    "archive": "Safety/swift-package-help.log",
+    "source_sha256": "4ac3d86cfb6970638845d6ed1721f19ac8475ccadfc19966c45c71a8341bc8c4",
+    "archived_sha256": "4ac3d86cfb6970638845d6ed1721f19ac8475ccadfc19966c45c71a8341bc8c4",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/safety/SwiftJLS/swift-version.log",
+    "archive": "Safety/swift-version.log",
+    "source_sha256": "30bb0d72a580e8e936ab32e24cab2876f82fa6b06d66fef876fe21a47e828acc",
+    "archived_sha256": "30bb0d72a580e8e936ab32e24cab2876f82fa6b06d66fef876fe21a47e828acc",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/safety/SwiftJLS/asan-tests.log",
+    "archive": "Safety/asan-tests.log",
+    "source_sha256": "3d5d711cd45563bcc2ae61b1c897552af799d2d0c4f6b14096b89693f4b7a10e",
+    "archived_sha256": "3d5d711cd45563bcc2ae61b1c897552af799d2d0c4f6b14096b89693f4b7a10e",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/safety/SwiftJLS/tsan-discovery.log",
+    "archive": "Safety/tsan-discovery.log",
+    "source_sha256": "04a8499cb24a0f9fcef4917429d38fa2a8edd628059ca57a25e0a2aa42306c83",
+    "archived_sha256": "04a8499cb24a0f9fcef4917429d38fa2a8edd628059ca57a25e0a2aa42306c83",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/safety/SwiftJLS/swift-sbom-help.log",
+    "archive": "Safety/swift-sbom-help.log",
+    "source_sha256": "ef69aacf72783b2c174cdb199e4cab6082026a559e31c9188351871a2b26d69a",
+    "archived_sha256": "ef69aacf72783b2c174cdb199e4cab6082026a559e31c9188351871a2b26d69a",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/safety/SwiftJLS/asan-tests.xml",
+    "archive": "Safety/asan-tests.xml",
+    "source_sha256": "bc2b5cd184a54808f9b5174b56e50f1eed4e8deb05c17464b29b00b45ea685b6",
+    "archived_sha256": "bc2b5cd184a54808f9b5174b56e50f1eed4e8deb05c17464b29b00b45ea685b6",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/safety/SwiftJLS/swift-build-help.log",
+    "archive": "Safety/swift-build-help.log",
+    "source_sha256": "1c619415d15ad0be11d69430d958f154a461149938ec6b87037c17f113f7bf3e",
+    "archived_sha256": "1c619415d15ad0be11d69430d958f154a461149938ec6b87037c17f113f7bf3e",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/safety/SwiftJLS/source-commit.log",
+    "archive": "Safety/source-commit.log",
+    "source_sha256": "35c470576d74e109b16a8339f950cffe1c53135619a73fc50a13c6520a36ea4d",
+    "archived_sha256": "35c470576d74e109b16a8339f950cffe1c53135619a73fc50a13c6520a36ea4d",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/safety/SwiftJLS/target-info.log",
+    "archive": "Safety/target-info.log",
+    "source_sha256": "723862251a92f4e39ea84812234755f0110ca5151f9c21516853daab508e26bd",
+    "archived_sha256": "723862251a92f4e39ea84812234755f0110ca5151f9c21516853daab508e26bd",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/safety/SwiftJLS/fresh-local-consumer.log",
+    "archive": "Safety/fresh-local-consumer.log",
+    "source_sha256": "940e0c44c528148f4d56f9e7d55c6ff045b7cb0a5aaca91ccd1872aca8f0151e",
+    "archived_sha256": "940e0c44c528148f4d56f9e7d55c6ff045b7cb0a5aaca91ccd1872aca8f0151e",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/safety/SwiftJLS/xcode-version.log",
+    "archive": "Safety/xcode-version.log",
+    "source_sha256": "694b44731d0b415c5b11d844151e466d7f5e200a95627efda377f232f1a6ab77",
+    "archived_sha256": "694b44731d0b415c5b11d844151e466d7f5e200a95627efda377f232f1a6ab77",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/safety/SwiftJLS/tsan-tests.xml",
+    "archive": "Safety/tsan-tests.xml",
+    "source_sha256": "8e39103f57cf59173274abe9828fdb523eef89688f1d06935d024192d807b2b3",
+    "archived_sha256": "8e39103f57cf59173274abe9828fdb523eef89688f1d06935d024192d807b2b3",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/cli/SwiftJLS/report.json",
+    "archive": "CLI/report.json",
+    "source_sha256": "cd10a61258cbf5331ff153dc53f5877f20f13fdac83f30dea039c8d8a2b0b505",
+    "archived_sha256": "2a2152d78b52b1b419f62ff3504a5e4ecc6c7fbf1be303d3260b8e1fcd0ee891",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/cli/SwiftJLS/manual-plain.txt",
+    "archive": "CLI/manual-plain.txt",
+    "source_sha256": "fc8bd4008f4d61a557ffe4e3aef56ecaa7211a41194074d9e61791fbbe46cd37",
+    "archived_sha256": "fc8bd4008f4d61a557ffe4e3aef56ecaa7211a41194074d9e61791fbbe46cd37",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/cli/SwiftJLS/manual-rendered.txt",
+    "archive": "CLI/manual-rendered.txt",
+    "source_sha256": "f8c727a9f580b4b014420dada73e14633e7708adaee16329fa3c1895f8d970c8",
+    "archived_sha256": "f8c727a9f580b4b014420dada73e14633e7708adaee16329fa3c1895f8d970c8",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/cli/SwiftJLS/manual.1",
+    "archive": "CLI/manual.1",
+    "source_sha256": "8fb173447f5ff7921a674485453c90e33919af075a53cee5b912203f30efcf2e",
+    "archived_sha256": "8fb173447f5ff7921a674485453c90e33919af075a53cee5b912203f30efcf2e",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/SwiftJLS-runner-tests.log",
+    "archive": "Runner/tests.log",
+    "source_sha256": "6273232de4d3ef7acd4ecafa5c86beeeb974f56586b21089a2990b3f72facbe6",
+    "archived_sha256": "6273232de4d3ef7acd4ecafa5c86beeeb974f56586b21089a2990b3f72facbe6",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/SwiftJLS-sdk.json",
+    "archive": "SDK/results.json",
+    "source_sha256": "2f05e03cefa62f080fc74c527f735b02ee3ca717dbd2476c9979aa5e2fb5bf71",
+    "archived_sha256": "947b8cfdf6d7a1783c70ef7202a669619b8172ce309243c7a22799b326c91898",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/sdk/SwiftJLS/arm64-apple-tvos27.0/compile.log",
+    "archive": "SDK/arm64-apple-tvos27.0.log",
+    "source_sha256": "cea3df6ba3053cca3cdf2a470b299b7dee42340afefadbeceb9ebb673b97e131",
+    "archived_sha256": "cea3df6ba3053cca3cdf2a470b299b7dee42340afefadbeceb9ebb673b97e131",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/sdk/SwiftJLS/arm64-apple-tvos27.0-simulator/compile.log",
+    "archive": "SDK/arm64-apple-tvos27.0-simulator.log",
+    "source_sha256": "44798434b11981cc3d3b50f3eef9762067e31d7a7a8090d511fe85dae880ee35",
+    "archived_sha256": "44798434b11981cc3d3b50f3eef9762067e31d7a7a8090d511fe85dae880ee35",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/sdk/SwiftJLS/arm64-apple-ios27.0/compile.log",
+    "archive": "SDK/arm64-apple-ios27.0.log",
+    "source_sha256": "fc8ec44ecd5f7d17a37715210a689cfba33e0108ff891e4728e62378c067e8d3",
+    "archived_sha256": "fc8ec44ecd5f7d17a37715210a689cfba33e0108ff891e4728e62378c067e8d3",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/sdk/SwiftJLS/arm64-apple-ios27.0-simulator/compile.log",
+    "archive": "SDK/arm64-apple-ios27.0-simulator.log",
+    "source_sha256": "4fc9342879fe43388a2bdf7d018c630d52057fad02448e3304ce6e80f9f644d6",
+    "archived_sha256": "4fc9342879fe43388a2bdf7d018c630d52057fad02448e3304ce6e80f9f644d6",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/sdk/SwiftJLS/arm64-apple-macosx27.0/compile.log",
+    "archive": "SDK/arm64-apple-macosx27.0.log",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "archived_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/sdk/SwiftJLS/x86_64-apple-macosx27.0/compile.log",
+    "archive": "SDK/x86_64-apple-macosx27.0.log",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "archived_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/sdk/SwiftJLS/arm64_32-apple-watchos27.0/compile.log",
+    "archive": "SDK/arm64_32-apple-watchos27.0.log",
+    "source_sha256": "781365937894db0dd4681b6ab4feca497c3128178a76d99ee1f7c2103507d8c4",
+    "archived_sha256": "781365937894db0dd4681b6ab4feca497c3128178a76d99ee1f7c2103507d8c4",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/sdk/SwiftJLS/arm64-apple-watchos27.0-simulator/compile.log",
+    "archive": "SDK/arm64-apple-watchos27.0-simulator.log",
+    "source_sha256": "7ecf34de7a3866cd7c862d94b789ca17d64778cad6db0e03b5d02cf2ab8ae910",
+    "archived_sha256": "7ecf34de7a3866cd7c862d94b789ca17d64778cad6db0e03b5d02cf2ab8ae910",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/sdk/SwiftJLS/arm64-apple-xros27.0/compile.log",
+    "archive": "SDK/arm64-apple-xros27.0.log",
+    "source_sha256": "006b5776bb522b55a261dfa3a7b3300a8c9586ad368738dd3edb0d3ef66f10fb",
+    "archived_sha256": "006b5776bb522b55a261dfa3a7b3300a8c9586ad368738dd3edb0d3ef66f10fb",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/sdk/SwiftJLS/arm64-apple-xros27.0-simulator/compile.log",
+    "archive": "SDK/arm64-apple-xros27.0-simulator.log",
+    "source_sha256": "634d1e8f0e2c52a4f0c679128c200f0f0ca2f97e7580905e4a2a98a800d713a6",
+    "archived_sha256": "634d1e8f0e2c52a4f0c679128c200f0f0ca2f97e7580905e4a2a98a800d713a6",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/remote-consumers/RemoteConsumer-SwiftJLS/report.json",
+    "archive": "RemoteConsumer/report.json",
+    "source_sha256": "d0d0c6f6caa0b20d460a47b9d8850a51c41ed94ac23271a539e9d9fd9b8d0396",
+    "archived_sha256": "dbfebd7a4fced5b302fabd3457c358e713225c2f1e963cedabfb262f9d8e746a",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/remote-consumers/RemoteConsumer-SwiftJLS/Package.swift",
+    "archive": "RemoteConsumer/Package.swift",
+    "source_sha256": "5bd05cbd661e6ffde44f799fbf087d7f3b77eabbb54f593eb41fd2f568052ff0",
+    "archived_sha256": "5bd05cbd661e6ffde44f799fbf087d7f3b77eabbb54f593eb41fd2f568052ff0",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/remote-consumers/RemoteConsumer-SwiftJLS/Package.resolved",
+    "archive": "RemoteConsumer/Package.resolved",
+    "source_sha256": "7b65b3561093d483840c1a1d5c8810a04e6720f70691aadd3088fd889d047e2e",
+    "archived_sha256": "7b65b3561093d483840c1a1d5c8810a04e6720f70691aadd3088fd889d047e2e",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/remote-consumers/RemoteConsumer-SwiftJLS/Sources/Consumer/main.swift",
+    "archive": "RemoteConsumer/Sources/Consumer/main.swift",
+    "source_sha256": "a79c64da2eff7d6b1e5a1b6a1a1e1381a5a11ed08dd8aa7b02964f3cb6abe7cc",
+    "archived_sha256": "a79c64da2eff7d6b1e5a1b6a1a1e1381a5a11ed08dd8aa7b02964f3cb6abe7cc",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  },
+  {
+    "source": "work/apple-platform-qualification/remote-consumers/RemoteConsumer-SwiftJLS/build-run.log",
+    "archive": "RemoteConsumer/build-run.log",
+    "source_sha256": "0460f8a331a5601d79fc132618a2e166666ec3666696db57ebaa669849455f03",
+    "archived_sha256": "0460f8a331a5601d79fc132618a2e166666ec3666696db57ebaa669849455f03",
+    "treatment": "UTF-8 text; workspace/home and physical hardware IDs redacted"
+  }
+]

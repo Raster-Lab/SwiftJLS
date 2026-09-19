@@ -10,6 +10,10 @@ SwiftJLS is the standalone successor to [JLSwift](https://github.com/Raster-Lab/
 
 Current development version: **1.1.0-dev.2** ([VERSION](VERSION)); shared contract **0.4.0**. This increments the earlier unreleased 1.0.0 target and creates no release/tag. See the [current qualification record](Documentation/Engineering/OS27CLI/README.md) for adopted features, exact Xcode/Swift Build evidence and open platform gates. The historical [Milestone 1 evidence](Documentation/MILESTONE1.md) remains unchanged.
 
+## Apple platform runtime tests
+
+The existing API/storage foundation now passes complete Debug and Release suites on macOS arm64, Mac Catalyst and OS 27 simulators for iPhone, iPad, Apple TV, Apple Watch and Vision Pro. See [Apple platform runtime qualification](Documentation/Engineering/ApplePlatforms/README.md) for exact counts, commands, source hashes and remaining physical-device/Intel/Linux gates. Codec algorithms and compressed-format interoperability remain deferred. Current development version **1.1.0-dev.2** is unchanged because this update adds qualification tooling and tests without changing the shipped API or behaviour.
+
 ## Intended platform baseline
 
 Swift 6.4 minimum, Swift 6 language mode and complete concurrency checking. Apple OS deployment minima: macOS, iOS/iPadOS, tvOS, visionOS and watchOS 27.0. Apple Silicon is the primary optimisation target. macOS x86_64 and Linux ARM64/x86_64 are included with cleanly separated platform/architecture support. Ubuntu 24.04 is the initial Linux engineering baseline. These are requirements, not completed qualification claims.

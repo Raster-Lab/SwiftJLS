@@ -1,0 +1,189 @@
+{
+  "repository": "SwiftJLS",
+  "version": "1.1.0-dev.2",
+  "contract": "0.4.0",
+  "source_commit": "eeee61edc3fcafbc945930dbf21dd89b6bd37079",
+  "baseline": "00623afe357ae67fed3cf103d47911559dede8ae",
+  "production_unchanged": true,
+  "runs": [
+    {
+      "platform": "macos",
+      "configuration": "Debug",
+      "discovered_declarations": 33,
+      "passed_declarations": 33,
+      "passed_cases": 35,
+      "failed": 0,
+      "skipped": 0,
+      "summary": "macos-debug-summary.json"
+    },
+    {
+      "platform": "macos",
+      "configuration": "Release",
+      "discovered_declarations": 33,
+      "passed_declarations": 33,
+      "passed_cases": 35,
+      "failed": 0,
+      "skipped": 0,
+      "summary": "macos-release-summary.json"
+    },
+    {
+      "platform": "catalyst",
+      "configuration": "Debug",
+      "discovered_declarations": 33,
+      "passed_declarations": 33,
+      "passed_cases": 35,
+      "failed": 0,
+      "skipped": 0,
+      "summary": "catalyst-debug-summary.json"
+    },
+    {
+      "platform": "catalyst",
+      "configuration": "Release",
+      "discovered_declarations": 33,
+      "passed_declarations": 33,
+      "passed_cases": 35,
+      "failed": 0,
+      "skipped": 0,
+      "summary": "catalyst-release-summary.json"
+    },
+    {
+      "platform": "ios",
+      "configuration": "Debug",
+      "discovered_declarations": 33,
+      "passed_declarations": 33,
+      "passed_cases": 35,
+      "failed": 0,
+      "skipped": 0,
+      "summary": "ios-debug-summary.json"
+    },
+    {
+      "platform": "ios",
+      "configuration": "Release",
+      "discovered_declarations": 33,
+      "passed_declarations": 33,
+      "passed_cases": 35,
+      "failed": 0,
+      "skipped": 0,
+      "summary": "ios-release-summary.json"
+    },
+    {
+      "platform": "ipados",
+      "configuration": "Debug",
+      "discovered_declarations": 33,
+      "passed_declarations": 33,
+      "passed_cases": 35,
+      "failed": 0,
+      "skipped": 0,
+      "summary": "ipados-debug-summary.json"
+    },
+    {
+      "platform": "ipados",
+      "configuration": "Release",
+      "discovered_declarations": 33,
+      "passed_declarations": 33,
+      "passed_cases": 35,
+      "failed": 0,
+      "skipped": 0,
+      "summary": "ipados-release-summary.json"
+    },
+    {
+      "platform": "watchos",
+      "configuration": "Debug",
+      "discovered_declarations": 33,
+      "passed_declarations": 33,
+      "passed_cases": 35,
+      "failed": 0,
+      "skipped": 0,
+      "summary": "watchos-debug-summary.json"
+    },
+    {
+      "platform": "watchos",
+      "configuration": "Release",
+      "discovered_declarations": 33,
+      "passed_declarations": 33,
+      "passed_cases": 35,
+      "failed": 0,
+      "skipped": 0,
+      "summary": "watchos-release-summary.json"
+    },
+    {
+      "platform": "tvos",
+      "configuration": "Debug",
+      "discovered_declarations": 33,
+      "passed_declarations": 33,
+      "passed_cases": 35,
+      "failed": 0,
+      "skipped": 0,
+      "summary": "tvos-debug-summary.json"
+    },
+    {
+      "platform": "tvos",
+      "configuration": "Release",
+      "discovered_declarations": 33,
+      "passed_declarations": 33,
+      "passed_cases": 35,
+      "failed": 0,
+      "skipped": 0,
+      "summary": "tvos-release-summary.json"
+    },
+    {
+      "platform": "visionos",
+      "configuration": "Debug",
+      "discovered_declarations": 33,
+      "passed_declarations": 33,
+      "passed_cases": 35,
+      "failed": 0,
+      "skipped": 0,
+      "summary": "visionos-debug-summary.json"
+    },
+    {
+      "platform": "visionos",
+      "configuration": "Release",
+      "discovered_declarations": 33,
+      "passed_declarations": 33,
+      "passed_cases": 35,
+      "failed": 0,
+      "skipped": 0,
+      "summary": "visionos-release-summary.json"
+    }
+  ],
+  "sdk_compile_link_checks": 10,
+  "cli_process_checks": 107,
+  "safety_runs": [
+    {
+      "label": "asan",
+      "discovered_declarations": 33,
+      "repetitions": 1,
+      "xml": "asan-tests.xml",
+      "executed_declarations": 33,
+      "failed_declarations": 0,
+      "skipped_declarations": 0,
+      "passed_declarations": 33,
+      "swift_testing_passed_case_executions": 35,
+      "parameterised_case_start_events": 4,
+      "repetition_start_events": 0,
+      "count_note": "xUnit counts declarations; passing Swift Testing case executions include argument cases and fixed repetitions. Raw logs retain every event. XCTest counts remain separate."
+    },
+    {
+      "label": "tsan",
+      "discovered_declarations": 33,
+      "repetitions": 1,
+      "xml": "tsan-tests.xml",
+      "executed_declarations": 33,
+      "failed_declarations": 0,
+      "skipped_declarations": 0,
+      "passed_declarations": 33,
+      "swift_testing_passed_case_executions": 35,
+      "parameterised_case_start_events": 4,
+      "repetition_start_events": 0,
+      "count_note": "xUnit counts declarations; passing Swift Testing case executions include argument cases and fixed repetitions. Raw logs retain every event. XCTest counts remain separate."
+    }
+  ],
+  "runner_unit_tests": 5,
+  "github_consumer": {
+    "revision": "eeee61edc3fcafbc945930dbf21dd89b6bd37079",
+    "exit_code": 0,
+    "tested_input_hashes_match": true,
+    "standalone_dependency_count": 1
+  }
+}

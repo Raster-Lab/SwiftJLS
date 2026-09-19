@@ -1,0 +1,14 @@
+{
+  "originHash" : "5bd05cbd661e6ffde44f799fbf087d7f3b77eabbb54f593eb41fd2f568052ff0",
+  "pins" : [
+    {
+      "identity" : "swiftjls",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Raster-Lab/SwiftJLS.git",
+      "state" : {
+        "revision" : "eeee61edc3fcafbc945930dbf21dd89b6bd37079"
+      }
+    }
+  ],
+  "version" : 3
+}

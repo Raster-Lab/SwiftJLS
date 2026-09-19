@@ -1,0 +1,147 @@
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild test -scheme SwiftJLS-Package -configuration Release -destination "platform=watchOS Simulator,id=CB5577FD-8D90-41E5-97CB-EA8D595AA0D2" -destination-timeout 60 -jobs 2 CODE_SIGNING_ALLOWED=NO -derivedDataPath /private/tmp/SwiftJLS-apple-tests-e87xofl3/watchos -parallel-testing-enabled NO -enableCodeCoverage NO -test-timeouts-enabled YES -default-test-execution-time-allowance 60 -maximum-test-execution-time-allowance 120 -resultBundlePath <workspace>/work/apple-platform-qualification/final/SwiftJLS/mobile/watchos-release.xcresult
+
+Build settings from command line:
+    CODE_SIGNING_ALLOWED = NO
+
+Resolve Package Graph
+2026-09-19 16:56:55.588 xcodebuild[70538:3923058] [MT] IDERunDestination: Supported platforms for the buildables in the current scheme is empty.
+
+
+Resolved source packages:
+  SwiftJLS: <workspace>/outputs/SwiftJLS
+
+Writing result bundle at path:
+	<workspace>/work/apple-platform-qualification/final/SwiftJLS/mobile/watchos-release.xcresult
+
+Build Preparation
+Build task concurrency set to 2 via user default IDEBuildOperationMaxNumberOfConcurrentCompileTasks
+
+ComputePackagePrebuildTargetDependencyGraph
+
+Prepare packages
+
+CreateBuildRequest
+
+SendProjectDescription
+
+CreateBuildOperation
+
+ComputeTargetDependencyGraph
+note: Building targets in dependency order
+note: Target dependency graph (4 targets)
+    Target 'swiftjls-product' in project 'SwiftJLS'
+        ➜ Explicit dependency on target 'SwiftJLS' in project 'SwiftJLS'
+    Target 'SwiftJLS-product' in project 'SwiftJLS'
+        ➜ Explicit dependency on target 'SwiftJLS' in project 'SwiftJLS'
+    Target 'SwiftJLSTests-product' in project 'SwiftJLS'
+        ➜ Explicit dependency on target 'SwiftJLS' in project 'SwiftJLS'
+    Target 'SwiftJLS' in project 'SwiftJLS' (no dependencies)
+
+GatherProvisioningInputs
+
+CreateBuildDescription
+
+ClangStatCache /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator27.0.sdk /tmp/SwiftJLS-apple-tests-e87xofl3/watchos/SDKStatCaches.noindex/watchsimulator27.0-24R360-e829b21a6f8c9b70876ba0858053c044c50668d93734557a32a78b937f5ceaf1.sdkstatcache
+    cd <workspace>/outputs/SwiftJLS/.swiftpm/xcode
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator27.0.sdk -o /tmp/SwiftJLS-apple-tests-e87xofl3/watchos/SDKStatCaches.noindex/watchsimulator27.0-24R360-e829b21a6f8c9b70876ba0858053c044c50668d93734557a32a78b937f5ceaf1.sdkstatcache
+
+PruneExplicitPrecompiledModules /tmp/SwiftJLS-apple-tests-e87xofl3/watchos/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules
+
+PruneExplicitPrecompiledModules /tmp/SwiftJLS-apple-tests-e87xofl3/watchos/SDKExplicitPrecompiledModules
+
+PruneExplicitPrecompiledModules /tmp/SwiftJLS-apple-tests-e87xofl3/watchos/Build/Intermediates.noindex/ExplicitPrecompiledModules
+
+Test Suite 'All tests' started at 2026-09-19 16:57:01.706.
+Test Suite 'All tests' passed at 2026-09-19 16:57:01.706.
+	 Executed 0 tests, with 0 failures (0 unexpected) in 0.000 (0.001) seconds
+◇ Test run started.
+↳ Testing Library Version: 2084
+↳ Target Platform: arm64-apple-watchos10.0-simulator
+◇ Suite APITests started.
+◇ Test noSyntheticBytesAdvertisedAsCompressedFormats() started.
+✔ Test noSyntheticBytesAdvertisedAsCompressedFormats() passed after 0.015 seconds.
+◇ Test defaultsAndUnsupportedFidelityAreExplicit() started.
+✔ Test defaultsAndUnsupportedFidelityAreExplicit() passed after 0.001 seconds.
+◇ Test resourceAndRequiredBackendErrorsPrecedeUnsupportedCodec() started.
+✔ Test resourceAndRequiredBackendErrorsPrecedeUnsupportedCodec() passed after 0.001 seconds.
+◇ Test cancellationKeepsSwiftCancellationError() started.
+✔ Test cancellationKeepsSwiftCancellationError() passed after 0.003 seconds.
+◇ Test exactSamplesAndZeroedPadding(precision:) started.
+◇ Test case passing 1 argument precision → 12 to exactSamplesAndZeroedPadding(precision:) started.
+​◇ Test case passing 1 argument precision → 16 to exactSamplesAndZeroedPadding(precision:) started.
+​✔ Test exactSamplesAndZeroedPadding(precision:) with 2 test cases passed after 0.005 seconds.
+◇ Test outOfRangeTwelveBitSampleInvalidatesDestination() started.
+✔ Test outOfRangeTwelveBitSampleInvalidatesDestination() passed after 0.003 seconds.
+◇ Test sampleHelperPreservesExplicitBigEndian() started.
+✔ Test sampleHelperPreservesExplicitBigEndian() passed after 0.002 seconds.
+✔ Suite APITests passed after 0.035 seconds.
+◇ Test metadataAndDestinationLimitsUseCallerBudget() started.
+✔ Test metadataAndDestinationLimitsUseCallerBudget() passed after 0.001 seconds.
+◇ Test actualTaskCancellationDuringFillPreventsPublication() started.
+✔ Test actualTaskCancellationDuringFillPreventsPublication() passed after 0.001 seconds.
+◇ Test cancellationInProviderFinalisationPreventsPublication(_:) started.
+◇ Test case passing 1 argument point → .sealing to cancellationInProviderFinalisationPreventsPublication(_:) started.
+​◇ Test case passing 1 argument point → .validatingSealedStorage to cancellationInProviderFinalisationPreventsPublication(_:) started.
+​✔ Test cancellationInProviderFinalisationPreventsPublication(_:) with 2 test cases passed after 0.001 seconds.
+◇ Suite "Descriptor validation" started.
+◇ Test paddedOddDimensionsAndPrecision() started.
+✔ Test paddedOddDimensionsAndPrecision() passed after 0.001 seconds.
+◇ Test finalRowNeedsOnlyItsActualSampleBytes() started.
+✔ Test finalRowNeedsOnlyItsActualSampleBytes() passed after 0.002 seconds.
+◇ Test rejectsInvalidGeometryAndPrecision() started.
+✔ Test rejectsInvalidGeometryAndPrecision() passed after 0.001 seconds.
+◇ Test rejectsArithmeticOverflowBeforeAllocation() started.
+✔ Test rejectsArithmeticOverflowBeforeAllocation() passed after 0.001 seconds.
+◇ Test rejectsMisalignedOffsetsAndStrides() started.
+✔ Test rejectsMisalignedOffsetsAndStrides() passed after 0.001 seconds.
+◇ Test rejectsOverlappingPlanesAndIncompleteMapping() started.
+✔ Test rejectsOverlappingPlanesAndIncompleteMapping() passed after 0.001 seconds.
+◇ Test semanticMetadataMustAgreeWithComponents() started.
+✔ Test semanticMetadataMustAgreeWithComponents() passed after 0.001 seconds.
+◇ Test deterministicLayoutMutation() started.
+✔ Test deterministicLayoutMutation() passed after 0.001 seconds.
+✔ Suite "Descriptor validation" passed after 0.012 seconds.
+◇ Test adaptersShareWriterAuthorityAndRejectForgedLease() started.
+✔ Test adaptersShareWriterAuthorityAndRejectForgedLease() passed after 0.001 seconds.
+◇ Test reentrantLeaseOperationsRejectWithoutDeadlocking() started.
+✔ Test reentrantLeaseOperationsRejectWithoutDeadlocking() passed after 0.001 seconds.
+◇ Test sameTokenCannotAuthoriseConcurrentOverlappingBorrows() started.
+✔ Test sameTokenCannotAuthoriseConcurrentOverlappingBorrows() passed after 0.007 seconds.
+◇ Test concurrentAdaptersReserveExactlyOneWriter() started.
+✔ Test concurrentAdaptersReserveExactlyOneWriter() passed after 0.001 seconds.
+◇ Test imageRetainsAdapterUntilLastImageReleaseExactlyOnce() started.
+✔ Test imageRetainsAdapterUntilLastImageReleaseExactlyOnce() passed after 0.001 seconds.
+◇ Test sealedOwnerSupportsConcurrentReadersAndNestedRead() started.
+✔ Test sealedOwnerSupportsConcurrentReadersAndNestedRead() passed after 0.001 seconds.
+◇ Test failedFillInvalidatesDestination() started.
+✔ Test failedFillInvalidatesDestination() passed after 0.001 seconds.
+◇ Test abandonedDestinationInvalidatesItsReservedOwner() started.
+✔ Test abandonedDestinationInvalidatesItsReservedOwner() passed after 0.002 seconds.
+◇ Test platformDefaultsEnforceWatchAdmissionBeforeAllocation() started.
+✔ Test platformDefaultsEnforceWatchAdmissionBeforeAllocation() passed after 0.001 seconds.
+◇ Suite "Swift 6.4 sample access" started.
+◇ Test readsIndependentGoldenBytesFromOddPhysicalAddress() started.
+✔ Test readsIndependentGoldenBytesFromOddPhysicalAddress() passed after 0.012 seconds.
+◇ Test writesGoldenBytesForPackedAndPadded12And16BitSamples() started.
+✔ Test writesGoldenBytesForPackedAndPadded12And16BitSamples() passed after 0.001 seconds.
+◇ Test initialisesExternalSampleBytesAtOddAddressWithoutChangingPadding() started.
+✔ Test initialisesExternalSampleBytesAtOddAddressWithoutChangingPadding() passed after 0.001 seconds.
+◇ Test refusesShortProviderBeforeLoadingSample() started.
+✔ Test refusesShortProviderBeforeLoadingSample() passed after 0.001 seconds.
+◇ Test rejectsCoordinatesBeforeOffsetArithmetic() started.
+✔ Test rejectsCoordinatesBeforeOffsetArithmetic() passed after 0.001 seconds.
+◇ Test outOfPrecisionWriteInvalidatesDestination() started.
+✔ Test outOfPrecisionWriteInvalidatesDestination() passed after 0.001 seconds.
+✔ Suite "Swift 6.4 sample access" passed after 0.017 seconds.
+✔ Test run with 33 tests in 3 suites passed after 0.089 seconds.
+2026-09-19 16:57:02.104 xcodebuild[70538:3923058] [MT] IDETestOperationsObserverDebug: 6.165 elapsed -- Testing started completed.
+2026-09-19 16:57:02.104 xcodebuild[70538:3923058] [MT] IDETestOperationsObserverDebug: 0.000 sec, +0.000 sec -- start
+2026-09-19 16:57:02.104 xcodebuild[70538:3923058] [MT] IDETestOperationsObserverDebug: 6.165 sec, +6.165 sec -- end
+
+Test session results, code coverage, and logs:
+	<workspace>/work/apple-platform-qualification/final/SwiftJLS/mobile/watchos-release.xcresult
+
+** TEST SUCCEEDED **
+
+Testing started
