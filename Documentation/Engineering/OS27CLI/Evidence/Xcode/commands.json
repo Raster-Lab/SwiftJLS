@@ -1,0 +1,87 @@
+[
+  {
+    "label": "tests",
+    "argv": [
+      "xcodebuild",
+      "test",
+      "-scheme",
+      "SwiftJLS-Package",
+      "-destination",
+      "platform=macOS,arch=arm64",
+      "-jobs",
+      "2",
+      "CODE_SIGNING_ALLOWED=NO",
+      "-derivedDataPath",
+      "/Users/suresh/Documents/Codex/2026-09-18/create-coding-agents-to-start-work/work/os27/xcode-final/SwiftJLS/DerivedData",
+      "-resultBundlePath",
+      "/Users/suresh/Documents/Codex/2026-09-18/create-coding-agents-to-start-work/work/os27/xcode-final/SwiftJLS/Tests.xcresult",
+      "-parallel-testing-enabled",
+      "NO"
+    ],
+    "cwd": "/Users/suresh/Documents/Codex/2026-09-18/create-coding-agents-to-start-work/outputs/SwiftJLS",
+    "exit_code": 0,
+    "log": "tests.log",
+    "outside_sandbox": true
+  },
+  {
+    "label": "summary",
+    "argv": [
+      "xcrun",
+      "xcresulttool",
+      "get",
+      "test-results",
+      "summary",
+      "--path",
+      "/Users/suresh/Documents/Codex/2026-09-18/create-coding-agents-to-start-work/work/os27/xcode-final/SwiftJLS/Tests.xcresult"
+    ],
+    "cwd": "/Users/suresh/Documents/Codex/2026-09-18/create-coding-agents-to-start-work/outputs/SwiftJLS",
+    "exit_code": 0,
+    "log": "summary.log",
+    "outside_sandbox": true
+  },
+  {
+    "label": "cli-release",
+    "argv": [
+      "xcodebuild",
+      "build",
+      "-scheme",
+      "swiftjls",
+      "-configuration",
+      "Release",
+      "-destination",
+      "platform=macOS,arch=arm64",
+      "-jobs",
+      "2",
+      "CODE_SIGNING_ALLOWED=NO",
+      "-derivedDataPath",
+      "/Users/suresh/Documents/Codex/2026-09-18/create-coding-agents-to-start-work/work/os27/xcode-final/SwiftJLS/DerivedDataCLI"
+    ],
+    "cwd": "/Users/suresh/Documents/Codex/2026-09-18/create-coding-agents-to-start-work/outputs/SwiftJLS",
+    "exit_code": 0,
+    "log": "cli-release.log",
+    "outside_sandbox": true
+  },
+  {
+    "label": "cli-version",
+    "argv": [
+      "/Users/suresh/Documents/Codex/2026-09-18/create-coding-agents-to-start-work/work/os27/xcode-final/SwiftJLS/DerivedDataCLI/Build/Products/Release/swiftjls",
+      "--version"
+    ],
+    "cwd": "/Users/suresh/Documents/Codex/2026-09-18/create-coding-agents-to-start-work/outputs/SwiftJLS",
+    "exit_code": 0,
+    "log": "cli-version.log",
+    "outside_sandbox": true
+  },
+  {
+    "label": "cli-capabilities",
+    "argv": [
+      "/Users/suresh/Documents/Codex/2026-09-18/create-coding-agents-to-start-work/work/os27/xcode-final/SwiftJLS/DerivedDataCLI/Build/Products/Release/swiftjls",
+      "capabilities",
+      "--json"
+    ],
+    "cwd": "/Users/suresh/Documents/Codex/2026-09-18/create-coding-agents-to-start-work/outputs/SwiftJLS",
+    "exit_code": 0,
+    "log": "cli-capabilities.log",
+    "outside_sandbox": true
+  }
+]

@@ -1,12 +1,12 @@
 # Migrating applications from JLSwift to SwiftJLS
 
-The successor now requires Swift 6.4 and retains its OS 26 deployment floors. See the [Swift 6.4 upgrade record](Documentation/Engineering/Swift64/README.md) for development versioning and validation; current codec availability is unchanged.
+The successor now requires Swift 6.4 and retains its OS 27 deployment floors. See the [Swift 6.4 upgrade record](Documentation/Engineering/Swift64/README.md) for development versioning and validation; current codec availability is unchanged.
 
 This guide is for application maintainers and coding agents changing a dependency. Library implementation work follows [AGENTS.md](AGENTS.md) and [IMPLEMENTATION.md](IMPLEMENTATION.md).
 
 **Current status: Milestone 1 API and owning-memory feasibility only. SwiftJLS cannot yet inspect, encode or decode JPEG-LS.** Its codec capabilities are empty and codec operations reject with `CodecError` after preflight checks. Keep the predecessor serving production codec requests until the required successor capabilities are implemented and independently validated. A dependency/import rename alone is insufficient.
 
-This guide uses common contract **0.3.0** and predecessor commit **`299b9a2e5bfe36ef104a3464a27d6c4c82874cc2`**. Compare your application's actual pinned revision before applying it; other predecessor versions may differ. The successor's implemented surface is in [Sources/SwiftJLS](Sources/SwiftJLS); executed coverage and unavailable gates are in [Documentation/MILESTONE1.md](Documentation/MILESTONE1.md).
+This guide uses common contract **0.4.0** and predecessor commit **`299b9a2e5bfe36ef104a3464a27d6c4c82874cc2`**. Compare your application's actual pinned revision before applying it; other predecessor versions may differ. The successor's implemented surface is in [Sources/SwiftJLS](Sources/SwiftJLS); executed coverage and unavailable gates are in [Documentation/MILESTONE1.md](Documentation/MILESTONE1.md).
 
 ## Dependency and deployment changes
 
@@ -14,9 +14,9 @@ This guide uses common contract **0.3.0** and predecessor commit **`299b9a2e5bfe
 | --- | --- | --- |
 | Repository / package | `Raster-Lab/JLSwift` / `JLSwift` | `Raster-Lab/SwiftJLS` / `SwiftJLS` |
 | Library product / import | `JPEGLS` / `import JPEGLS` | `SwiftJLS` / `import SwiftJLS` |
-| Executable | `jpegls` (target `jpeglscli`) | None; `swiftjls` is planned |
+| Executable | `jpegls` (target `jpeglscli`) | `swiftjls` provides help/version/capabilities only |
 | Swift | Tools 6.2, Swift 6 language mode | Tools 6.4, Swift 6 language mode; complete concurrency checking |
-| Apple deployment minima | macOS 12, iOS 15 | macOS, iOS/iPadOS, tvOS, visionOS, watchOS 26.0 |
+| Apple deployment minima | macOS 12, iOS 15 | macOS, iOS/iPadOS, tvOS, visionOS, watchOS 27.0 |
 
 Evidence: [pinned predecessor manifest](https://github.com/Raster-Lab/JLSwift/blob/299b9a2e5bfe36ef104a3464a27d6c4c82874cc2/Package.swift), [current manifest](Package.swift), [platform qualification requirements](Documentation/PLATFORMS.md). An application supporting older Apple systems must retain a compatible dependency path or deliberately raise its deployment target before linking SwiftJLS. Build-only evidence does not establish device/runtime support.
 
@@ -43,7 +43,7 @@ Interleave modes, presets/MAXVAL, restart intervals, mapping tables and colour t
 
 ## Runnable contract trial
 
-Use this as `main.swift` in a separate executable consumer targeting macOS 26 or another supported deployment target, linked only to the local SwiftJLS library. It copies a small predecessor-shaped array into new owned storage, validates precision and observes the expected codec rejection. It does **not** produce a JPEG-LS file.
+Use this as `main.swift` in a separate executable consumer targeting macOS 27 or another supported deployment target, linked only to the local SwiftJLS library. It copies a small predecessor-shaped array into new owned storage, validates precision and observes the expected codec rejection. It does **not** produce a JPEG-LS file.
 
 ```swift
 import SwiftJLS
@@ -101,7 +101,7 @@ Run the consumer headlessly with Xcode's selected toolchain using `xcrun swift r
 
 The predecessor has public `PNGSupport` and `TIFFSupport` helpers ([PNG source](https://github.com/Raster-Lab/JLSwift/blob/299b9a2e5bfe36ef104a3464a27d6c4c82874cc2/Sources/JPEGLS/PNGSupport.swift), [TIFF source](https://github.com/Raster-Lab/JLSwift/blob/299b9a2e5bfe36ef104a3464a27d6c4c82874cc2/Sources/JPEGLS/TIFFSupport.swift)). SwiftJLS supplies neither. Inventory direct use of these helpers and retain or separately replace the relevant application functionality.
 
-The predecessor CLI also contains PNM/DICOM handling, batch/conversion/verification and benchmarking commands. No successor executable currently exists, and the [planned CLI contract](Documentation/CLI_CONTRACT.md) is not a command compatibility promise. Retain existing scripts until replacement commands are implemented and tested. DICOM transfer syntax, frame encapsulation, signed pixel interpretation and object metadata remain application responsibilities; the common `Image` metadata is not a DICOM object model. No SwiftJLS native transcoder is provided.
+The predecessor CLI also contains PNM/DICOM handling, batch/conversion/verification and benchmarking commands. The successor [diagnostic CLI](CLI.md) provides help/version/capabilities; payload operations remain unavailable. The [CLI contract](Documentation/CLI_CONTRACT.md) is not a predecessor command compatibility promise. Retain existing scripts until replacement commands are implemented and tested. DICOM transfer syntax, frame encapsulation, signed pixel interpretation and object metadata remain application responsibilities; the common `Image` metadata is not a DICOM object model. No SwiftJLS native transcoder is provided.
 
 ## Staged rollout and acceptance checklist
 
