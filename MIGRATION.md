@@ -113,3 +113,7 @@ The predecessor CLI also contains PNM/DICOM handling, batch/conversion/verificat
 6. Remove the predecessor dependency, imports and obsolete scripts only after every required call site is covered. Update application lockfiles, user documentation and release notes with deliberate deployment/behaviour changes and remaining limitations.
 
 For coding agents: an application-migration task does not authorise implementing later codec milestones, changing common contracts, inventing missing APIs, tagging a release or declaring feature parity. Report modified call sites, exact revisions, commands/results, unavailable features and deferred acceptance gates. Stop production cutover at the current capability boundary while completing the authorised adapter/documentation work.
+
+## Apple runtime qualification update
+
+See [Apple platform runtime qualification](Documentation/Engineering/ApplePlatforms/README.md) for executed OS 27 simulator, macOS and Mac Catalyst tests and the reproducible headless runner. This qualifies the current API/storage foundation; the existing codec migration and production-cutover gates remain in force.

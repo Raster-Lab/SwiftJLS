@@ -1,0 +1,83 @@
+Building for debugging...
+[Constructing description]
+[Planning deferred tasks]
+[31 / 67] SwiftJLS
+[34 / 67]
+[35 / 68] SwiftJLS
+[38 / 109]
+[42 / 109]
+[45 / 109]
+[47 / 109]
+[49 / 109]
+[52 / 109]
+[54 / 109]
+[57 / 109]
+[58 / 109]
+[59 / 109]
+[60 / 109]
+[61 / 109]
+[63 / 109]
+[66 / 109]
+[67 / 109]
+[68 / 109]
+[69 / 109]
+[72 / 109] SwiftJLS
+[73 / 109] SwiftJLS
+[80 / 109] SwiftJLS
+[81 / 109] swiftjls-product
+[82 / 109] swiftjls-product
+[86 / 109] SwiftJLSTests-product
+[87 / 110]
+[89 / 110]
+[93 / 111] SwiftJLSTests-product
+[95 / 113] swiftjls-product
+[96 / 113] swiftjls-product
+[97 / 123] swiftjls-product
+[102 / 123]
+[102 / 123] SwiftJLS-product
+[104 / 123] SwiftJLSTests-product
+[104 / 123] swiftjls-product
+[106 / 123] SwiftJLSTests-product
+[107 / 123] SwiftJLSTests-product
+[113 / 123] SwiftJLSTests-product
+[115 / 123] SwiftJLSTests-product
+[115 / 123] AllIncludingTests
+[116 / 123]
+[117 / 123] SwiftJLSTests-product
+[119 / 123] SwiftJLSTests-product
+[121 / 123] SwiftJLSTests-product
+[123 / 123] SwiftJLSTests-product
+Build complete! (16.77 secs)
+SwiftJLSTests.APITests/cancellationKeepsSwiftCancellationError()
+SwiftJLSTests.APITests/defaultsAndUnsupportedFidelityAreExplicit()
+SwiftJLSTests.APITests/exactSamplesAndZeroedPadding(precision:)
+SwiftJLSTests.APITests/noSyntheticBytesAdvertisedAsCompressedFormats()
+SwiftJLSTests.APITests/outOfRangeTwelveBitSampleInvalidatesDestination()
+SwiftJLSTests.APITests/resourceAndRequiredBackendErrorsPrecedeUnsupportedCodec()
+SwiftJLSTests.APITests/sampleHelperPreservesExplicitBigEndian()
+SwiftJLSTests.DescriptorTests/deterministicLayoutMutation()
+SwiftJLSTests.DescriptorTests/finalRowNeedsOnlyItsActualSampleBytes()
+SwiftJLSTests.DescriptorTests/paddedOddDimensionsAndPrecision()
+SwiftJLSTests.DescriptorTests/rejectsArithmeticOverflowBeforeAllocation()
+SwiftJLSTests.DescriptorTests/rejectsInvalidGeometryAndPrecision()
+SwiftJLSTests.DescriptorTests/rejectsMisalignedOffsetsAndStrides()
+SwiftJLSTests.DescriptorTests/rejectsOverlappingPlanesAndIncompleteMapping()
+SwiftJLSTests.DescriptorTests/semanticMetadataMustAgreeWithComponents()
+SwiftJLSTests.Swift64SampleAccessTests/initialisesExternalSampleBytesAtOddAddressWithoutChangingPadding()
+SwiftJLSTests.Swift64SampleAccessTests/outOfPrecisionWriteInvalidatesDestination()
+SwiftJLSTests.Swift64SampleAccessTests/readsIndependentGoldenBytesFromOddPhysicalAddress()
+SwiftJLSTests.Swift64SampleAccessTests/refusesShortProviderBeforeLoadingSample()
+SwiftJLSTests.Swift64SampleAccessTests/rejectsCoordinatesBeforeOffsetArithmetic()
+SwiftJLSTests.Swift64SampleAccessTests/writesGoldenBytesForPackedAndPadded12And16BitSamples()
+SwiftJLSTests.abandonedDestinationInvalidatesItsReservedOwner()
+SwiftJLSTests.actualTaskCancellationDuringFillPreventsPublication()
+SwiftJLSTests.adaptersShareWriterAuthorityAndRejectForgedLease()
+SwiftJLSTests.cancellationInProviderFinalisationPreventsPublication(_:)
+SwiftJLSTests.concurrentAdaptersReserveExactlyOneWriter()
+SwiftJLSTests.failedFillInvalidatesDestination()
+SwiftJLSTests.imageRetainsAdapterUntilLastImageReleaseExactlyOnce()
+SwiftJLSTests.metadataAndDestinationLimitsUseCallerBudget()
+SwiftJLSTests.platformDefaultsEnforceWatchAdmissionBeforeAllocation()
+SwiftJLSTests.reentrantLeaseOperationsRejectWithoutDeadlocking()
+SwiftJLSTests.sameTokenCannotAuthoriseConcurrentOverlappingBorrows()
+SwiftJLSTests.sealedOwnerSupportsConcurrentReadersAndNestedRead()

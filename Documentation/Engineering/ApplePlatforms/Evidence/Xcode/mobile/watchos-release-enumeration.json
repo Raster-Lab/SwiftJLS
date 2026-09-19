@@ -1,0 +1,114 @@
+{
+  "errors" : [
+
+  ],
+  "values" : [
+    {
+      "disabledTests" : [
+
+      ],
+      "enabledTests" : [
+        {
+          "identifier" : "SwiftJLSTests/APITests/cancellationKeepsSwiftCancellationError()"
+        },
+        {
+          "identifier" : "SwiftJLSTests/APITests/defaultsAndUnsupportedFidelityAreExplicit()"
+        },
+        {
+          "identifier" : "SwiftJLSTests/APITests/exactSamplesAndZeroedPadding(precision:)"
+        },
+        {
+          "identifier" : "SwiftJLSTests/APITests/noSyntheticBytesAdvertisedAsCompressedFormats()"
+        },
+        {
+          "identifier" : "SwiftJLSTests/APITests/outOfRangeTwelveBitSampleInvalidatesDestination()"
+        },
+        {
+          "identifier" : "SwiftJLSTests/APITests/resourceAndRequiredBackendErrorsPrecedeUnsupportedCodec()"
+        },
+        {
+          "identifier" : "SwiftJLSTests/APITests/sampleHelperPreservesExplicitBigEndian()"
+        },
+        {
+          "identifier" : "SwiftJLSTests/DescriptorTests/deterministicLayoutMutation()"
+        },
+        {
+          "identifier" : "SwiftJLSTests/DescriptorTests/finalRowNeedsOnlyItsActualSampleBytes()"
+        },
+        {
+          "identifier" : "SwiftJLSTests/DescriptorTests/paddedOddDimensionsAndPrecision()"
+        },
+        {
+          "identifier" : "SwiftJLSTests/DescriptorTests/rejectsArithmeticOverflowBeforeAllocation()"
+        },
+        {
+          "identifier" : "SwiftJLSTests/DescriptorTests/rejectsInvalidGeometryAndPrecision()"
+        },
+        {
+          "identifier" : "SwiftJLSTests/DescriptorTests/rejectsMisalignedOffsetsAndStrides()"
+        },
+        {
+          "identifier" : "SwiftJLSTests/DescriptorTests/rejectsOverlappingPlanesAndIncompleteMapping()"
+        },
+        {
+          "identifier" : "SwiftJLSTests/DescriptorTests/semanticMetadataMustAgreeWithComponents()"
+        },
+        {
+          "identifier" : "SwiftJLSTests/Swift64SampleAccessTests/initialisesExternalSampleBytesAtOddAddressWithoutChangingPadding()"
+        },
+        {
+          "identifier" : "SwiftJLSTests/Swift64SampleAccessTests/outOfPrecisionWriteInvalidatesDestination()"
+        },
+        {
+          "identifier" : "SwiftJLSTests/Swift64SampleAccessTests/readsIndependentGoldenBytesFromOddPhysicalAddress()"
+        },
+        {
+          "identifier" : "SwiftJLSTests/Swift64SampleAccessTests/refusesShortProviderBeforeLoadingSample()"
+        },
+        {
+          "identifier" : "SwiftJLSTests/Swift64SampleAccessTests/rejectsCoordinatesBeforeOffsetArithmetic()"
+        },
+        {
+          "identifier" : "SwiftJLSTests/Swift64SampleAccessTests/writesGoldenBytesForPackedAndPadded12And16BitSamples()"
+        },
+        {
+          "identifier" : "SwiftJLSTests/abandonedDestinationInvalidatesItsReservedOwner()"
+        },
+        {
+          "identifier" : "SwiftJLSTests/actualTaskCancellationDuringFillPreventsPublication()"
+        },
+        {
+          "identifier" : "SwiftJLSTests/adaptersShareWriterAuthorityAndRejectForgedLease()"
+        },
+        {
+          "identifier" : "SwiftJLSTests/cancellationInProviderFinalisationPreventsPublication(_:)"
+        },
+        {
+          "identifier" : "SwiftJLSTests/concurrentAdaptersReserveExactlyOneWriter()"
+        },
+        {
+          "identifier" : "SwiftJLSTests/failedFillInvalidatesDestination()"
+        },
+        {
+          "identifier" : "SwiftJLSTests/imageRetainsAdapterUntilLastImageReleaseExactlyOnce()"
+        },
+        {
+          "identifier" : "SwiftJLSTests/metadataAndDestinationLimitsUseCallerBudget()"
+        },
+        {
+          "identifier" : "SwiftJLSTests/platformDefaultsEnforceWatchAdmissionBeforeAllocation()"
+        },
+        {
+          "identifier" : "SwiftJLSTests/reentrantLeaseOperationsRejectWithoutDeadlocking()"
+        },
+        {
+          "identifier" : "SwiftJLSTests/sameTokenCannotAuthoriseConcurrentOverlappingBorrows()"
+        },
+        {
+          "identifier" : "SwiftJLSTests/sealedOwnerSupportsConcurrentReadersAndNestedRead()"
+        }
+      ],
+      "testPlan" : "SwiftJLS-Package"
+    }
+  ]
+}

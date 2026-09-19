@@ -1,0 +1,44 @@
+{
+  "repository": "SwiftJLS",
+  "revision": "eeee61edc3fcafbc945930dbf21dd89b6bd37079",
+  "argv": [
+    "xcrun",
+    "swift",
+    "run",
+    "--build-system",
+    "swiftbuild",
+    "--jobs",
+    "2",
+    "--package-path",
+    "<workspace>/work/apple-platform-qualification/remote-consumers/RemoteConsumer-SwiftJLS",
+    "--scratch-path",
+    "<workspace>/work/apple-platform-qualification/remote-consumers/RemoteConsumer-SwiftJLS/build",
+    "--cache-path",
+    "<workspace>/work/apple-platform-qualification/remote-consumers/RemoteConsumer-SwiftJLS/cache",
+    "--config-path",
+    "<workspace>/work/apple-platform-qualification/remote-consumers/RemoteConsumer-SwiftJLS/config",
+    "--security-path",
+    "<workspace>/work/apple-platform-qualification/remote-consumers/RemoteConsumer-SwiftJLS/security",
+    "Consumer"
+  ],
+  "cwd": "<workspace>/work/apple-platform-qualification/remote-consumers/RemoteConsumer-SwiftJLS",
+  "environment": {
+    "DEVELOPER_DIR": "/Applications/Xcode.app/Contents/Developer"
+  },
+  "exit_code": 0,
+  "resolved_dependencies": [
+    {
+      "identity": "swiftjls",
+      "kind": "remoteSourceControl",
+      "location": "https://github.com/Raster-Lab/SwiftJLS.git",
+      "state": {
+        "revision": "eeee61edc3fcafbc945930dbf21dd89b6bd37079"
+      }
+    }
+  ],
+  "tested_input_hashes_match": true,
+  "consumer_sha256": {
+    "Package.swift": "5bd05cbd661e6ffde44f799fbf087d7f3b77eabbb54f593eb41fd2f568052ff0",
+    "Sources/Consumer/main.swift": "a79c64da2eff7d6b1e5a1b6a1a1e1381a5a11ed08dd8aa7b02964f3cb6abe7cc"
+  }
+}
