@@ -1,0 +1,43 @@
+Building for debugging...
+[Planning deferred tasks]
+[15 / 26] SwiftJLSTests-product
+[16 / 35]
+[20 / 35] SwiftJLSTests-product
+[22 / 35] SwiftJLSTests-product
+[27 / 35] SwiftJLSTests-product
+[29 / 35] SwiftJLSTests-product
+[31 / 35] SwiftJLSTests-product
+[33 / 35] SwiftJLSTests-product
+Build complete! (2.72 secs)
+SwiftJLSTests.APITests/cancellationKeepsSwiftCancellationError()
+SwiftJLSTests.APITests/defaultsAndUnsupportedFidelityAreExplicit()
+SwiftJLSTests.APITests/exactSamplesAndZeroedPadding(precision:)
+SwiftJLSTests.APITests/noSyntheticBytesAdvertisedAsCompressedFormats()
+SwiftJLSTests.APITests/outOfRangeTwelveBitSampleInvalidatesDestination()
+SwiftJLSTests.APITests/resourceAndRequiredBackendErrorsPrecedeUnsupportedCodec()
+SwiftJLSTests.APITests/sampleHelperPreservesExplicitBigEndian()
+SwiftJLSTests.DescriptorTests/deterministicLayoutMutation()
+SwiftJLSTests.DescriptorTests/finalRowNeedsOnlyItsActualSampleBytes()
+SwiftJLSTests.DescriptorTests/paddedOddDimensionsAndPrecision()
+SwiftJLSTests.DescriptorTests/rejectsArithmeticOverflowBeforeAllocation()
+SwiftJLSTests.DescriptorTests/rejectsInvalidGeometryAndPrecision()
+SwiftJLSTests.DescriptorTests/rejectsMisalignedOffsetsAndStrides()
+SwiftJLSTests.DescriptorTests/rejectsOverlappingPlanesAndIncompleteMapping()
+SwiftJLSTests.DescriptorTests/semanticMetadataMustAgreeWithComponents()
+SwiftJLSTests.Swift64SampleAccessTests/initialisesExternalSampleBytesAtOddAddressWithoutChangingPadding()
+SwiftJLSTests.Swift64SampleAccessTests/outOfPrecisionWriteInvalidatesDestination()
+SwiftJLSTests.Swift64SampleAccessTests/readsIndependentGoldenBytesFromOddPhysicalAddress()
+SwiftJLSTests.Swift64SampleAccessTests/refusesShortProviderBeforeLoadingSample()
+SwiftJLSTests.Swift64SampleAccessTests/rejectsCoordinatesBeforeOffsetArithmetic()
+SwiftJLSTests.Swift64SampleAccessTests/writesGoldenBytesForPackedAndPadded12And16BitSamples()
+SwiftJLSTests.abandonedDestinationInvalidatesItsReservedOwner()
+SwiftJLSTests.actualTaskCancellationDuringFillPreventsPublication()
+SwiftJLSTests.adaptersShareWriterAuthorityAndRejectForgedLease()
+SwiftJLSTests.cancellationInProviderFinalisationPreventsPublication(_:)
+SwiftJLSTests.concurrentAdaptersReserveExactlyOneWriter()
+SwiftJLSTests.failedFillInvalidatesDestination()
+SwiftJLSTests.imageRetainsAdapterUntilLastImageReleaseExactlyOnce()
+SwiftJLSTests.metadataAndDestinationLimitsUseCallerBudget()
+SwiftJLSTests.reentrantLeaseOperationsRejectWithoutDeadlocking()
+SwiftJLSTests.sameTokenCannotAuthoriseConcurrentOverlappingBorrows()
+SwiftJLSTests.sealedOwnerSupportsConcurrentReadersAndNestedRead()

@@ -1,0 +1,29 @@
+warning: /Users/suresh/Library/org.swift.swiftpm/configuration is not accessible or not writable, disabling user-level cache features.
+warning: /Users/suresh/Library/org.swift.swiftpm/security is not accessible or not writable, disabling user-level cache features.
+warning: /Users/suresh/Library/Caches/org.swift.swiftpm is not accessible or not writable, disabling user-level cache features.
+warning: 'swiftjls': failed storing manifest for 'swiftjls' in cache: attempt to write a readonly database
+Building for production...
+[Planning deferred tasks]
+[22 / 34]
+[23 / 35] SwiftJLS
+[31 / 70]
+[36 / 70]
+[41 / 70]
+[43 / 70]
+[47 / 70]
+[50 / 70]
+[55 / 70]
+[57 / 70]
+[58 / 70]
+[59 / 70] SwiftJLS
+[66 / 71] swiftjls-product
+[68 / 72] swiftjls-product
+[70 / 72] swiftjls-product
+[71 / 72] swiftjls-product
+Build complete! (6.52 secs)
+warning: /Users/suresh/Library/org.swift.swiftpm/configuration is not accessible or not writable, disabling user-level cache features.
+warning: /Users/suresh/Library/org.swift.swiftpm/security is not accessible or not writable, disabling user-level cache features.
+warning: /Users/suresh/Library/Caches/org.swift.swiftpm is not accessible or not writable, disabling user-level cache features.
+Installed /Users/suresh/Documents/Codex/2026-09-18/create-coding-agents-to-start-work/work/os27/install-builds/SwiftJLS/stage/usr/local/bin/swiftjls
+Manual: /Users/suresh/Documents/Codex/2026-09-18/create-coding-agents-to-start-work/work/os27/install-builds/SwiftJLS/stage/usr/local/share/man/man1/swiftjls.1
+Read with: man -M "/Users/suresh/Documents/Codex/2026-09-18/create-coding-agents-to-start-work/work/os27/install-builds/SwiftJLS/stage/usr/local/share/man" swiftjls

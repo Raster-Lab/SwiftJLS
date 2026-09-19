@@ -1,0 +1,15 @@
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild test -scheme SwiftJLS -destination platform=macOS,arch=arm64 -jobs 2 CODE_SIGNING_ALLOWED=NO -derivedDataPath /Users/suresh/Documents/Codex/2026-09-18/create-coding-agents-to-start-work/work/os27/xcode/SwiftJLS/DerivedData -resultBundlePath /Users/suresh/Documents/Codex/2026-09-18/create-coding-agents-to-start-work/work/os27/xcode/SwiftJLS/Tests.xcresult -parallel-testing-enabled NO
+
+Build settings from command line:
+    CODE_SIGNING_ALLOWED = NO
+
+Resolve Package Graph
+2026-09-19 15:04:15.777 xcodebuild[35203:3488893] [MT] IDERunDestination: Supported platforms for the buildables in the current scheme is empty.
+
+
+Resolved source packages:
+  SwiftJLS: /Users/suresh/Documents/Codex/2026-09-18/create-coding-agents-to-start-work/outputs/SwiftJLS
+
+xcodebuild: error: Scheme SwiftJLS is not currently configured for the test action.
+
