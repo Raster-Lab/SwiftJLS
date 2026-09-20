@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="TestResults" errors="0" tests="32" failures="0" skipped="0" time="0.00165025">
+    <testcase classname="SwiftJLSTests" name="abandonedDestinationInvalidatesItsReservedOwner()" time="0.00049375" />
+    <testcase classname="SwiftJLSTests" name="cancellationInProviderFinalisationPreventsPublication(_:)" time="0.001274584" />
+    <testcase classname="SwiftJLSTests" name="failedFillInvalidatesDestination()" time="0.000826208" />
+    <testcase classname="SwiftJLSTests" name="sameTokenCannotAuthoriseConcurrentOverlappingBorrows()" time="0.000958292" />
+    <testcase classname="SwiftJLSTests.Swift64SampleAccessTests" name="rejectsCoordinatesBeforeOffsetArithmetic()" time="0.000711708" />
+    <testcase classname="SwiftJLSTests.Swift64SampleAccessTests" name="writesGoldenBytesForPackedAndPadded12And16BitSamples()" time="0.001038833" />
+    <testcase classname="SwiftJLSTests.Swift64SampleAccessTests" name="refusesShortProviderBeforeLoadingSample()" time="0.000650916" />
+    <testcase classname="SwiftJLSTests.Swift64SampleAccessTests" name="readsIndependentGoldenBytesFromOddPhysicalAddress()" time="0.000664416" />
+    <testcase classname="SwiftJLSTests.Swift64SampleAccessTests" name="outOfPrecisionWriteInvalidatesDestination()" time="0.000490917" />
+    <testcase classname="SwiftJLSTests.Swift64SampleAccessTests" name="initialisesExternalSampleBytesAtOddAddressWithoutChangingPadding()" time="0.000596375" />
+    <testcase classname="SwiftJLSTests" name="metadataAndDestinationLimitsUseCallerBudget()" time="0.001236417" />
+    <testcase classname="SwiftJLSTests.APITests" name="defaultsAndUnsupportedFidelityAreExplicit()" time="0.000802167" />
+    <testcase classname="SwiftJLSTests.APITests" name="exactSamplesAndZeroedPadding(precision:)" time="0.000923125" />
+    <testcase classname="SwiftJLSTests.APITests" name="outOfRangeTwelveBitSampleInvalidatesDestination()" time="0.000935208" />
+    <testcase classname="SwiftJLSTests.APITests" name="sampleHelperPreservesExplicitBigEndian()" time="0.000532834" />
+    <testcase classname="SwiftJLSTests.APITests" name="noSyntheticBytesAdvertisedAsCompressedFormats()" time="0.000909667" />
+    <testcase classname="SwiftJLSTests.APITests" name="resourceAndRequiredBackendErrorsPrecedeUnsupportedCodec()" time="0.00089275" />
+    <testcase classname="SwiftJLSTests.APITests" name="cancellationKeepsSwiftCancellationError()" time="0.000625791" />
+    <testcase classname="SwiftJLSTests" name="adaptersShareWriterAuthorityAndRejectForgedLease()" time="0.000534917" />
+    <testcase classname="SwiftJLSTests" name="concurrentAdaptersReserveExactlyOneWriter()" time="0.000777333" />
+    <testcase classname="SwiftJLSTests" name="sealedOwnerSupportsConcurrentReadersAndNestedRead()" time="0.000839541" />
+    <testcase classname="SwiftJLSTests.DescriptorTests" name="finalRowNeedsOnlyItsActualSampleBytes()" time="0.000667667" />
+    <testcase classname="SwiftJLSTests.DescriptorTests" name="rejectsArithmeticOverflowBeforeAllocation()" time="0.000512417" />
+    <testcase classname="SwiftJLSTests.DescriptorTests" name="paddedOddDimensionsAndPrecision()" time="0.000442708" />
+    <testcase classname="SwiftJLSTests.DescriptorTests" name="rejectsMisalignedOffsetsAndStrides()" time="0.000584542" />
+    <testcase classname="SwiftJLSTests.DescriptorTests" name="deterministicLayoutMutation()" time="0.001188667" />
+    <testcase classname="SwiftJLSTests.DescriptorTests" name="semanticMetadataMustAgreeWithComponents()" time="0.000470834" />
+    <testcase classname="SwiftJLSTests.DescriptorTests" name="rejectsInvalidGeometryAndPrecision()" time="0.0006985" />
+    <testcase classname="SwiftJLSTests.DescriptorTests" name="rejectsOverlappingPlanesAndIncompleteMapping()" time="0.000464959" />
+    <testcase classname="SwiftJLSTests" name="reentrantLeaseOperationsRejectWithoutDeadlocking()" time="0.00051475" />
+    <testcase classname="SwiftJLSTests" name="imageRetainsAdapterUntilLastImageReleaseExactlyOnce()" time="0.000488958" />
+    <testcase classname="SwiftJLSTests" name="actualTaskCancellationDuringFillPreventsPublication()" time="0.001244625" />
+  </testsuite>
+</testsuites>

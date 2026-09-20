@@ -1,0 +1,18 @@
+Building for debugging...
+[0/7] Write sources
+[2/7] Write Consumer-entitlement.plist
+[3/7] Write swift-version--58304C5D6DBC2206.txt
+[5/11] Emitting module SwiftJLS
+[6/11] Compiling SwiftJLS CodecAPI.swift
+[7/11] Compiling SwiftJLS Errors.swift
+[8/11] Compiling SwiftJLS Image.swift
+[9/14] Compiling SwiftJLS ImageDescriptor.swift
+[10/14] Compiling SwiftJLS ImageStorage.swift
+[11/14] Compiling SwiftJLS Options.swift
+[12/16] Emitting module Consumer
+[13/16] Compiling Consumer main.swift
+[13/16] Write Objects.LinkFileList
+[14/16] Linking Consumer
+[15/16] Applying Consumer
+Build of product 'Consumer' complete! (3.97s)
+Independent consumer passed: 12-bit samples and storage identity preserved; codecs explicitly deferred.

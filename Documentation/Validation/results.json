@@ -1,0 +1,87 @@
+{
+  "milestone": 1,
+  "contract_version": "0.2.1",
+  "successor_base_sha": "3cea15e236ea53b32562ce9edc381ecf9b40a2dc",
+  "predecessor_sha": "299b9a2e5bfe36ef104a3464a27d6c4c82874cc2",
+  "source_hashes": "SOURCE_SHA256.txt",
+  "host": {
+    "os": "macOS 27.0 (26A428)",
+    "architecture": "arm64",
+    "xcode": "27.0 (27A266a)",
+    "swift": "6.4 swiftlang-6.4.0.34.1",
+    "sdk": "macOS 27.0",
+    "deployment_minimum": "26.0",
+    "language_mode": "6"
+  },
+  "results": [
+    {
+      "command": "DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer CLANG_MODULE_CACHE_PATH=work/clang-cache xcrun swift test --build-system native --disable-sandbox --jobs 2 --cache-path work/swift-cache --scratch-path work/native-debug  --xunit-output work/evidence/native-debug.xml",
+      "exit_code": 0,
+      "tests": 25,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "report": "debug-tests.xml"
+    },
+    {
+      "command": "DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer CLANG_MODULE_CACHE_PATH=work/clang-cache xcrun swift test --build-system native --disable-sandbox --jobs 2 --cache-path work/swift-cache --scratch-path work/native-release -c release --xunit-output work/evidence/native-release.xml",
+      "exit_code": 0,
+      "tests": 25,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "report": "release-tests.xml"
+    },
+    {
+      "command": "DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer CLANG_MODULE_CACHE_PATH=work/clang-cache xcrun swift test --build-system native --disable-sandbox --jobs 2 --cache-path work/swift-cache --scratch-path work/native-asan --sanitize address --xunit-output work/evidence/native-asan.xml",
+      "exit_code": 0,
+      "tests": 25,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "report": "asan-tests.xml"
+    },
+    {
+      "command": "DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer CLANG_MODULE_CACHE_PATH=work/clang-cache xcrun swift test --build-system native --disable-sandbox --jobs 2 --cache-path work/swift-cache --scratch-path work/native-tsan --sanitize thread --xunit-output work/evidence/native-tsan.xml",
+      "exit_code": 0,
+      "tests": 25,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "report": "tsan-tests.xml"
+    },
+    {
+      "command": "DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer CLANG_MODULE_CACHE_PATH=work/clang-cache xcrun swift build --build-system native --disable-sandbox --jobs 2 --cache-path work/swift-cache --scratch-path work/native-debug -c debug",
+      "exit_code": 0
+    },
+    {
+      "command": "DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer CLANG_MODULE_CACHE_PATH=work/clang-cache xcrun swift build --build-system native --disable-sandbox --jobs 2 --cache-path work/swift-cache --scratch-path work/native-release -c release",
+      "exit_code": 0
+    },
+    {
+      "command": "DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer CLANG_MODULE_CACHE_PATH=work/clang-cache xcrun swift run --disable-sandbox --jobs 2 --cache-path work/swift-cache --package-path Examples/IndependentConsumer Consumer",
+      "exit_code": 0
+    },
+    {
+      "command": "DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer xcodebuild -list -json",
+      "exit_code": 66,
+      "outcome": "xcodebuild did not recognise this source-only Swift package as an Xcode project/workspace/package; Xcode compiler validation used xcrun swift instead."
+    },
+    {
+      "command": "DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer CLANG_MODULE_CACHE_PATH=work/clang-cache xcrun swift test --disable-sandbox --jobs 2 --cache-path work/swift-cache -c release",
+      "exit_code": 1,
+      "outcome": "Swift Build backend release dSYM generation denied by sandbox; native backend debug/release/ASan/TSan recovered without source or safety-check changes."
+    }
+  ],
+  "unexecuted": [
+    "Exact Swift 6.2 minimum toolchain",
+    "Linux ARM64/x86_64",
+    "macOS Intel",
+    "Apple device/simulator runtimes",
+    "Codec migration/regressions/interoperability",
+    "CLI",
+    "Coverage-guided codec parser fuzzing",
+    "Controlled codec performance benchmarks"
+  ],
+  "claims": "Synthetic API/storage only. No codec formats supported."
+}

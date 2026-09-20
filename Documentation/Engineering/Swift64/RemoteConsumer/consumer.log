@@ -1,0 +1,28 @@
+Fetching https://github.com/Raster-Lab/SwiftJLS.git
+[1/545] Fetching swiftjls
+Fetched https://github.com/Raster-Lab/SwiftJLS.git (1.51s)
+Creating working copy for https://github.com/Raster-Lab/SwiftJLS.git
+Working copy of https://github.com/Raster-Lab/SwiftJLS.git resolved at f63e52c5e2a82fc0aff3e7d9eef85f3122161e0d
+Building for debugging...
+[Planning deferred tasks]
+[23 / 38]
+[24 / 39] SwiftJLS
+[28 / 80]
+[34 / 80]
+[38 / 80]
+[41 / 80]
+[43 / 80]
+[47 / 80]
+[50 / 80]
+[55 / 80]
+[57 / 80]
+[58 / 80]
+[61 / 80] SwiftJLS
+[69 / 80] SwiftJLS
+[70 / 80] SwiftJLS-product
+[74 / 81]
+[76 / 81] MigrationExample-product
+[79 / 83] MigrationExample-product
+[81 / 83] MigrationExample-product
+Build complete! (6.72 secs)
+Storage trial passed; JPEG-LS encoding remains unavailable.

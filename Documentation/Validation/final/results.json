@@ -1,0 +1,52 @@
+{
+  "purpose": "Final cancellation-publication regression validation",
+  "environment": {
+    "DEVELOPER_DIR": "/Applications/Xcode.app/Contents/Developer",
+    "CLANG_MODULE_CACHE_PATH": "<workspace>/work/final-validation/SwiftJLS/module-cache",
+    "SWIFTPM_MODULECACHE_OVERRIDE": "<workspace>/work/final-validation/SwiftJLS/module-cache"
+  },
+  "records": [
+    {
+      "check": "debug",
+      "command": "xcrun swift test --disable-xctest --disable-sandbox --build-system native --jobs 2 --cache-path <workspace>/work/final-validation/SwiftJLS/cache --config-path <workspace>/work/final-validation/SwiftJLS/config --security-path <workspace>/work/final-validation/SwiftJLS/security --scratch-path <workspace>/work/final-validation/SwiftJLS/debug --xunit-output <workspace>/work/final-validation/SwiftJLS/debug.xml",
+      "exit_code": 0,
+      "tests": 26,
+      "log": "work/final-validation/SwiftJLS/debug.log"
+    },
+    {
+      "check": "release",
+      "command": "xcrun swift test --disable-xctest --disable-sandbox --build-system native --jobs 2 --cache-path <workspace>/work/final-validation/SwiftJLS/cache --config-path <workspace>/work/final-validation/SwiftJLS/config --security-path <workspace>/work/final-validation/SwiftJLS/security --scratch-path <workspace>/work/final-validation/SwiftJLS/release --xunit-output <workspace>/work/final-validation/SwiftJLS/release.xml -c release",
+      "exit_code": 0,
+      "tests": 26,
+      "log": "work/final-validation/SwiftJLS/release.log"
+    },
+    {
+      "check": "asan",
+      "command": "xcrun swift test --disable-xctest --disable-sandbox --build-system native --jobs 2 --cache-path <workspace>/work/final-validation/SwiftJLS/cache --config-path <workspace>/work/final-validation/SwiftJLS/config --security-path <workspace>/work/final-validation/SwiftJLS/security --scratch-path <workspace>/work/final-validation/SwiftJLS/asan --xunit-output <workspace>/work/final-validation/SwiftJLS/asan.xml --sanitize address",
+      "exit_code": 0,
+      "tests": 26,
+      "log": "work/final-validation/SwiftJLS/asan.log"
+    },
+    {
+      "check": "tsan",
+      "command": "xcrun swift test --disable-xctest --disable-sandbox --build-system native --jobs 2 --cache-path <workspace>/work/final-validation/SwiftJLS/cache --config-path <workspace>/work/final-validation/SwiftJLS/config --security-path <workspace>/work/final-validation/SwiftJLS/security --scratch-path <workspace>/work/final-validation/SwiftJLS/tsan --xunit-output <workspace>/work/final-validation/SwiftJLS/tsan.xml --sanitize thread",
+      "exit_code": 0,
+      "tests": 26,
+      "log": "work/final-validation/SwiftJLS/tsan.log"
+    },
+    {
+      "check": "consumer",
+      "command": "xcrun swift run --disable-sandbox --build-system native --jobs 2 --cache-path <workspace>/work/final-validation/SwiftJLS/cache --config-path <workspace>/work/final-validation/SwiftJLS/config --security-path <workspace>/work/final-validation/SwiftJLS/security --scratch-path <workspace>/work/final-validation/SwiftJLS/consumer --package-path Examples/IndependentConsumer Consumer",
+      "exit_code": 0,
+      "log": "work/final-validation/SwiftJLS/consumer.log"
+    }
+  ],
+  "source_sha256": {
+    "Sources/SwiftJLS/CodecAPI.swift": "50bc697ef1c976fb164d659b6a7b4d3a6858e5591ce60a83b8d62cb17989c174",
+    "Sources/SwiftJLS/Errors.swift": "cfae3357b4aba0e62df1ed6096b8af951d39d0155184b8881c737d48ec936643",
+    "Sources/SwiftJLS/Image.swift": "a10dda5b5d33b63aec4afb4eb060a3a2d8017dbb9bc0c3b1059a4498f77222e5",
+    "Sources/SwiftJLS/ImageDescriptor.swift": "a6d91691d00c0bee8f19986f7bd95739589794898e3c163e80923885d21c5a96",
+    "Sources/SwiftJLS/ImageStorage.swift": "8bc26a7d1237260dbb607fe2612f55d05a9376365371573332190e78308095cd",
+    "Sources/SwiftJLS/Options.swift": "082a589b2172282b6a66ea3bd6e72f6d865671a782cb1b3839549db3e575f622"
+  }
+}

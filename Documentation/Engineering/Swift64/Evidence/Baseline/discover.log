@@ -1,0 +1,36 @@
+Building for debugging...
+[Planning deferred tasks]
+[15 / 26] SwiftJLSTests-product
+[16 / 34]
+[20 / 34] SwiftJLSTests-product
+[21 / 34] SwiftJLSTests-product
+[23 / 34] SwiftJLSTests-product
+[28 / 34] SwiftJLSTests-product
+[30 / 34] SwiftJLSTests-product
+Build complete! (2.69 secs)
+SwiftJLSTests.APITests/cancellationKeepsSwiftCancellationError()
+SwiftJLSTests.APITests/defaultsAndUnsupportedFidelityAreExplicit()
+SwiftJLSTests.APITests/exactSamplesAndZeroedPadding(precision:)
+SwiftJLSTests.APITests/noSyntheticBytesAdvertisedAsCompressedFormats()
+SwiftJLSTests.APITests/outOfRangeTwelveBitSampleInvalidatesDestination()
+SwiftJLSTests.APITests/resourceAndRequiredBackendErrorsPrecedeUnsupportedCodec()
+SwiftJLSTests.APITests/sampleHelperPreservesExplicitBigEndian()
+SwiftJLSTests.DescriptorTests/deterministicLayoutMutation()
+SwiftJLSTests.DescriptorTests/finalRowNeedsOnlyItsActualSampleBytes()
+SwiftJLSTests.DescriptorTests/paddedOddDimensionsAndPrecision()
+SwiftJLSTests.DescriptorTests/rejectsArithmeticOverflowBeforeAllocation()
+SwiftJLSTests.DescriptorTests/rejectsInvalidGeometryAndPrecision()
+SwiftJLSTests.DescriptorTests/rejectsMisalignedOffsetsAndStrides()
+SwiftJLSTests.DescriptorTests/rejectsOverlappingPlanesAndIncompleteMapping()
+SwiftJLSTests.DescriptorTests/semanticMetadataMustAgreeWithComponents()
+SwiftJLSTests.abandonedDestinationInvalidatesItsReservedOwner()
+SwiftJLSTests.actualTaskCancellationDuringFillPreventsPublication()
+SwiftJLSTests.adaptersShareWriterAuthorityAndRejectForgedLease()
+SwiftJLSTests.cancellationInProviderFinalisationPreventsPublication(_:)
+SwiftJLSTests.concurrentAdaptersReserveExactlyOneWriter()
+SwiftJLSTests.failedFillInvalidatesDestination()
+SwiftJLSTests.imageRetainsAdapterUntilLastImageReleaseExactlyOnce()
+SwiftJLSTests.metadataAndDestinationLimitsUseCallerBudget()
+SwiftJLSTests.reentrantLeaseOperationsRejectWithoutDeadlocking()
+SwiftJLSTests.sameTokenCannotAuthoriseConcurrentOverlappingBorrows()
+SwiftJLSTests.sealedOwnerSupportsConcurrentReadersAndNestedRead()

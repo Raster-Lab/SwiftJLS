@@ -1,0 +1,824 @@
+[
+  {
+    "file": "Candidate/swift-test-help.log",
+    "source": "work/os27/candidate/SwiftJLS/swift-test-help.log",
+    "source_sha256": "070f260663244222b162841bd3ea3244f88ba6d8af15dfbcc3e2cd4d7a2fd28c",
+    "archive_sha256": "070f260663244222b162841bd3ea3244f88ba6d8af15dfbcc3e2cd4d7a2fd28c",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "Candidate/release-tests.xml",
+    "source": "work/os27/candidate/SwiftJLS/release-tests.xml",
+    "source_sha256": "ba33f10656095263e9cacf09cdea572549442fef960315ff32f7ccaa7cad3e5f",
+    "archive_sha256": "ba33f10656095263e9cacf09cdea572549442fef960315ff32f7ccaa7cad3e5f",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "Candidate/repetition-tests.xml",
+    "source": "work/os27/candidate/SwiftJLS/repetition-tests.xml",
+    "source_sha256": "6a81e960d738b48f8e33dda6dbeaebdee87802cf6596ecfd9d2f1b51dfd17e4b",
+    "archive_sha256": "6a81e960d738b48f8e33dda6dbeaebdee87802cf6596ecfd9d2f1b51dfd17e4b",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "Candidate/asan-discovery.log",
+    "source": "work/os27/candidate/SwiftJLS/asan-discovery.log",
+    "source_sha256": "7f48d5632e35cac46c1457356adc547d79422a6a332862173a09d1e6f52eca4b",
+    "archive_sha256": "7f48d5632e35cac46c1457356adc547d79422a6a332862173a09d1e6f52eca4b",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "Candidate/report.json",
+    "source": "work/os27/candidate/SwiftJLS/report.json",
+    "source_sha256": "d287ebd0eaac5477562dc728880b75a5fc2f2b7f492255c8df94a0c2ece50fc6",
+    "archive_sha256": "d287ebd0eaac5477562dc728880b75a5fc2f2b7f492255c8df94a0c2ece50fc6",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "Candidate/sbom-spdx.log",
+    "source": "work/os27/candidate/SwiftJLS/sbom-spdx.log",
+    "source_sha256": "505d979361615abc2d0c9a2512f797d59efd77065e93978cef578237f202e154",
+    "archive_sha256": "505d979361615abc2d0c9a2512f797d59efd77065e93978cef578237f202e154",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "Candidate/tsan-tests.log",
+    "source": "work/os27/candidate/SwiftJLS/tsan-tests.log",
+    "source_sha256": "d65658d69821b37106b26fd91ef8a1d7cabbf3fbcd7728d91632466242b850f1",
+    "archive_sha256": "d65658d69821b37106b26fd91ef8a1d7cabbf3fbcd7728d91632466242b850f1",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "Candidate/working-tree.log",
+    "source": "work/os27/candidate/SwiftJLS/working-tree.log",
+    "source_sha256": "3757770bdceb4fe13d241e33afa7eb712f521788dcb8795c83a922b06327ed67",
+    "archive_sha256": "3757770bdceb4fe13d241e33afa7eb712f521788dcb8795c83a922b06327ed67",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "Candidate/debug-tests.log",
+    "source": "work/os27/candidate/SwiftJLS/debug-tests.log",
+    "source_sha256": "89644264887bfd613631c342406b071e76fed8077ac272d3d5b94dcc160eb98c",
+    "archive_sha256": "89644264887bfd613631c342406b071e76fed8077ac272d3d5b94dcc160eb98c",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "Candidate/swift-package-help.log",
+    "source": "work/os27/candidate/SwiftJLS/swift-package-help.log",
+    "source_sha256": "4ac3d86cfb6970638845d6ed1721f19ac8475ccadfc19966c45c71a8341bc8c4",
+    "archive_sha256": "4ac3d86cfb6970638845d6ed1721f19ac8475ccadfc19966c45c71a8341bc8c4",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "Candidate/swift-version.log",
+    "source": "work/os27/candidate/SwiftJLS/swift-version.log",
+    "source_sha256": "30bb0d72a580e8e936ab32e24cab2876f82fa6b06d66fef876fe21a47e828acc",
+    "archive_sha256": "30bb0d72a580e8e936ab32e24cab2876f82fa6b06d66fef876fe21a47e828acc",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "Candidate/asan-tests.log",
+    "source": "work/os27/candidate/SwiftJLS/asan-tests.log",
+    "source_sha256": "b93e9f3fc9e142c0d8686476bddc6981f6a2133557f512871ac0061b1739657d",
+    "archive_sha256": "b93e9f3fc9e142c0d8686476bddc6981f6a2133557f512871ac0061b1739657d",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "Candidate/debug-incremental-build.log",
+    "source": "work/os27/candidate/SwiftJLS/debug-incremental-build.log",
+    "source_sha256": "1d09583afc29fdf29e40b49a6dfdef5a915c2e6037c06a586d1f420810cdb8b9",
+    "archive_sha256": "1d09583afc29fdf29e40b49a6dfdef5a915c2e6037c06a586d1f420810cdb8b9",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "Candidate/release-discovery.log",
+    "source": "work/os27/candidate/SwiftJLS/release-discovery.log",
+    "source_sha256": "0849cd7e04e5b5f7121636d857238155b31654f2b074c7929218b3242e094869",
+    "archive_sha256": "0849cd7e04e5b5f7121636d857238155b31654f2b074c7929218b3242e094869",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "Candidate/tsan-discovery.log",
+    "source": "work/os27/candidate/SwiftJLS/tsan-discovery.log",
+    "source_sha256": "e0ab00826af4872564dd968e27e8af2f94acfee3a3c468d8f295efccc4cb8cb4",
+    "archive_sha256": "e0ab00826af4872564dd968e27e8af2f94acfee3a3c468d8f295efccc4cb8cb4",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "Candidate/release-clean-build.log",
+    "source": "work/os27/candidate/SwiftJLS/release-clean-build.log",
+    "source_sha256": "ec6888cd2619d670880ebc151dee7f98171a17be0248bbe6ed7d1b625580d029",
+    "archive_sha256": "ec6888cd2619d670880ebc151dee7f98171a17be0248bbe6ed7d1b625580d029",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "Candidate/swift-sbom-help.log",
+    "source": "work/os27/candidate/SwiftJLS/swift-sbom-help.log",
+    "source_sha256": "ef69aacf72783b2c174cdb199e4cab6082026a559e31c9188351871a2b26d69a",
+    "archive_sha256": "ef69aacf72783b2c174cdb199e4cab6082026a559e31c9188351871a2b26d69a",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "Candidate/asan-tests.xml",
+    "source": "work/os27/candidate/SwiftJLS/asan-tests.xml",
+    "source_sha256": "512fb23cc7a0a4f9075e778382291e08d8a9d440447569537e0a61ba665c2b51",
+    "archive_sha256": "512fb23cc7a0a4f9075e778382291e08d8a9d440447569537e0a61ba665c2b51",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "Candidate/debug-clean-build.log",
+    "source": "work/os27/candidate/SwiftJLS/debug-clean-build.log",
+    "source_sha256": "66ff1bb45da9709cc4e6b3d3919c7fb8ee17bc46e0aab2a939d70e4450c6905b",
+    "archive_sha256": "66ff1bb45da9709cc4e6b3d3919c7fb8ee17bc46e0aab2a939d70e4450c6905b",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "Candidate/swift-build-help.log",
+    "source": "work/os27/candidate/SwiftJLS/swift-build-help.log",
+    "source_sha256": "1c619415d15ad0be11d69430d958f154a461149938ec6b87037c17f113f7bf3e",
+    "archive_sha256": "1c619415d15ad0be11d69430d958f154a461149938ec6b87037c17f113f7bf3e",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "Candidate/source-commit.log",
+    "source": "work/os27/candidate/SwiftJLS/source-commit.log",
+    "source_sha256": "5c2ec36ffe54b92bc69e890d161339d4e6bf4beaea6a75017b69fb12f85625fb",
+    "archive_sha256": "5c2ec36ffe54b92bc69e890d161339d4e6bf4beaea6a75017b69fb12f85625fb",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "Candidate/target-info.log",
+    "source": "work/os27/candidate/SwiftJLS/target-info.log",
+    "source_sha256": "723862251a92f4e39ea84812234755f0110ca5151f9c21516853daab508e26bd",
+    "archive_sha256": "723862251a92f4e39ea84812234755f0110ca5151f9c21516853daab508e26bd",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "Candidate/release-incremental-build.log",
+    "source": "work/os27/candidate/SwiftJLS/release-incremental-build.log",
+    "source_sha256": "32e566492bf93d034ddb71cca3cdd80644ba12315597243022fe1b18705d5c7a",
+    "archive_sha256": "32e566492bf93d034ddb71cca3cdd80644ba12315597243022fe1b18705d5c7a",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "Candidate/repetition-tests.log",
+    "source": "work/os27/candidate/SwiftJLS/repetition-tests.log",
+    "source_sha256": "f3cb630221c50925a414d3fece038698fe5b0024b7865ddfc3082f22838a5202",
+    "archive_sha256": "f3cb630221c50925a414d3fece038698fe5b0024b7865ddfc3082f22838a5202",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "Candidate/release-tests.log",
+    "source": "work/os27/candidate/SwiftJLS/release-tests.log",
+    "source_sha256": "5a63a1f6818cd60b5aecaaf970dbb9b3b1acac799473a35f81724848f5f5aad4",
+    "archive_sha256": "5a63a1f6818cd60b5aecaaf970dbb9b3b1acac799473a35f81724848f5f5aad4",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "Candidate/fresh-local-consumer.log",
+    "source": "work/os27/candidate/SwiftJLS/fresh-local-consumer.log",
+    "source_sha256": "77ac17af4e1a700dc10ff6a28858e39f8fc947589bb4f61e1355d96d0b4208b2",
+    "archive_sha256": "77ac17af4e1a700dc10ff6a28858e39f8fc947589bb4f61e1355d96d0b4208b2",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "Candidate/xcode-version.log",
+    "source": "work/os27/candidate/SwiftJLS/xcode-version.log",
+    "source_sha256": "694b44731d0b415c5b11d844151e466d7f5e200a95627efda377f232f1a6ab77",
+    "archive_sha256": "694b44731d0b415c5b11d844151e466d7f5e200a95627efda377f232f1a6ab77",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "Candidate/sbom-cyclonedx.log",
+    "source": "work/os27/candidate/SwiftJLS/sbom-cyclonedx.log",
+    "source_sha256": "f8eae7b94d1978f40f2fc7796636646b5b407e8be0b8866a8cc1f3fd6819e2c6",
+    "archive_sha256": "f8eae7b94d1978f40f2fc7796636646b5b407e8be0b8866a8cc1f3fd6819e2c6",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "Candidate/tsan-tests.xml",
+    "source": "work/os27/candidate/SwiftJLS/tsan-tests.xml",
+    "source_sha256": "8c086b38f13085af9e8c230f650210bfb4fee2061607a4b296ffa5705a1da5ee",
+    "archive_sha256": "8c086b38f13085af9e8c230f650210bfb4fee2061607a4b296ffa5705a1da5ee",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "Candidate/debug-tests.xml",
+    "source": "work/os27/candidate/SwiftJLS/debug-tests.xml",
+    "source_sha256": "8b661bdb024e53e72430c892922e5a4a68b7e58622ca6356cd5685eb77909135",
+    "archive_sha256": "8b661bdb024e53e72430c892922e5a4a68b7e58622ca6356cd5685eb77909135",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "Candidate/debug-discovery.log",
+    "source": "work/os27/candidate/SwiftJLS/debug-discovery.log",
+    "source_sha256": "4c19d6a5f49eaef152afb1c378125d66002ccff9002e13aca4c32cc4f364507d",
+    "archive_sha256": "4c19d6a5f49eaef152afb1c378125d66002ccff9002e13aca4c32cc4f364507d",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "Candidate/repetition-discovery.log",
+    "source": "work/os27/candidate/SwiftJLS/repetition-discovery.log",
+    "source_sha256": "66ebdbe2157e02b6f367282dc8a2f211919a0b18efbdb0df935279f92e33bdf8",
+    "archive_sha256": "66ebdbe2157e02b6f367282dc8a2f211919a0b18efbdb0df935279f92e33bdf8",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "Candidate/sboms/spdx/spdx3-3.0.1-SwiftJLS-e1cbc3a23c4ada64f2d5db4c5330bd9710950797-modified-all-2026-09-19T09_33_58Z.json",
+    "source": "work/os27/candidate/SwiftJLS/sboms/spdx/spdx3-3.0.1-SwiftJLS-e1cbc3a23c4ada64f2d5db4c5330bd9710950797-modified-all-2026-09-19T09_33_58Z.json",
+    "source_sha256": "283ff31ca76c94d19751bbb5bc42f1fc04141c1f77fcbbcfa5476b08502855aa",
+    "archive_sha256": "283ff31ca76c94d19751bbb5bc42f1fc04141c1f77fcbbcfa5476b08502855aa",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "Candidate/sboms/cyclonedx/cyclonedx1-1.7-SwiftJLS-e1cbc3a23c4ada64f2d5db4c5330bd9710950797-modified-all-2026-09-19T09_34_00Z.json",
+    "source": "work/os27/candidate/SwiftJLS/sboms/cyclonedx/cyclonedx1-1.7-SwiftJLS-e1cbc3a23c4ada64f2d5db4c5330bd9710950797-modified-all-2026-09-19T09_34_00Z.json",
+    "source_sha256": "a31b911a08ec291428997b1e8f095dfdcc4fe65e740d9c38131fe69b609e06af",
+    "archive_sha256": "a31b911a08ec291428997b1e8f095dfdcc4fe65e740d9c38131fe69b609e06af",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "Candidate/Consumer/Sources/Consumer/main.swift",
+    "source": "work/os27/candidate/SwiftJLS/consumer/Sources/Consumer/main.swift",
+    "source_sha256": "6820c312723ed7046a269c9179950e52130f25f81a1864fab0db70aad025e60c",
+    "archive_sha256": "6820c312723ed7046a269c9179950e52130f25f81a1864fab0db70aad025e60c",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "Candidate/Consumer/Package.swift",
+    "source": "work/os27/candidate/SwiftJLS/consumer/Package.swift",
+    "source_sha256": "452962fb17770370441fe6a443ef8f5d5e827593dfc1aef50245aac30b36d6f9",
+    "archive_sha256": "452962fb17770370441fe6a443ef8f5d5e827593dfc1aef50245aac30b36d6f9",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "CLI/report.json",
+    "source": "work/os27/cli-final/SwiftJLS/report.json",
+    "source_sha256": "13bc76ae47e657e9ca5e2e86911ed71386535a6c8f5db88e77845fbb9bc01a16",
+    "archive_sha256": "13bc76ae47e657e9ca5e2e86911ed71386535a6c8f5db88e77845fbb9bc01a16",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "CLI/manual-plain.txt",
+    "source": "work/os27/cli-final/SwiftJLS/manual-plain.txt",
+    "source_sha256": "fc8bd4008f4d61a557ffe4e3aef56ecaa7211a41194074d9e61791fbbe46cd37",
+    "archive_sha256": "fc8bd4008f4d61a557ffe4e3aef56ecaa7211a41194074d9e61791fbbe46cd37",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "CLI/manual-rendered.txt",
+    "source": "work/os27/cli-final/SwiftJLS/manual-rendered.txt",
+    "source_sha256": "f8c727a9f580b4b014420dada73e14633e7708adaee16329fa3c1895f8d970c8",
+    "archive_sha256": "f8c727a9f580b4b014420dada73e14633e7708adaee16329fa3c1895f8d970c8",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "CLI/manual.1",
+    "source": "work/os27/cli-final/SwiftJLS/manual.1",
+    "source_sha256": "8fb173447f5ff7921a674485453c90e33919af075a53cee5b912203f30efcf2e",
+    "archive_sha256": "8fb173447f5ff7921a674485453c90e33919af075a53cee5b912203f30efcf2e",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "CLISBOM/results.json",
+    "source": "work/os27/cli-sbom/SwiftJLS/results.json",
+    "source_sha256": "be4e55343f88d1ff6772408bd0c8409af50cf79375ce0c37e460cbdb2ef0c93d",
+    "archive_sha256": "be4e55343f88d1ff6772408bd0c8409af50cf79375ce0c37e460cbdb2ef0c93d",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "CLISBOM/spdx.log",
+    "source": "work/os27/cli-sbom/SwiftJLS/spdx.log",
+    "source_sha256": "0891091d1049457df2a1d749edf4e3ab36e40f4278967687f7ba7693abd1af21",
+    "archive_sha256": "0891091d1049457df2a1d749edf4e3ab36e40f4278967687f7ba7693abd1af21",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "CLISBOM/cyclonedx.log",
+    "source": "work/os27/cli-sbom/SwiftJLS/cyclonedx.log",
+    "source_sha256": "2f36babaf3311136daa09efb3c4bba8a3d5109fec0f3cbe2540ee149db85962e",
+    "archive_sha256": "2f36babaf3311136daa09efb3c4bba8a3d5109fec0f3cbe2540ee149db85962e",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "Xcode/summary.json",
+    "source": "work/os27/xcode-final/SwiftJLS/summary.json",
+    "source_sha256": "dead9cc6dc7a6a20e56bae2964eeb2211387b66c3b6f82843250eaed2fc128bb",
+    "archive_sha256": "bb203dcc78ff753231f962041f1de4c2c54ca88e009fe4e22aba1191215361a0",
+    "hardware_identifier_redacted": true
+  },
+  {
+    "file": "Xcode/summary.log",
+    "source": "work/os27/xcode-final/SwiftJLS/summary.log",
+    "source_sha256": "8bdc2d49aca478e0131a65920679f1f9db561282d34f817737cbf657cae71ff3",
+    "archive_sha256": "8721c2d0016218c70d493703936731bbd2ddcce4141754c7d10cecb66770494f",
+    "hardware_identifier_redacted": true
+  },
+  {
+    "file": "Xcode/cli-release.log",
+    "source": "work/os27/xcode-final/SwiftJLS/cli-release.log",
+    "source_sha256": "1c438d886480a0e37bfae8c6ddaccd50f4e3eb54a50cf5f9b8a2341127525d79",
+    "archive_sha256": "ec46a11d1610f8e8f62461ae1947904a383dfff888b461332a7630ebf6a29d7a",
+    "hardware_identifier_redacted": true
+  },
+  {
+    "file": "Xcode/cli-version.log",
+    "source": "work/os27/xcode-final/SwiftJLS/cli-version.log",
+    "source_sha256": "52652a67f34fbdd82333c44ac75950f0e87121eaf47286e3484c31810edd78e9",
+    "archive_sha256": "52652a67f34fbdd82333c44ac75950f0e87121eaf47286e3484c31810edd78e9",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "Xcode/commands.json",
+    "source": "work/os27/xcode-final/SwiftJLS/commands.json",
+    "source_sha256": "8e5d255b364e9b6b028020357fcbd500d2ff8b10142710efb5e30da5e4548b92",
+    "archive_sha256": "8e5d255b364e9b6b028020357fcbd500d2ff8b10142710efb5e30da5e4548b92",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "Xcode/tests.log",
+    "source": "work/os27/xcode-final/SwiftJLS/tests.log",
+    "source_sha256": "61ea81ef0159ac3076a3b12a768d93daaf74bdd1ad0c99fdccaca6850e22b914",
+    "archive_sha256": "34f881f78e248ecccfd68062732c5b812e7876cde113d3208caf78eb902aae01",
+    "hardware_identifier_redacted": true
+  },
+  {
+    "file": "Xcode/cli-capabilities.log",
+    "source": "work/os27/xcode-final/SwiftJLS/cli-capabilities.log",
+    "source_sha256": "57bbf7f6cd45518491e9f3a85af184ff972ab8b970908817eb3bfa7b4c26efbb",
+    "archive_sha256": "57bbf7f6cd45518491e9f3a85af184ff972ab8b970908817eb3bfa7b4c26efbb",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "XcodeInitialScheme/commands.json",
+    "source": "work/os27/xcode/SwiftJLS/commands.json",
+    "source_sha256": "f231b2bb7baf8e590d332ada60c55e2467192c8be5cf2228effa3d479b7032ce",
+    "archive_sha256": "f231b2bb7baf8e590d332ada60c55e2467192c8be5cf2228effa3d479b7032ce",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "XcodeInitialScheme/tests.log",
+    "source": "work/os27/xcode/SwiftJLS/tests.log",
+    "source_sha256": "a4a33b473ea900cec277f3be847d975827ca6ff29e666726f83b3c6a1cfc66ea",
+    "archive_sha256": "a4a33b473ea900cec277f3be847d975827ca6ff29e666726f83b3c6a1cfc66ea",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "InstallerBuild/result.json",
+    "source": "work/os27/install-builds/SwiftJLS/result.json",
+    "source_sha256": "7739b859b4289530bf056dcba3be39f1fcd7230e5af1b554522b20b2f035fa9f",
+    "archive_sha256": "7739b859b4289530bf056dcba3be39f1fcd7230e5af1b554522b20b2f035fa9f",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "InstallerBuild/install.log",
+    "source": "work/os27/install-builds/SwiftJLS/install.log",
+    "source_sha256": "6639a800e35171a92aad1a84f5102ee5bf4c904aa3ff0f12901b3cffcbf10763",
+    "archive_sha256": "6639a800e35171a92aad1a84f5102ee5bf4c904aa3ff0f12901b3cffcbf10763",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "CLISBOM/spdx/spdx3-3.0.1-swiftjls-e1cbc3a23c4ada64f2d5db4c5330bd9710950797-modified-all-2026-09-19T09_36_23Z.json",
+    "source": "work/os27/cli-sbom/SwiftJLS/spdx/spdx3-3.0.1-swiftjls-e1cbc3a23c4ada64f2d5db4c5330bd9710950797-modified-all-2026-09-19T09_36_23Z.json",
+    "source_sha256": "603f06ec562bbb909fae4664b916875cf7624769c8d09f6a3f355aab0bfc8916",
+    "archive_sha256": "603f06ec562bbb909fae4664b916875cf7624769c8d09f6a3f355aab0bfc8916",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "CLISBOM/cyclonedx/cyclonedx1-1.7-swiftjls-e1cbc3a23c4ada64f2d5db4c5330bd9710950797-modified-all-2026-09-19T09_36_25Z.json",
+    "source": "work/os27/cli-sbom/SwiftJLS/cyclonedx/cyclonedx1-1.7-swiftjls-e1cbc3a23c4ada64f2d5db4c5330bd9710950797-modified-all-2026-09-19T09_36_25Z.json",
+    "source_sha256": "0dcee02172c51981ecd152a66b6ef29d563ea94492f8043a01a49649433030ae",
+    "archive_sha256": "0dcee02172c51981ecd152a66b6ef29d563ea94492f8043a01a49649433030ae",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "Platforms/results.json",
+    "kind": "derived subset",
+    "source": "work/os27/platform/results.json",
+    "archive_sha256": "75393dee4f2e12f5ccc90a1f24fcb3bf07324048f9b903b3b7fc20055a1b4654"
+  },
+  {
+    "file": "Platforms/arm64-apple-tvos27.0/compile.log",
+    "source": "work/os27/platform/SwiftJLS/arm64-apple-tvos27.0/compile.log",
+    "source_sha256": "01275beb7127527faacc8331b1768f8eab4bf7a35a4712c2c51238bba33b785d",
+    "archive_sha256": "01275beb7127527faacc8331b1768f8eab4bf7a35a4712c2c51238bba33b785d",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "Platforms/arm64-apple-tvos27.0-simulator/compile.log",
+    "source": "work/os27/platform/SwiftJLS/arm64-apple-tvos27.0-simulator/compile.log",
+    "source_sha256": "ebde16b637383fba257f7acd3a1dbcb8e698014d868855bc0bb45e5a3af9fd7f",
+    "archive_sha256": "ebde16b637383fba257f7acd3a1dbcb8e698014d868855bc0bb45e5a3af9fd7f",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "Platforms/arm64-apple-ios27.0/compile.log",
+    "source": "work/os27/platform/SwiftJLS/arm64-apple-ios27.0/compile.log",
+    "source_sha256": "9db286ecd91c81f78eaea67dbbd18c674dea88c67ce88ca849701d152925cea1",
+    "archive_sha256": "9db286ecd91c81f78eaea67dbbd18c674dea88c67ce88ca849701d152925cea1",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "Platforms/arm64-apple-ios27.0-simulator/compile.log",
+    "source": "work/os27/platform/SwiftJLS/arm64-apple-ios27.0-simulator/compile.log",
+    "source_sha256": "2ee56c18850e1a073477efac3672630521915c2f40bd06ccc9b8e16a4a0de869",
+    "archive_sha256": "2ee56c18850e1a073477efac3672630521915c2f40bd06ccc9b8e16a4a0de869",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "Platforms/arm64-apple-macosx27.0/compile.log",
+    "source": "work/os27/platform/SwiftJLS/arm64-apple-macosx27.0/compile.log",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "archive_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "Platforms/x86_64-apple-macosx27.0/compile.log",
+    "source": "work/os27/platform/SwiftJLS/x86_64-apple-macosx27.0/compile.log",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "archive_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "Platforms/arm64_32-apple-watchos27.0/compile.log",
+    "source": "work/os27/platform/SwiftJLS/arm64_32-apple-watchos27.0/compile.log",
+    "source_sha256": "0cce8d2e1481e67be42947f206ffd3f8dd99dccfef5423a31e4ebc2866faee88",
+    "archive_sha256": "0cce8d2e1481e67be42947f206ffd3f8dd99dccfef5423a31e4ebc2866faee88",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "Platforms/arm64-apple-watchos27.0-simulator/compile.log",
+    "source": "work/os27/platform/SwiftJLS/arm64-apple-watchos27.0-simulator/compile.log",
+    "source_sha256": "d11042a418cce0ed6b8a3eabb7a9e1d87bdd32af47eb519077666eefdf98a392",
+    "archive_sha256": "d11042a418cce0ed6b8a3eabb7a9e1d87bdd32af47eb519077666eefdf98a392",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "Platforms/arm64-apple-xros27.0/compile.log",
+    "source": "work/os27/platform/SwiftJLS/arm64-apple-xros27.0/compile.log",
+    "source_sha256": "267f695ddcf0585063cf5ce69cba23a32fec7a6f9dd97da859feb090a2c0cce0",
+    "archive_sha256": "267f695ddcf0585063cf5ce69cba23a32fec7a6f9dd97da859feb090a2c0cce0",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "Platforms/arm64-apple-xros27.0-simulator/compile.log",
+    "source": "work/os27/platform/SwiftJLS/arm64-apple-xros27.0-simulator/compile.log",
+    "source_sha256": "617d5ba4875a3c4bb2a26bac0242f1473ddcdabe3b5dfd13dd079ceee4c3be39",
+    "archive_sha256": "617d5ba4875a3c4bb2a26bac0242f1473ddcdabe3b5dfd13dd079ceee4c3be39",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "Harness/release.log",
+    "source": "work/os27/harness/release.log",
+    "source_sha256": "924d129b40ad8f2e67e768dfe0cfb1faf6e689e89613f9bba6783235ec633257",
+    "archive_sha256": "924d129b40ad8f2e67e768dfe0cfb1faf6e689e89613f9bba6783235ec633257",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "Harness/results.json",
+    "source": "work/os27/harness/results.json",
+    "source_sha256": "005ac559d6e7e20a95ca747dfb80cff162ee7a5e0ea6406ecfd0f7c08ca3a35d",
+    "archive_sha256": "005ac559d6e7e20a95ca747dfb80cff162ee7a5e0ea6406ecfd0f7c08ca3a35d",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "Harness/tsan.log",
+    "source": "work/os27/harness/tsan.log",
+    "source_sha256": "1732650b107615c9a14059e187bdc816cf5f5e833c8cbf6ef89dc0e0012c1c6b",
+    "archive_sha256": "1732650b107615c9a14059e187bdc816cf5f5e833c8cbf6ef89dc0e0012c1c6b",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "Harness/debug.log",
+    "source": "work/os27/harness/debug.log",
+    "source_sha256": "98d68d0cfb2ecb0165b46fe478503189074f10518087a33b890d9a51eaec88fd",
+    "archive_sha256": "98d68d0cfb2ecb0165b46fe478503189074f10518087a33b890d9a51eaec88fd",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "Harness/asan.log",
+    "source": "work/os27/harness/asan.log",
+    "source_sha256": "b7ba04290bacfa10ecb7e1a3a2882e6ec9f3b7c53d1757cf006e7e4def6c5fe3",
+    "archive_sha256": "b7ba04290bacfa10ecb7e1a3a2882e6ec9f3b7c53d1757cf006e7e4def6c5fe3",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "Benchmark/Original/raw-timings.json",
+    "source": "work/os27/benchmark/raw-timings.json",
+    "source_sha256": "7b7943a5e9c3bcb14138b0551ed84c58517885e0660ee076878e359f315d1269",
+    "archive_sha256": "7b7943a5e9c3bcb14138b0551ed84c58517885e0660ee076878e359f315d1269",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "Benchmark/Original/results.json",
+    "source": "work/os27/benchmark/results.json",
+    "source_sha256": "d4dde7f6f52bf8f013d3327e470450a7533ec0b16e576fe1324eb89219386cd7",
+    "archive_sha256": "d4dde7f6f52bf8f013d3327e470450a7533ec0b16e576fe1324eb89219386cd7",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "Benchmark/Original/candidate-resources.log",
+    "source": "work/os27/benchmark/candidate-resources.log",
+    "source_sha256": "f384009cac0836b736956430196f1dc3f4b4658f149b26e321cdc43121c3623d",
+    "archive_sha256": "f384009cac0836b736956430196f1dc3f4b4658f149b26e321cdc43121c3623d",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "Benchmark/Original/builds.json",
+    "source": "work/os27/benchmark/builds.json",
+    "source_sha256": "f484bef100ced03e44dc0548ad47910002b0157ab67ce2803b56f7c5e50f6794",
+    "archive_sha256": "f484bef100ced03e44dc0548ad47910002b0157ab67ce2803b56f7c5e50f6794",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "Benchmark/Original/baseline-resources.log",
+    "source": "work/os27/benchmark/baseline-resources.log",
+    "source_sha256": "924f787917c01b5aef15ac329e710f21473071c06ac5258d35ababc36dc50ca0",
+    "archive_sha256": "924f787917c01b5aef15ac329e710f21473071c06ac5258d35ababc36dc50ca0",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "Benchmark/Repeat/raw-timings.json",
+    "source": "work/os27/benchmark-repeat/raw-timings.json",
+    "source_sha256": "8afcfa84cb5d68af89727b1d05d6e9658a50e91b442fca8d1efc5ef25baf9508",
+    "archive_sha256": "8afcfa84cb5d68af89727b1d05d6e9658a50e91b442fca8d1efc5ef25baf9508",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "Benchmark/Repeat/results.json",
+    "source": "work/os27/benchmark-repeat/results.json",
+    "source_sha256": "635ae7a526c5b4523317d8862333821880320562d749d3f1e21dfff217484035",
+    "archive_sha256": "635ae7a526c5b4523317d8862333821880320562d749d3f1e21dfff217484035",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "Benchmark/Repeat/candidate-resources.log",
+    "source": "work/os27/benchmark-repeat/candidate-resources.log",
+    "source_sha256": "7c98885fe985b267ff43ff4f1d4f1f8afe1bd2e9585b9469d53519d6489042fa",
+    "archive_sha256": "7c98885fe985b267ff43ff4f1d4f1f8afe1bd2e9585b9469d53519d6489042fa",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "Benchmark/Repeat/builds.json",
+    "source": "work/os27/benchmark-repeat/builds.json",
+    "source_sha256": "f484bef100ced03e44dc0548ad47910002b0157ab67ce2803b56f7c5e50f6794",
+    "archive_sha256": "f484bef100ced03e44dc0548ad47910002b0157ab67ce2803b56f7c5e50f6794",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "Benchmark/Repeat/baseline-resources.log",
+    "source": "work/os27/benchmark-repeat/baseline-resources.log",
+    "source_sha256": "49e6c31c3188490cc8450cf26eb1c0405bae10bbab44ae29dca6898dd40bbb70",
+    "archive_sha256": "49e6c31c3188490cc8450cf26eb1c0405bae10bbab44ae29dca6898dd40bbb70",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "Benchmark/Original/baseline/Package.swift",
+    "source": "work/os27/benchmark/baseline/Package.swift",
+    "source_sha256": "30c81b55785227845be2b25e64282891dd17d907ac9ac14b87d6e9479d2e0806",
+    "archive_sha256": "30c81b55785227845be2b25e64282891dd17d907ac9ac14b87d6e9479d2e0806",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "Benchmark/Original/baseline/Sources/StorageBench/main.swift",
+    "source": "work/os27/benchmark/baseline/Sources/StorageBench/main.swift",
+    "source_sha256": "7a84c910db3f090732dfb147c253e9cc92551bfd1b479070b1cb497f15000afb",
+    "archive_sha256": "7a84c910db3f090732dfb147c253e9cc92551bfd1b479070b1cb497f15000afb",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "Benchmark/Original/baseline/build.log",
+    "source": "work/os27/benchmark/baseline/build.log",
+    "source_sha256": "40ff822ca1f84821abe2e546b81849927aef9f09638c06ee66686b1a2afedd50",
+    "archive_sha256": "40ff822ca1f84821abe2e546b81849927aef9f09638c06ee66686b1a2afedd50",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "Benchmark/Original/candidate/Package.swift",
+    "source": "work/os27/benchmark/candidate/Package.swift",
+    "source_sha256": "64cb2330a244e6828145323c9950d31c29efed33989567d26a8677de131d1c44",
+    "archive_sha256": "64cb2330a244e6828145323c9950d31c29efed33989567d26a8677de131d1c44",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "Benchmark/Original/candidate/Sources/StorageBench/main.swift",
+    "source": "work/os27/benchmark/candidate/Sources/StorageBench/main.swift",
+    "source_sha256": "7a84c910db3f090732dfb147c253e9cc92551bfd1b479070b1cb497f15000afb",
+    "archive_sha256": "7a84c910db3f090732dfb147c253e9cc92551bfd1b479070b1cb497f15000afb",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "Benchmark/Original/candidate/build.log",
+    "source": "work/os27/benchmark/candidate/build.log",
+    "source_sha256": "188d192bd8891a0759510df1eed026d97e9f871511b36095b6211aa324483c6e",
+    "archive_sha256": "188d192bd8891a0759510df1eed026d97e9f871511b36095b6211aa324483c6e",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "Environment/os.log",
+    "source": "work/os27/environment/os.log",
+    "source_sha256": "98ec1edfdd0153a7f67baccc3fc2481b06de7a75d245263efaab2412ee753e57",
+    "archive_sha256": "98ec1edfdd0153a7f67baccc3fc2481b06de7a75d245263efaab2412ee753e57",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "Environment/swift.log",
+    "source": "work/os27/environment/swift.log",
+    "source_sha256": "1b207d5b85484205225f907ee34c5c63fcf5ba15260fad7ceb129191841e9908",
+    "archive_sha256": "1b207d5b85484205225f907ee34c5c63fcf5ba15260fad7ceb129191841e9908",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "Environment/commands.json",
+    "source": "work/os27/environment/commands.json",
+    "source_sha256": "5db042dbb4966c8420e3ff1092dd4fc8288078766584968571b5a2629734071f",
+    "archive_sha256": "5db042dbb4966c8420e3ff1092dd4fc8288078766584968571b5a2629734071f",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "Environment/power.log",
+    "source": "work/os27/environment/power.log",
+    "source_sha256": "f4ecf798c210f78a0ee5085187e3452f83b79d9051225e3fb08be13c7b3a129e",
+    "archive_sha256": "f4ecf798c210f78a0ee5085187e3452f83b79d9051225e3fb08be13c7b3a129e",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "Environment/runtimes.log",
+    "source": "work/os27/environment/runtimes.log",
+    "source_sha256": "f11ef73c9fa28aae8553b2224c35df38d6b1068fcedc6c2b6f32b313957993d5",
+    "archive_sha256": "f11ef73c9fa28aae8553b2224c35df38d6b1068fcedc6c2b6f32b313957993d5",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "Environment/cpu.log",
+    "source": "work/os27/environment/cpu.log",
+    "source_sha256": "60b0b3860455d0bc2f205d85818aca08ee9fc46da9bdfdd54eb251d51cae8ce9",
+    "archive_sha256": "60b0b3860455d0bc2f205d85818aca08ee9fc46da9bdfdd54eb251d51cae8ce9",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "Environment/xcode.log",
+    "source": "work/os27/environment/xcode.log",
+    "source_sha256": "694b44731d0b415c5b11d844151e466d7f5e200a95627efda377f232f1a6ab77",
+    "archive_sha256": "694b44731d0b415c5b11d844151e466d7f5e200a95627efda377f232f1a6ab77",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "SBOMAudit/audit.py",
+    "source": "work/os27/sbom-audit/audit.py",
+    "source_sha256": "16fb5ae34e4a7901fd19d40c3a7e82220ce070264a8bdd4b589e8475d991802c",
+    "archive_sha256": "16fb5ae34e4a7901fd19d40c3a7e82220ce070264a8bdd4b589e8475d991802c",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "SBOMAudit/console.log",
+    "source": "work/os27/sbom-audit/console.log",
+    "source_sha256": "f48e539024d51c263048297ede6644a67bafd406249ac40bcafb869520726503",
+    "archive_sha256": "f48e539024d51c263048297ede6644a67bafd406249ac40bcafb869520726503",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "SBOMAudit/cli-fields.json",
+    "source": "work/os27/sbom-audit/cli-fields.json",
+    "source_sha256": "5ec50fe0330cd0700c4a8d02b8a7e8fa7baf5c8f7672eda7a1036b570781cdf4",
+    "archive_sha256": "5ec50fe0330cd0700c4a8d02b8a7e8fa7baf5c8f7672eda7a1036b570781cdf4",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "SBOMAudit/candidate-audit.json",
+    "source": "work/os27/sbom-audit/candidate-audit.json",
+    "source_sha256": "0817d2674562586f5de6ffc7116425b599f1ae6e94a0c98d85e3e7415f0910f6",
+    "archive_sha256": "0817d2674562586f5de6ffc7116425b599f1ae6e94a0c98d85e3e7415f0910f6",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "InitialChecks/first-build.log",
+    "source": "work/os27/first-build.log",
+    "source_sha256": "954b79d8c2a07481af73e2900d2b45071565100782cba1035ccc768589655539",
+    "archive_sha256": "954b79d8c2a07481af73e2900d2b45071565100782cba1035ccc768589655539",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "InitialChecks/first-build-local-cache.log",
+    "source": "work/os27/first-build-local-cache.log",
+    "source_sha256": "1d7477543b924c5e7feaea77f6c168519aae15430a4e9271641df24a580443d3",
+    "archive_sha256": "1d7477543b924c5e7feaea77f6c168519aae15430a4e9271641df24a580443d3",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "InitialChecks/first-cli-test.log",
+    "source": "work/os27/first-cli-test.log",
+    "source_sha256": "2ee6c0d7a81c6f0dfed781675100dbfe55292ba196e6750d4eb9ee026db1d273",
+    "archive_sha256": "2ee6c0d7a81c6f0dfed781675100dbfe55292ba196e6750d4eb9ee026db1d273",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "InitialChecks/second-cli-test.log",
+    "source": "work/os27/second-cli-test.log",
+    "source_sha256": "9eff5a82860f9c27d89a51667b122c3c6380d12ddf56fd67f9a51cb00c4a1a31",
+    "archive_sha256": "9eff5a82860f9c27d89a51667b122c3c6380d12ddf56fd67f9a51cb00c4a1a31",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "InitialChecks/third-cli-test.log",
+    "source": "work/os27/third-cli-test.log",
+    "source_sha256": "f27dd96106cee69a2ffc183987af05fba8eeefd6c452a38cf1529fdf98a707b7",
+    "archive_sha256": "f27dd96106cee69a2ffc183987af05fba8eeefd6c452a38cf1529fdf98a707b7",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "InitialChecks/xcode-schemes.json",
+    "source": "work/os27/xcode-schemes.json",
+    "source_sha256": "f0deb1ba519ae9b25446da7c8a4878f51819c8c6c9caf13842b0fcb47f945f2e",
+    "archive_sha256": "f0deb1ba519ae9b25446da7c8a4878f51819c8c6c9caf13842b0fcb47f945f2e",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "InitialChecks/xcode-schemes.stderr",
+    "source": "work/os27/xcode-schemes.stderr",
+    "source_sha256": "42e1decb583234fb48726b56a65ca0ed98888bfc0ff9d1842d43067c850bacbe",
+    "archive_sha256": "42e1decb583234fb48726b56a65ca0ed98888bfc0ff9d1842d43067c850bacbe",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "InitialChecks/first-cli-test.json",
+    "kind": "derived subset",
+    "source": "work/os27/first-cli-test/report.json",
+    "archive_sha256": "7d4ad0326b020905a5f0187afb9ac5180e2604124f4fc9b4815b62b403915a72"
+  },
+  {
+    "file": "InitialChecks/second-cli-test.json",
+    "kind": "derived subset",
+    "source": "work/os27/second-cli-test/report.json",
+    "archive_sha256": "b9bb190574266525d5eb4124bcc9443bd370621fe9a24ae0ad08d57e2df12638"
+  },
+  {
+    "file": "FINAL_INPUTS.json",
+    "kind": "derived subset",
+    "source": "work/os27/final-inputs.json",
+    "archive_sha256": "92b16f4b4da989345c2d44f7c3e528406b3cd35b5825ed36070228d3dc0ab0cf"
+  },
+  {
+    "file": "Runners/run_candidates.py",
+    "source": "work/os27/run_candidates.py",
+    "source_sha256": "6674420d7611cb144b7fb30165e8c6584257627953796908c647c9e4694b17ba",
+    "archive_sha256": "6674420d7611cb144b7fb30165e8c6584257627953796908c647c9e4694b17ba",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "Runners/run_xcode.py",
+    "source": "work/os27/run_xcode.py",
+    "source_sha256": "22406c7734047848695a693e7f0ffdb7bd28a9ffa4cd8e40f0a7f0cdcedbfdb7",
+    "archive_sha256": "22406c7734047848695a693e7f0ffdb7bd28a9ffa4cd8e40f0a7f0cdcedbfdb7",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "Runners/run_cli_tests.py",
+    "source": "work/os27/run_cli_tests.py",
+    "source_sha256": "1fcda993cbc8144b0e9b1264081ac55eb0f26593053620473d65034dd561ea88",
+    "archive_sha256": "1fcda993cbc8144b0e9b1264081ac55eb0f26593053620473d65034dd561ea88",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "Runners/install_builds.py",
+    "source": "work/os27/install_builds.py",
+    "source_sha256": "e3f4af525f95857c0f957e0af3c96e9e3de4574bcba54c41a52c6e7811713aa3",
+    "archive_sha256": "e3f4af525f95857c0f957e0af3c96e9e3de4574bcba54c41a52c6e7811713aa3",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "Runners/cli_sbom.py",
+    "source": "work/os27/cli_sbom.py",
+    "source_sha256": "c857b30fb3ead083e306c5a3f987cb29ab9710dd7fb8112d3b7f22dd5abc0662",
+    "archive_sha256": "c857b30fb3ead083e306c5a3f987cb29ab9710dd7fb8112d3b7f22dd5abc0662",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "Runners/compile_matrix.py",
+    "source": "work/os27/platform/compile_matrix.py",
+    "source_sha256": "16bf1103c047286559e6d67e8fcf0d9de9f504fb2e2cd13499495c5d41fae1c3",
+    "archive_sha256": "16bf1103c047286559e6d67e8fcf0d9de9f504fb2e2cd13499495c5d41fae1c3",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "Runners/os27_harness.py",
+    "source": "work/scripts/os27_harness.py",
+    "source_sha256": "4d9675ffcdc3617af0feb7009782514c8346bfc62ac00de3657df8690232fe89",
+    "archive_sha256": "4d9675ffcdc3617af0feb7009782514c8346bfc62ac00de3657df8690232fe89",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "Runners/os27_benchmark.py",
+    "source": "work/scripts/os27_benchmark.py",
+    "source_sha256": "2b870d45515ca2da724ab3f892ee042ccbc43595768deef25cb51b7cd27c1ffa",
+    "archive_sha256": "2b870d45515ca2da724ab3f892ee042ccbc43595768deef25cb51b7cd27c1ffa",
+    "hardware_identifier_redacted": false
+  },
+  {
+    "file": "Runners/os27_benchmark_repeat.py",
+    "source": "work/scripts/os27_benchmark_repeat.py",
+    "source_sha256": "f3d827c40be2c076a7f2550be212e91c867d55f5c585fd8746967c01a0e8e8e1",
+    "archive_sha256": "f3d827c40be2c076a7f2550be212e91c867d55f5c585fd8746967c01a0e8e8e1",
+    "hardware_identifier_redacted": false
+  }
+]

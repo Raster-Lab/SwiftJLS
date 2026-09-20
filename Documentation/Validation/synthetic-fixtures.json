@@ -1,0 +1,50 @@
+{
+  "fixtures": [
+    {
+      "name": "padded-greyscale-12-in-16",
+      "source": "Tests/SwiftJLSTests/APITests.swift::exactSamplesAndZeroedPadding",
+      "licence": "MIT",
+      "generator": "x == 0 ? 0 : (x == 4 ? (2^precision - 1) : x*251 + y*17); zero prefix and padding",
+      "geometry": [
+        5,
+        3
+      ],
+      "component_roles": [
+        "grey"
+      ],
+      "sample_type": "unsignedInteger",
+      "storage_bits": 16,
+      "meaningful_bits": 12,
+      "byte_order": "littleEndian",
+      "offset": 2,
+      "row_bytes": 14,
+      "allocation_bytes": 44,
+      "logical_sample_bytes_sha256": "e48b824e402a195365863299e29a8857c1c1c23f1f0d751c821b296008406159",
+      "allocation_bytes_sha256": "9a04de7df3495d72ac141d85b1cfbae361170fe59fec6ed44d143f539f36b120",
+      "expected_outcome": "Exact samples; meaningful precision unchanged; prefix and padding remain zero."
+    },
+    {
+      "name": "padded-greyscale-16-in-16",
+      "source": "Tests/SwiftJLSTests/APITests.swift::exactSamplesAndZeroedPadding",
+      "licence": "MIT",
+      "generator": "x == 0 ? 0 : (x == 4 ? (2^precision - 1) : x*251 + y*17); zero prefix and padding",
+      "geometry": [
+        5,
+        3
+      ],
+      "component_roles": [
+        "grey"
+      ],
+      "sample_type": "unsignedInteger",
+      "storage_bits": 16,
+      "meaningful_bits": 16,
+      "byte_order": "littleEndian",
+      "offset": 2,
+      "row_bytes": 14,
+      "allocation_bytes": 44,
+      "logical_sample_bytes_sha256": "f6918b86224842d0e6c064519e8f15ce234023c7dc95ca6623030856e0e590e9",
+      "allocation_bytes_sha256": "6b9802922284ef1a0e42e6624a13309dac14530cc81e229c002db192a85388a6",
+      "expected_outcome": "Exact samples; meaningful precision unchanged; prefix and padding remain zero."
+    }
+  ]
+}

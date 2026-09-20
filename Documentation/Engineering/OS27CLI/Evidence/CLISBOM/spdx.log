@@ -1,0 +1,12 @@
+Building for production...
+[Planning deferred tasks]
+[2 / 6] SwiftJLS
+[4 / 7] SwiftJLS
+[9 / 12] swiftjls-product
+[10 / 13] swiftjls-product
+[12 / 13] swiftjls-product
+Build complete! (2.79 secs)
+warning: Bundle 'SwiftPM_SBOMModel' with schemas not found - skipping SBOM validation
+Creating SBOMs...
+- created spdx3 v3.0.1 SBOM at /Users/suresh/Documents/Codex/2026-09-18/create-coding-agents-to-start-work/work/os27/cli-sbom/SwiftJLS/spdx/spdx3-3.0.1-swiftjls-e1cbc3a23c4ada64f2d5db4c5330bd9710950797-modified-all-2026-09-19T09_36_23Z.json
+SBOMs created  (0.11 secs)

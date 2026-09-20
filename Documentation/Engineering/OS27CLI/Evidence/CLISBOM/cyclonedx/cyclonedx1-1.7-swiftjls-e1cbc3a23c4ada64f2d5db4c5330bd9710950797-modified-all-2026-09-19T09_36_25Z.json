@@ -1,0 +1,115 @@
+{
+  "$schema" : "http://cyclonedx.org/schema/bom-1.7.schema.json",
+  "bomFormat" : "CycloneDX",
+  "components" : [
+    {
+      "bom-ref" : "swiftjls",
+      "externalReferences" : [
+
+      ],
+      "name" : "swiftjls",
+      "pedigree" : {
+        "commits" : [
+          {
+            "uid" : "e1cbc3a23c4ada64f2d5db4c5330bd9710950797",
+            "url" : "https://github.com/Raster-Lab/SwiftJLS.git"
+          }
+        ]
+      },
+      "properties" : [
+        {
+          "name" : "swift-entity",
+          "value" : "swift-package"
+        }
+      ],
+      "purl" : "pkg:swift/github.com/Raster-Lab/swiftjls@e1cbc3a23c4ada64f2d5db4c5330bd9710950797-modified",
+      "scope" : "required",
+      "type" : "application",
+      "version" : "e1cbc3a23c4ada64f2d5db4c5330bd9710950797-modified"
+    },
+    {
+      "bom-ref" : "swiftjls:swiftjls",
+      "externalReferences" : [
+
+      ],
+      "name" : "swiftjls",
+      "pedigree" : {
+        "commits" : [
+          {
+            "uid" : "e1cbc3a23c4ada64f2d5db4c5330bd9710950797",
+            "url" : "https://github.com/Raster-Lab/SwiftJLS.git"
+          }
+        ]
+      },
+      "properties" : [
+        {
+          "name" : "swift-entity",
+          "value" : "swift-product"
+        }
+      ],
+      "purl" : "pkg:swift/github.com/Raster-Lab/swiftjls:swiftjls@e1cbc3a23c4ada64f2d5db4c5330bd9710950797-modified",
+      "scope" : "required",
+      "type" : "application",
+      "version" : "e1cbc3a23c4ada64f2d5db4c5330bd9710950797-modified"
+    }
+  ],
+  "dependencies" : [
+    {
+      "dependsOn" : [
+        "swiftjls:swiftjls"
+      ],
+      "ref" : "swiftjls"
+    }
+  ],
+  "metadata" : {
+    "component" : {
+      "bom-ref" : "swiftjls:swiftjls",
+      "externalReferences" : [
+
+      ],
+      "name" : "swiftjls",
+      "pedigree" : {
+        "commits" : [
+          {
+            "uid" : "e1cbc3a23c4ada64f2d5db4c5330bd9710950797",
+            "url" : "https://github.com/Raster-Lab/SwiftJLS.git"
+          }
+        ]
+      },
+      "properties" : [
+        {
+          "name" : "swift-entity",
+          "value" : "swift-product"
+        }
+      ],
+      "purl" : "pkg:swift/github.com/Raster-Lab/swiftjls:swiftjls@e1cbc3a23c4ada64f2d5db4c5330bd9710950797-modified",
+      "scope" : "required",
+      "type" : "application",
+      "version" : "e1cbc3a23c4ada64f2d5db4c5330bd9710950797-modified"
+    },
+    "timestamp" : "2026-09-19T09:36:25Z",
+    "tools" : {
+      "components" : [
+        {
+          "bom-ref" : "urn:uuid:7fff3d50-d450-4a09-b336-20f6ba7ccd93",
+          "licenses" : [
+            {
+              "license" : {
+                "id" : "Apache-2.0",
+                "url" : "http://swift.org/LICENSE.txt"
+              }
+            }
+          ],
+          "name" : "swift-package-manager",
+          "purl" : "pkg:swift/github.com/swiftlang/swift-package-manager@6.4.0-dev",
+          "scope" : "excluded",
+          "type" : "application",
+          "version" : "6.4.0-dev"
+        }
+      ]
+    }
+  },
+  "serialNumber" : "urn:uuid:1a1d5891-0539-4280-b8ec-1fa8d3052a37",
+  "specVersion" : "1.7",
+  "version" : 1
+}
