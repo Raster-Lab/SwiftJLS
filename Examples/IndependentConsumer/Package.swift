@@ -1,5 +1,5 @@
 // swift-tools-version: 6.4
-// SPDX-License-Identifier: MIT
+// SPDX-License-Identifier: Apache-2.0
 import PackageDescription
 let package = Package(
     name: "IndependentConsumer",
