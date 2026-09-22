@@ -46,6 +46,30 @@ The following codec work follows Milestone 1 contract feasibility. It is not par
 Implement direct lossless encoding from the common unsigned 16-bit greyscale profile and exact JPEG-LS decode verification. Integrate with SwiftJ2K in the development-only harness; then add direct JPEG-LS decode-into and the reverse route. Preserve 12-in-16 declared precision in the compressed frame header.
 
 
+## Product dispositions (POL-05)
+
+Decided 22 September 2026 under contract 0.8.0 §3, which requires this inventory before any subsystem is relocated. Measured at predecessor JLSwift `a5757d3` with `swift package dump-package`. "Imports" counts files across DICOMKit, CompressionFamily, VoxeliaValidation, DICOMAdapter, RasterOneImage, OneImageViewer-iOS and telerad-dicom-viewer containing a top-level `import <module>`.
+
+POL-05 requires every product to be explicitly **retained** (migrates, stays a public product), **adapted** (migrates with a changed shape — folded into the principal module, renamed, or re-expressed through the common API) or **deferred** (does not migrate for the first stable; stays with the predecessor through the maintenance window). Deferred is not deleted.
+
+| Predecessor product | Files / lines | Imports | Disposition | Successor | Basis |
+| --- | --- | --- | --- | --- | --- |
+| `JPEGLS` | 31 / 11,993 | 2 | Adapted — renamed | `SwiftJLS` | API-01. [MIGRATION.md](MIGRATION.md) already documents `JPEGLS` → `SwiftJLS` and `import JPEGLS` → `import SwiftJLS`. |
+| ↳ `Sources/JPEGLS/Contract/` | — | — | Adapted — folded in | `SwiftJLS` | Already an internal directory rather than a separate product, making this the cheapest of the four contract-layer merges. Contract 0.8.0 §5. |
+| ↳ `PNGSupport.swift` | 19 KB | — | Deferred | none | Not JPEG-LS, and CLI-04 fixes the interchange profile as NRRD rather than PNG |
+| ↳ `TIFFSupport.swift` | 20 KB | — | Deferred | none | as `PNGSupport` |
+| `jpegls` (exec) | 14 / 4,298 | — | Adapted — renamed | `swiftjls` | CLI-01 |
+
+**Product list after migration:** `SwiftJLS` (library) and `swiftjls` (executable).
+
+This codec is the migration pilot. It is the smallest of the four, it has no package dependency to extract, and it is the codec named in the suite's first cross-codec proof, so the shape of these decisions is settled here first and applied to the other three.
+
+### Decisions recorded with these dispositions
+
+**L1 — `PNGSupport` and `TIFFSupport` are deferred, and named in the farewell release.** Both are public API of `JPEGLS`, not internal helpers. Grepping DICOMKit and VoxeliaValidation — the only in-house importers of `JPEGLS` — for either type returns nothing, so deferring them breaks no in-house consumer. Because they are public, an external consumer could still rely on them, so the JLSwift v0.10.0 release notes must state that they do not migrate.
+
+**CLI surface.** Retained and adapted: the CLI-01 verbs `encode`, `decode`, `inspect` (renamed from `Info`), `validate` and `capabilities`. Deferred to a CLI milestone after the first stable: `Batch`, `Benchmark`, `Compare`, `Convert`, `Verify` and `Completion`. Deferred under POL-05: `BenchDICOM`. Existing predecessor scripts are retained until tested replacements exist, as [MIGRATION.md](MIGRATION.md) already requires.
+
 ## Required handover
 
 Update CHANGELOG.md and migration provenance. Provide the exact commands, commits, fixture hashes and outcomes; report tests not run and why, unsupported cases, allocation/copy evidence and performance impact. Map each advertised feature to a test and capability entry. Keep DICOMKit/Voxelia source changes outside this repository task unless the owner separately assigns them.
