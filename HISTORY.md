@@ -72,3 +72,11 @@ This codec is the migration pilot: it is the smallest of the four, it has no dep
 The sequence is a final JLSwift release at v0.10.0, then relocation, then a first stable 1.1.0 here once the TEST-07 gates pass, then a maintenance window on the predecessor, then its archive. JLSwift is not renamed or deleted: this repository's HISTORY.md and MIGRATION.md pin its commits and source files by permalink, and those links are the provenance record.
 
 D1's measurements are retained as the risk register rather than discarded. The continuous-integration objection is unresolved and becomes a precondition: the organisation's Actions billing remains locked, a re-run of JLSwift's CI on 22 September 2026 completed with `steps=0`, and no codec source moves before CI executes and passes here. This record authorises no codec milestone and no release.
+
+## Contract 0.9.0 — floor decision and programme sequence, 22 September 2026
+
+Decision D3 keeps the Apple deployment floor at 26.0 and places the cost of adoption on each consumer at its own cutover. DICOMKit consumes JLSwift from 0.9.0 at macOS 15 / iOS 18 / tvOS 18 / visionOS 2; VoxeliaValidation pins it at revision `299b9a2` on the same floors. JLSwift is the supported route for those consumers until they raise their floors and re-point, and it is archived only after the last of them has moved.
+
+This repository is the pilot: Milestones 2 to 5 run here first, and what they teach is applied to the other three. The predecessor's current release candidate is v0.10.0-rc.1 (tag at `a5757d3`; `main` has since advanced to `13591f9` with SPDX header corrections); its promotion is the predecessor's own release task and is not authorised here.
+
+The continuous-integration precondition from 0.8.0 stands. Actions billing remained locked on 22 September 2026, so every workflow in the suite is written and unexecuted. No codec source moves here before CI executes and passes here.
